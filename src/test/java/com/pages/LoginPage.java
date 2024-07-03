@@ -29,7 +29,7 @@ public class LoginPage extends GlobalVariable {
 			driver.manage().window().maximize();
 			try {
 				CommonActions.iClickElementByLocator(residentialbutton, "Residnetial option");
-				driver.manage().deleteAllCookies();
+       			driver.manage().deleteAllCookies();
 			}
 			catch (Exception e) {
 				CommonActions.iLogErrorMessage("Residentail option is not able to select..");

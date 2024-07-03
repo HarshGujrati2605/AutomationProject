@@ -1,11 +1,21 @@
-2024-07-03 15:07:604 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-03 15:07:667 INFO  CommonActions:155 - Highlighted the Residnetial option
-2024-07-03 15:07:463 INFO  CommonActions:155 - i Click on the element Residnetial option
-2024-07-03 15:07:473 ERROR CommonActions:160 - Residentail option is not able to select..
-2024-07-03 15:07:474 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-03 15:07:776 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-03 15:07:940 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-03 15:07:169 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-03 15:07:380 INFO  CommonActions:155 - Screenshot taken
-2024-07-03 15:07:405 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-03 15:07:605 INFO  CommonActions:155 - Screenshot taken
+2024-07-03 18:07:960 INFO  CommonActions:155 - Waiting for element to be visible
+2024-07-03 18:07:46 INFO  CommonActions:155 - Highlighted the Residnetial option
+2024-07-03 18:07:686 INFO  CommonActions:155 - i Click on the element Residnetial option
+2024-07-03 18:07:796 INFO  CommonActions:155 - Waiting for element to be visible
+2024-07-03 18:07:847 INFO  CommonActions:155 - i Click on the element Profile Icon
+2024-07-03 18:07:852 INFO  CommonActions:155 - Waiting for element to be visible
+2024-07-03 18:07:492 INFO  CommonActions:155 - i Click on the element Login link
+2024-07-03 18:07:493 INFO  CommonActions:155 - Waiting for element to be visible
+2024-07-03 18:07:556 INFO  CommonActions:155 - Highlighted the Username field
+2024-07-03 18:07:606 INFO  CommonActions:155 - i Click on the element Username field
+2024-07-03 18:07:634 INFO  CommonActions:155 - Highlighted the Username field
+2024-07-03 18:07:765 INFO  CommonActions:155 - Clicked onUsername field
+2024-07-03 18:07:768 INFO  CommonActions:155 - Waiting for element to be visible
+2024-07-03 18:07:833 INFO  CommonActions:155 - Highlighted the Password field
+2024-07-03 18:07:873 INFO  CommonActions:155 - i Click on the element Password field
+2024-07-03 18:07:897 INFO  CommonActions:155 - Highlighted the Password field
+2024-07-03 18:07:967 INFO  CommonActions:155 - Clicked onPassword field
+2024-07-03 18:07:968 INFO  CommonActions:155 - Waiting for element to be visible
+2024-07-03 18:07:999 INFO  CommonActions:155 - Highlighted the Click login button
+2024-07-03 18:07:01 INFO  CommonActions:155 - i Click on the element Click login button
+2024-07-03 18:07:13 INFO  CommonActions:155 - Waiting for element to be visible

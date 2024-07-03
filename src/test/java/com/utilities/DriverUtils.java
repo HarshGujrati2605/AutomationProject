@@ -5,6 +5,8 @@ import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
@@ -73,6 +75,33 @@ public class DriverUtils extends GlobalVariable {
 				firefoxOptions.addArguments("--no-sandbox");
 				WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver();
+				CommonActions action = new CommonActions(driver);
+				return driver;
+			} catch (Exception e) {
+				System.out.println(e);
+				System.out.println("Driver initialization error");
+
+			}
+
+			break;
+			
+		case "edge":
+			try {
+				String headless = BaseClass.getHeadlessChoice();
+				final EdgeOptions edgeoptions = new EdgeOptions();
+				if (headless.equals("true")) {
+					edgeoptions.addArguments("--headless");
+				}
+				edgeoptions.addArguments("window-size=1920,1080");
+				edgeoptions.addArguments("-incognito");
+				edgeoptions.addArguments("start-maximized");
+				edgeoptions.addArguments("disable-infobars");
+				edgeoptions.addArguments("--disable-extensions");
+				edgeoptions.addArguments("--disable-gpu");
+				edgeoptions.addArguments("--disable-dev-shm-usage");
+				edgeoptions.addArguments("--no-sandbox");
+				WebDriverManager.edgedriver().setup();
+				driver = new EdgeDriver();
 				CommonActions action = new CommonActions(driver);
 				return driver;
 			} catch (Exception e) {
