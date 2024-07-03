@@ -373,7 +373,7 @@ public class CommonActions extends GlobalVariable {
 
 	public static WebElement getElementIfPresent(By elementloactor) {
 		iLogMessage("Waiting for element to be Present");
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(90));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		WebElement ele = wait.until(ExpectedConditions.presenceOfElementLocated(elementloactor));
 		return ele;
 	}
@@ -436,12 +436,14 @@ public class CommonActions extends GlobalVariable {
 		return date;
 	}
 
-	public static void iValidateElementPresent(By loc) {
+	public static void iValidateElementPresent(By loc, String name) throws Exception {
 		try {
-			WebElement alertmessage = CommonActions.getElement(loc);
-			CommonActions.highlightElementGreen(alertmessage, "Successful alert is present");
+			WebElement ele = CommonActions.getElement(loc);
+			CommonActions.highlightElementGreen(ele, "Successful alert is present");
+			iLogMessage("Element "+name+" is present.");
 		} catch (Exception e) {
 			CommonActions.iLogMessage("No such alert found!!");
+			throw new Exception("No such element is displayed");
 		}
 
 	}

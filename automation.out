@@ -1,26 +1,11 @@
-2024-07-02 22:07:427 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-02 22:07:568 INFO  CommonActions:155 - Highlighted the Residnetial option
-2024-07-02 22:07:724 INFO  CommonActions:155 - i Click on the element Residnetial option
-2024-07-02 22:07:730 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-02 22:07:816 INFO  CommonActions:155 - i Click on the element Profile Icon
-2024-07-02 22:07:820 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-02 22:07:574 INFO  CommonActions:155 - i Click on the element Login link
-2024-07-02 22:07:579 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-02 22:07:735 INFO  CommonActions:155 - Highlighted the Username field
-2024-07-02 22:07:833 INFO  CommonActions:155 - i Click on the element Username field
-2024-07-02 22:07:872 INFO  CommonActions:155 - Highlighted the Username field
-2024-07-02 22:07:45 INFO  CommonActions:155 - Clicked onUsername field
-2024-07-02 22:07:51 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-02 22:07:152 INFO  CommonActions:155 - Highlighted the Password field
-2024-07-02 22:07:229 INFO  CommonActions:155 - i Click on the element Password field
-2024-07-02 22:07:260 INFO  CommonActions:155 - Highlighted the Password field
-2024-07-02 22:07:393 INFO  CommonActions:155 - Clicked onPassword field
-2024-07-02 22:07:396 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-02 22:07:460 INFO  CommonActions:155 - Highlighted the Click login button
-2024-07-02 22:07:241 INFO  CommonActions:155 - i Click on the element Click login button
-2024-07-02 22:07:244 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-02 22:07:324 INFO  CommonActions:155 - pop up is not present after login
-2024-07-02 22:07:324 INFO  CommonActions:155 - Waiting for element to be Present
-2024-07-02 22:07:434 INFO  CommonActions:155 - Screenshot taken
-2024-07-02 22:07:465 INFO  CommonActions:155 - Waiting for element to be visible
-2024-07-02 22:07:720 INFO  CommonActions:155 - Screenshot taken
+2024-07-03 15:07:604 INFO  CommonActions:155 - Waiting for element to be visible
+2024-07-03 15:07:667 INFO  CommonActions:155 - Highlighted the Residnetial option
+2024-07-03 15:07:463 INFO  CommonActions:155 - i Click on the element Residnetial option
+2024-07-03 15:07:473 ERROR CommonActions:160 - Residentail option is not able to select..
+2024-07-03 15:07:474 INFO  CommonActions:155 - Waiting for element to be visible
+2024-07-03 15:07:776 INFO  CommonActions:155 - Waiting for element to be visible
+2024-07-03 15:07:940 INFO  CommonActions:155 - Waiting for element to be visible
+2024-07-03 15:07:169 INFO  CommonActions:155 - Waiting for element to be visible
+2024-07-03 15:07:380 INFO  CommonActions:155 - Screenshot taken
+2024-07-03 15:07:405 INFO  CommonActions:155 - Waiting for element to be visible
+2024-07-03 15:07:605 INFO  CommonActions:155 - Screenshot taken

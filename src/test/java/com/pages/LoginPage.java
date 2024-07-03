@@ -1,8 +1,10 @@
 package com.pages;
 
-import java.util.concurrent.TimeUnit;
+import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebElement;
 
 import com.appium.commonactionmethods.CommonActions;
@@ -22,10 +24,12 @@ public class LoginPage extends GlobalVariable {
 
 	public void enterUsername(String username) throws InterruptedException {
 		try {
+		  
 			driver.get(Constants.getUrl());
 			driver.manage().window().maximize();
 			try {
 				CommonActions.iClickElementByLocator(residentialbutton, "Residnetial option");
+				driver.manage().deleteAllCookies();
 			}
 			catch (Exception e) {
 				CommonActions.iLogErrorMessage("Residentail option is not able to select..");
