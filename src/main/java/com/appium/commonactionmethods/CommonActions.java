@@ -41,7 +41,7 @@ public class CommonActions extends GlobalVariable {
 
 	public static WebElement getElement(By elementloactor) {
 		iLogMessage("Waiting for element to be visible");
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
 		WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(elementloactor));
 		return ele;
 	}

@@ -1,4 +1,4 @@
-@addroadtransport @regression
+@adddieselengineoil @regression
 Feature: Shop the Diesel Engine Oils products from the homepage and complete the checkout
 
   Scenario Outline: Login on the website using B2C credentails

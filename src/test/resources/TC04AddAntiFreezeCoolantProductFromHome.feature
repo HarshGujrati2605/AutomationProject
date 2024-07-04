@@ -1,4 +1,4 @@
-@addroadtransport @regression
+@addantifreeze @regression
 Feature: Shop the Anti-Freeze Coolant products from the homepage and complete the checkout
 
   Scenario Outline: Login on the website using B2C credentails

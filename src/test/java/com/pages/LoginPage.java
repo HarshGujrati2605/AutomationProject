@@ -20,22 +20,13 @@ public class LoginPage extends GlobalVariable {
 	By Loginbutton = By.xpath("//button[@type = 'submit']//span[text() = 'Login']");
 	By profileIcon = By.xpath("//a[@id = 'dropdownMenuLink']/div");
 	By loginLink = By.xpath("//a[text() = 'Login/']");
-	By residentialbutton = By.xpath("//button[text() = 'Residential']");
+	public static By residentialbutton = By.xpath("//button[text() = 'Residential']");
 
 	public void enterUsername(String username) throws InterruptedException {
 		try {
-		  
-			driver.get(Constants.getUrl());
-			driver.manage().window().maximize();
-			try {
-				CommonActions.iClickElementByLocator(residentialbutton, "Residnetial option");
-       			driver.manage().deleteAllCookies();
-			}
-			catch (Exception e) {
-				CommonActions.iLogErrorMessage("Residentail option is not able to select..");
-			}
 			CommonActions.iClickJSEByLocator(profileIcon, "Profile Icon");
 			CommonActions.iClickJSEByLocator(loginLink, "Login link");
+			Thread.sleep(5000);
 			CommonActions.clickOnElementAndType(Username, username, "Username field");
 		} catch (Exception e) {
 			System.out.println(e);

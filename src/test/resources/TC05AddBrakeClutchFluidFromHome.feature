@@ -1,4 +1,4 @@
-@addroadtransport @regression
+@addbrakeclutch @regression
 Feature: Shop the Brake & Clutch Fluid products from the homepage and complete the checkout
 
   Scenario Outline: Login on the website using B2C credentails
