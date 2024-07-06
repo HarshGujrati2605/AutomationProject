@@ -12,13 +12,8 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
 
-//import io.appium.java_client.AppiumDriver;
-//import io.appium.java_client.android.AndroidDriver;
-//import io.appium.java_client.remote.AndroidMobileCapabilityType;
-//import io.appium.java_client.remote.MobileCapabilityType;
-
-import com.appium.commonactionmethods.CommonActions;
 import com.base.BaseClass;
+import com.commonactionmethods.CommonActions;
 import com.globalvariable.Constants;
 import com.globalvariable.GlobalVariable;
 

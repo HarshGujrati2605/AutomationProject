@@ -4,7 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-import com.appium.commonactionmethods.CommonActions;
+import com.commonactionmethods.CommonActions;
 import com.globalvariable.GlobalVariable;
 import com.pages.*;
 

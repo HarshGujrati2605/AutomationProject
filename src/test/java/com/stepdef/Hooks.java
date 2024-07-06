@@ -7,8 +7,8 @@ import javax.mail.MessagingException;
 
 import org.apache.commons.mail.EmailException;
 
-import com.appium.commonactionmethods.CommonActions;
 import com.base.BaseClass;
+import com.commonactionmethods.CommonActions;
 import com.globalvariable.GlobalVariable;
 import com.implementation.AppAcess;
 

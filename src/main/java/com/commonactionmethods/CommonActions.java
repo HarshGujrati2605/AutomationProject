@@ -1,4 +1,4 @@
-package com.appium.commonactionmethods;
+package com.commonactionmethods;
 
 import static org.junit.Assert.assertEquals;
 

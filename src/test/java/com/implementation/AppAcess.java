@@ -3,8 +3,8 @@ package com.implementation;
 import java.io.IOException;
 import java.util.List;
 
-import com.appium.commonactionmethods.CommonActions;
 import com.base.BaseClass;
+import com.commonactionmethods.CommonActions;
 import com.globalvariable.Constants;
 import com.globalvariable.GlobalVariable;
 import com.pages.HomePage;

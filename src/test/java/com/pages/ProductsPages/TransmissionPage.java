@@ -1,11 +1,11 @@
-package com.pages;
+package com.pages.ProductsPages;
 
 import org.openqa.selenium.By;
 
 import com.commonactionmethods.CommonActions;
 import com.globalvariable.GlobalVariable;
 
-public class CommonPage {
+public class TransmissionPage {
 
 	By addtocartbutton = By.xpath(
 			" //div[contains(@class , 'add-to-cart-wrapper')]//button[contains(@class , 'btn-add-to-cart ')][1]");

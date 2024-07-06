@@ -1,16 +1,17 @@
-package com.pages;
+package com.pages.ProductsPages;
 
 import org.openqa.selenium.By;
 
 import com.commonactionmethods.CommonActions;
 import com.globalvariable.GlobalVariable;
 
-public class CommonPage {
-
+public class BrakeAndClutchFLuidPage {
+	
 	By addtocartbutton = By.xpath(
 			" //div[contains(@class , 'add-to-cart-wrapper')]//button[contains(@class , 'btn-add-to-cart ')][1]");
 	By getProductTitle = By.xpath("(//div[@class = 'prod-title']/a/h3)[1]");
 
+	
 	public static void iSelectFilterRange(String range1, String range2) throws InterruptedException {
 
 		if (!range1.equals("1000")) {
@@ -32,5 +33,6 @@ public class CommonPage {
 		CommonActions.iLogMessage("Adding " + GlobalVariable.product_title + " in the cart");
 		CommonActions.iClickElementByLocator(addtocartbutton, "Added first vsible product to the cart");
 	}
+
 
 }

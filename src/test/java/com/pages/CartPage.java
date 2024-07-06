@@ -2,7 +2,7 @@ package com.pages;
 
 import org.openqa.selenium.By;
 
-import com.appium.commonactionmethods.CommonActions;
+import com.commonactionmethods.CommonActions;
 import com.globalvariable.GlobalVariable;
 
 public class CartPage {
