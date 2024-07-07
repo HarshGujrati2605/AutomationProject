@@ -54,6 +54,7 @@ public class CommonActions extends GlobalVariable {
 			highlightElementRed(ele, nameofelement);
 			ele.sendKeys(Keys.chord(Keys.CONTROL, "a"));
 			ele.sendKeys(Keys.chord(Keys.DELETE));
+			Thread.sleep(1000);
 			ele.sendKeys(value);
 			iLogMessage("Clicked on" + nameofelement);
 		} else {

@@ -26,5 +26,19 @@ public class DashboardSteps {
 		new DashboardPage().iValidateOrderStatus(orderstatus);
 
 	}
+		
+	
+	@And("I entered the order id {string} of the product in search field and search")
+	public void iEnterOrdeidInSearchField(String orderid) throws Exception {
+		new DashboardPage().iEnterOrderIDInSearchField(orderid);
+		
+	}
+	
+    @Then("the product corresponding to the entered {string} should be visible")
+    public void iValidateProductOrderIdAFterSearch(String orderid) {
+    	new DashboardPage().iValidateProductAfterSearchUsingId(orderid);
+    	
+    }
+    
 
 }

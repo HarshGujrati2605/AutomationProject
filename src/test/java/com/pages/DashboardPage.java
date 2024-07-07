@@ -11,6 +11,8 @@ public class DashboardPage {
 	
 	By dashboardheader = By.xpath("//h2[contains(text() , 'Dashboard Today' )]/..");
 	By orderstatus = By.xpath("//span[text() = 'Status']/following-sibling::p");
+	By searchfield = By.xpath("//input[@placeholder = 'Search order Id']");
+	By productorderid = By.xpath("//td[contains(@class , 'order-id')]/a");
 	
 	public void iValidateDashboardPage() throws Exception {
 		
@@ -29,8 +31,20 @@ public class DashboardPage {
 		List<WebElement> statusofallorders = CommonActions.getElementList(orderstatus);
 		CommonActions.iLogMessage("Number of products present is the category "+orderstatusname+" is  "+statusofallorders.size()+"");
 		for(WebElement statusofsingle : statusofallorders) {	
-			CommonActions.iVerifyExactElementTextOfElement(statusofsingle, orderstatusname, orderstatusname);	
+			CommonActions.iVerifyExactElementTextOfElement(statusofsingle, orderstatusname, "Order status");	
 		}
+		
+	}
+	
+	public void iEnterOrderIDInSearchField(String orderid) throws Exception {
+		
+		CommonActions.clickOnElementAndType(searchfield, orderid, "searched for orderid " + orderid);
+		CommonActions.iClickEnter(searchfield);
+	}
+	
+	public void iValidateProductAfterSearchUsingId(String orderid) {
+		
+		CommonActions.iVerifyExactElementText(productorderid, orderid, "order id");
 		
 	}
 	

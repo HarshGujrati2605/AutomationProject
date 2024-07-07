@@ -1,98 +1,45 @@
-2024-07-07 13:07:150 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:229 INFO  CommonActions:162 - Highlighted the Residnetial option
-2024-07-07 13:07:311 INFO  CommonActions:162 - i Click on the element Residnetial option
-2024-07-07 13:07:421 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:462 INFO  CommonActions:162 - i Click on the element Profile Icon
-2024-07-07 13:07:463 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:701 INFO  CommonActions:162 - i Click on the element Login link
-2024-07-07 13:07:712 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:780 INFO  CommonActions:162 - Highlighted the Username field
-2024-07-07 13:07:830 INFO  CommonActions:162 - i Click on the element Username field
-2024-07-07 13:07:847 INFO  CommonActions:162 - Highlighted the Username field
-2024-07-07 13:07:973 INFO  CommonActions:162 - Clicked onUsername field
-2024-07-07 13:07:975 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:30 INFO  CommonActions:162 - Highlighted the Password field
-2024-07-07 13:07:64 INFO  CommonActions:162 - i Click on the element Password field
-2024-07-07 13:07:77 INFO  CommonActions:162 - Highlighted the Password field
-2024-07-07 13:07:143 INFO  CommonActions:162 - Clicked onPassword field
-2024-07-07 13:07:144 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:174 INFO  CommonActions:162 - Highlighted the Click login button
-2024-07-07 13:07:222 INFO  CommonActions:162 - i Click on the element Click login button
-2024-07-07 13:07:223 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:423 INFO  CommonActions:162 - Highlighted the User profile picture
-2024-07-07 13:07:466 INFO  CommonActions:162 - i Click on the element User profile picture
-2024-07-07 13:07:467 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:497 INFO  CommonActions:162 - Highlighted the Successful alert is present
-2024-07-07 13:07:498 INFO  CommonActions:162 - Element USer profile picture is present.
-2024-07-07 13:07:498 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:725 INFO  CommonActions:162 - pop up is not present after login
-2024-07-07 13:07:725 INFO  CommonActions:162 - Waiting for element to be Present
-2024-07-07 13:07:737 INFO  CommonActions:162 - User profile picture is displayed....
-2024-07-07 13:07:746 INFO  CommonActions:162 - Highlighted the User profile picture
-2024-07-07 13:07:746 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:767 INFO  CommonActions:162 - Highlighted the User profile picture
-2024-07-07 13:07:815 INFO  CommonActions:162 - i Click on the element User profile picture
-2024-07-07 13:07:815 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:843 INFO  CommonActions:162 - Highlighted the Dashboard option
-2024-07-07 13:07:502 INFO  CommonActions:162 - i Click on the element Dashboard option
-2024-07-07 13:07:503 INFO  CommonActions:162 - Waiting for element to be Present
-2024-07-07 13:07:527 INFO  CommonActions:162 - Dashboard page header title is displayed....
-2024-07-07 13:07:538 INFO  CommonActions:162 - Highlighted the Dashboard page header title
-2024-07-07 13:07:552 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:581 INFO  CommonActions:162 - Highlighted the User profile picture
-2024-07-07 13:07:630 INFO  CommonActions:162 - i Click on the element User profile picture
-2024-07-07 13:07:631 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:659 INFO  CommonActions:162 - Highlighted the Log out
-2024-07-07 13:07:681 INFO  CommonActions:162 - i Click on the element Log out
-2024-07-07 13:07:685 INFO  CommonActions:162 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
-2024-07-07 13:07:699 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:736 INFO  CommonActions:162 - i Click on the element Profile Icon
-2024-07-07 13:07:736 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:189 INFO  CommonActions:162 - i Click on the element Login link
-2024-07-07 13:07:202 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:275 INFO  CommonActions:162 - Highlighted the Username field
-2024-07-07 13:07:325 INFO  CommonActions:162 - i Click on the element Username field
-2024-07-07 13:07:340 INFO  CommonActions:162 - Highlighted the Username field
-2024-07-07 13:07:459 INFO  CommonActions:162 - Clicked onUsername field
-2024-07-07 13:07:460 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:514 INFO  CommonActions:162 - Highlighted the Password field
-2024-07-07 13:07:549 INFO  CommonActions:162 - i Click on the element Password field
-2024-07-07 13:07:561 INFO  CommonActions:162 - Highlighted the Password field
-2024-07-07 13:07:641 INFO  CommonActions:162 - Clicked onPassword field
-2024-07-07 13:07:643 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:677 INFO  CommonActions:162 - Highlighted the Click login button
-2024-07-07 13:07:731 INFO  CommonActions:162 - i Click on the element Click login button
-2024-07-07 13:07:732 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:29 INFO  CommonActions:162 - Highlighted the User profile picture
-2024-07-07 13:07:93 INFO  CommonActions:162 - i Click on the element User profile picture
-2024-07-07 13:07:93 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:126 INFO  CommonActions:162 - Highlighted the Successful alert is present
-2024-07-07 13:07:126 INFO  CommonActions:162 - Element USer profile picture is present.
-2024-07-07 13:07:127 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:579 INFO  CommonActions:162 - pop up is not present after login
-2024-07-07 13:07:580 INFO  CommonActions:162 - Waiting for element to be Present
-2024-07-07 13:07:597 INFO  CommonActions:162 - User profile picture is displayed....
-2024-07-07 13:07:605 INFO  CommonActions:162 - Highlighted the User profile picture
-2024-07-07 13:07:605 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:626 INFO  CommonActions:162 - Highlighted the User profile picture
-2024-07-07 13:07:676 INFO  CommonActions:162 - i Click on the element User profile picture
-2024-07-07 13:07:676 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:706 INFO  CommonActions:162 - Highlighted the Dashboard option
-2024-07-07 13:07:802 INFO  CommonActions:162 - i Click on the element Dashboard option
-2024-07-07 13:07:802 INFO  CommonActions:162 - Waiting for element to be Present
-2024-07-07 13:07:828 INFO  CommonActions:162 - Dashboard page header title is displayed....
-2024-07-07 13:07:838 INFO  CommonActions:162 - Highlighted the Dashboard page header title
-2024-07-07 13:07:839 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:873 INFO  CommonActions:162 - Highlighted the Pending Cancellation is selected
-2024-07-07 13:07:734 INFO  CommonActions:162 - i Click on the element Pending Cancellation is selected
-2024-07-07 13:07:735 INFO  CommonActions:162 - Waiting for elements to be visible
-2024-07-07 13:07:764 INFO  CommonActions:162 - Number of products present is the category Pending Cancellation is  1
-2024-07-07 13:07:774 INFO  CommonActions:162 - ********************    Element actual text is Pending Cancellation***************
-2024-07-07 13:07:774 INFO  CommonActions:162 - ****************** ELement Expected text is Pending Cancellation**********************
-2024-07-07 13:07:796 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:841 INFO  CommonActions:162 - Highlighted the User profile picture
-2024-07-07 13:07:903 INFO  CommonActions:162 - i Click on the element User profile picture
-2024-07-07 13:07:904 INFO  CommonActions:162 - Waiting for element to be visible
-2024-07-07 13:07:944 INFO  CommonActions:162 - Highlighted the Log out
-2024-07-07 13:07:731 INFO  CommonActions:162 - i Click on the element Log out
-2024-07-07 13:07:732 INFO  CommonActions:162 - The user should be able to review the status data of placed orders in the dashboard section of the SOL website. is passed
+2024-07-07 13:07:487 INFO  CommonActions:163 - Waiting for element to be visible
+2024-07-07 13:07:552 INFO  CommonActions:163 - Highlighted the Residnetial option
+2024-07-07 13:07:285 INFO  CommonActions:163 - i Click on the element Residnetial option
+2024-07-07 13:07:402 INFO  CommonActions:163 - Waiting for element to be visible
+2024-07-07 13:07:445 INFO  CommonActions:163 - i Click on the element Profile Icon
+2024-07-07 13:07:445 INFO  CommonActions:163 - Waiting for element to be visible
+2024-07-07 13:07:35 INFO  CommonActions:163 - i Click on the element Login link
+2024-07-07 13:07:43 INFO  CommonActions:163 - Waiting for element to be visible
+2024-07-07 13:07:125 INFO  CommonActions:163 - Highlighted the Username field
+2024-07-07 13:07:171 INFO  CommonActions:163 - i Click on the element Username field
+2024-07-07 13:07:187 INFO  CommonActions:163 - Highlighted the Username field
+2024-07-07 13:07:336 INFO  CommonActions:163 - Clicked onUsername field
+2024-07-07 13:07:338 INFO  CommonActions:163 - Waiting for element to be visible
+2024-07-07 13:07:386 INFO  CommonActions:163 - Highlighted the Password field
+2024-07-07 13:07:423 INFO  CommonActions:163 - i Click on the element Password field
+2024-07-07 13:07:440 INFO  CommonActions:163 - Highlighted the Password field
+2024-07-07 13:07:549 INFO  CommonActions:163 - Clicked onPassword field
+2024-07-07 13:07:550 INFO  CommonActions:163 - Waiting for element to be visible
+2024-07-07 13:07:577 INFO  CommonActions:163 - Highlighted the Click login button
+2024-07-07 13:07:630 INFO  CommonActions:163 - i Click on the element Click login button
+2024-07-07 13:07:631 INFO  CommonActions:163 - Waiting for element to be visible
+2024-07-07 13:07:703 INFO  CommonActions:163 - Highlighted the User profile picture
+2024-07-07 13:07:762 INFO  CommonActions:163 - i Click on the element User profile picture
+2024-07-07 13:07:762 INFO  CommonActions:163 - Waiting for element to be Present
+2024-07-07 13:07:785 INFO  CommonActions:163 - User profile picture is displayed....
+2024-07-07 13:07:797 INFO  CommonActions:163 - Highlighted the User profile picture
+2024-07-07 13:07:798 INFO  CommonActions:163 - Waiting for element to be visible
+2024-07-07 13:07:827 INFO  CommonActions:163 - Highlighted the User profile picture
+2024-07-07 13:07:863 INFO  CommonActions:163 - i Click on the element User profile picture
+2024-07-07 13:07:863 INFO  CommonActions:163 - Waiting for element to be visible
+2024-07-07 13:07:894 INFO  CommonActions:163 - Highlighted the Dashboard option
+2024-07-07 13:07:163 INFO  CommonActions:163 - i Click on the element Dashboard option
+2024-07-07 13:07:165 INFO  CommonActions:163 - Waiting for element to be Present
+2024-07-07 13:07:189 INFO  CommonActions:163 - Dashboard page header title is displayed....
+2024-07-07 13:07:202 INFO  CommonActions:163 - Highlighted the Dashboard page header title
+2024-07-07 13:07:203 INFO  CommonActions:163 - Waiting for element to be visible
+2024-07-07 13:07:260 INFO  CommonActions:163 - Highlighted the searched for orderid 4295234
+2024-07-07 13:07:296 INFO  CommonActions:163 - i Click on the element searched for orderid 4295234
+2024-07-07 13:07:310 INFO  CommonActions:163 - Highlighted the searched for orderid 4295234
+2024-07-07 13:07:388 INFO  CommonActions:163 - Clicked onsearched for orderid 4295234
+2024-07-07 13:07:397 INFO  CommonActions:163 - Waiting for element to be visible
+2024-07-07 13:07:05 INFO  CommonActions:163 - Waiting for element to be visible
+2024-07-07 13:07:44 INFO  CommonActions:163 - ********************    Element actual text is 4295234***************
+2024-07-07 13:07:44 INFO  CommonActions:163 - ****************** ELement Expected text is 4295234**********************
+2024-07-07 13:07:60 INFO  CommonActions:163 - User should able to search the Order using Order ID is passed

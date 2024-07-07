@@ -30,8 +30,10 @@ public class Hooks extends GlobalVariable {
 		if (scenario.isFailed()) {
 			BaseClass.captureScreenshot(scenario.getName());
 			CommonActions.iLogMessage("Screenshot taken");
+			driver.quit();
 		} else {
 			CommonActions.iLogMessage(scenario.getName() + " is passed");
+			//driver.quit();
 		}
 
 	}
