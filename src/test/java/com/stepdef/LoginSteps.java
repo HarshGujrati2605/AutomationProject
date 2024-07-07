@@ -40,4 +40,11 @@ public class LoginSteps extends GlobalVariable {
 		new HomePage().iLogout();
 	}
 
+	@Then("I am on homepage and click dashboard")
+	public void validateHomePageandclickdashboard() throws Exception {
+
+		new HomePage().iClickDashboard();
+
+	}
+
 }

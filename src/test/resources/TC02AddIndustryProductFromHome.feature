@@ -1,7 +1,7 @@
 @regressionaddproducts
 Feature: Shop the Industry products from the homepage and complete the checkout
 
-  Background: Validating the login functionality
+  Background: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.
     When I enter username as "Testqa12@mailinator.com "
     And I enter password as "Welcome@12345"
     Then I login

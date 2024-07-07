@@ -1,7 +1,6 @@
 package com.pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 import com.commonactionmethods.CommonActions;
 import com.globalvariable.GlobalVariable;
@@ -14,6 +13,8 @@ public class HomePage extends GlobalVariable {
 	static By homemenu = By.xpath("//a[text() = 'Home']");
 	static By logoutlink = By.xpath("//a[text() = 'Logout']");
 	static By cart = By.xpath("//a[@id = 'clickcart']/div");
+	static By dashboardlink = By.xpath("//a[text() = 'Dashboard']");
+	
 
 	public void iValidatePortal() throws Exception {
 		try {
@@ -51,6 +52,19 @@ public class HomePage extends GlobalVariable {
 		Thread.sleep(2000);
 		CommonActions.iClickJSEByLocator(cart, "Cart icon click");
 		
+	}
+	
+	
+	public void iClickDashboard() throws Exception {
+		try {
+			CommonActions.iClickElementByLocator(dialogclosebtn, "User profile picture");
+		} catch (Exception e) {
+			CommonActions.iLogMessage("pop up is not present after login");
+		}
+		CommonActions.isDisplayed(useravatar, "User profile picture");
+		CommonActions.iClickElementByLocator(useravatar, "User profile picture");
+		CommonActions.iClickElementByLocator(dashboardlink, "Dashboard option");
+
 	}
 
 }

@@ -112,6 +112,13 @@ public class CommonActions extends GlobalVariable {
 	public static void iVerifyExactElementText(By elementlocator, String expectedText, String elementName) {
 		WebElement ele = getElement(elementlocator);
 		iLogMessage("********************    Element actual text is " + ele.getText().trim() + "***************");
+		iLogMessage("****************** ELement Expected text is "+expectedText+"**********************");
+		assertEquals(expectedText.trim(), ele.getText().trim());
+	}
+	
+	public static void iVerifyExactElementTextOfElement(WebElement ele, String expectedText, String elementName) {
+		iLogMessage("********************    Element actual text is " + ele.getText().trim() + "***************");
+		iLogMessage("****************** ELement Expected text is "+expectedText+"**********************");
 		assertEquals(expectedText.trim(), ele.getText().trim());
 	}
 
@@ -317,6 +324,7 @@ public class CommonActions extends GlobalVariable {
 		WebElement ele = getElement(loc);
 		iImplicitlywait(30, elementName);
 		highlightElementRed(ele, elementName);
+		Thread.sleep(1000);
 		ele.click();
 		iLogMessage("i Click on the element " + elementName);
 	}
