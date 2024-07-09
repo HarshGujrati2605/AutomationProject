@@ -1,5 +1,8 @@
 package com.stepdef;
 
+import java.util.List;
+import java.util.Map;
+
 import com.pages.DashboardPage;
 
 import io.cucumber.java.en.And;
@@ -26,19 +29,22 @@ public class DashboardSteps {
 		new DashboardPage().iValidateOrderStatus(orderstatus);
 
 	}
-		
-	
+
 	@And("I entered the order id {string} of the product in search field and search")
 	public void iEnterOrdeidInSearchField(String orderid) throws Exception {
 		new DashboardPage().iEnterOrderIDInSearchField(orderid);
-		
+
 	}
-	
-    @Then("the product corresponding to the entered {string} should be visible")
-    public void iValidateProductOrderIdAFterSearch(String orderid) {
-    	new DashboardPage().iValidateProductAfterSearchUsingId(orderid);
-    	
-    }
-    
+
+	@Then("the product corresponding to the entered {string} should be visible")
+	public void iValidateProductOrderIdAFterSearch(String orderid) {
+		new DashboardPage().iValidateProductAfterSearchUsingId(orderid);
+
+	}
+
+	@And("I click on date filter and select range and validate the dates")
+	public void iSelectDateFilter(List<Map<String, String>> data) throws Exception {
+		new DashboardPage().iValidateProductDate(data);
+	}
 
 }

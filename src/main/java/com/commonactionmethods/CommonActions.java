@@ -72,6 +72,17 @@ public class CommonActions extends GlobalVariable {
 
 		}
 	}
+	
+	public static void isDisplayed(WebElement element, String elementName) throws Exception {
+		if (element.isDisplayed()) {
+			iLogMessage(elementName + " is displayed....");
+			highlightElementGreen(element, elementName);
+			Thread.sleep(100);
+		} else {
+			throw new Exception("Element not displayed");
+
+		}
+	}
 
 	public void iVerifySelected(By elementlocator, String elementName) throws Exception {
 		iImplicitlywait(30, elementName);
