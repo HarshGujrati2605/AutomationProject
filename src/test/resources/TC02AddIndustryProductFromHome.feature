@@ -1,4 +1,4 @@
-@regressionaddproducts
+@regressionaddproducts @regression
 Feature: Shop the Industry products from the homepage and complete the checkout
 
   Background: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.

@@ -3,10 +3,6 @@ package com.stepdef;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
-import javax.mail.MessagingException;
-
-import org.apache.commons.mail.EmailException;
-
 import com.base.BaseClass;
 import com.commonactionmethods.CommonActions;
 import com.globalvariable.GlobalVariable;
@@ -26,24 +22,14 @@ public class Hooks extends GlobalVariable {
 
 	@After
 	public static void teardown(io.cucumber.java.Scenario scenario)
-			throws UnsupportedEncodingException, EmailException, MessagingException {
+			throws UnsupportedEncodingException {
 		if (scenario.isFailed()) {
 			BaseClass.captureScreenshot(scenario.getName());
 			CommonActions.iLogMessage("Screenshot taken");
 			driver.quit();
 		} else {
 			CommonActions.iLogMessage(scenario.getName() + " is passed");
-			//driver.quit();
-		}
-
-	}
-
-	@AfterAll
-	public static void sendEmails() {
-		try {
-     		//driver.quit();	
-		} catch (Exception e) {
-			e.printStackTrace();
+			driver.quit();
 		}
 
 	}

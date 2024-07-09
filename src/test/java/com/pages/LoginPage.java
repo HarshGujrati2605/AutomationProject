@@ -26,7 +26,7 @@ public class LoginPage extends GlobalVariable {
 		try {
 			CommonActions.iClickJSEByLocator(profileIcon, "Profile Icon");
 			CommonActions.iClickJSEByLocator(loginLink, "Login link");
-			Thread.sleep(5000);
+			Thread.sleep(10000);
 			CommonActions.clickOnElementAndType(Username, username, "Username field");
 		} catch (Exception e) {
 			System.out.println(e);
