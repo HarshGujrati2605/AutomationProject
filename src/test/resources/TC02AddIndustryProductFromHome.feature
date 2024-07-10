@@ -1,4 +1,4 @@
-@regressionaddproducts @regression
+@regression @regressionaddproducts
 Feature: Shop the Industry products from the homepage and complete the checkout
 
   Background: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.
@@ -50,8 +50,8 @@ Feature: Shop the Industry products from the homepage and complete the checkout
 
     Examples: 
       | category name       | range1 | range2 |
-      | Anti-Freeze Coolant |    100 | 199.99 |
-      
+      | Anti-Freeze Coolant |   1000 |      0 |
+
   @addbrakeandclutchfluid
   Scenario Outline: Shop the Brake & Clutch Fluid products from the homepage and complete the checkout
     Given I am on Homepage
@@ -65,8 +65,8 @@ Feature: Shop the Industry products from the homepage and complete the checkout
 
     Examples: 
       | category name        | range1 | range2 |
-      | Brake & Clutch Fluid |    100 | 199.99 |
-      
+      | Brake & Clutch Fluid |   1000 |      0 |
+
   @adddieselengineoils
   Scenario Outline: Shop the Diesel Engine Oils products from the homepage and complete the checkout
     Given I am on Homepage
@@ -97,8 +97,8 @@ Feature: Shop the Industry products from the homepage and complete the checkout
 
     Examples: 
       | category name        | range1 | range2 |
-      | Gasoline Engine Oils |    100 | 199.99 |
-      
+      | Gasoline Engine Oils |   1000 |      0 |
+
   @addtransmissionproduct
   Scenario Outline: Shop the Transmission products from the homepage and complete the checkout
     products from the homepage and complete the checkout
