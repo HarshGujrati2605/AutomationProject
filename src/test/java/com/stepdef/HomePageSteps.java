@@ -18,7 +18,7 @@ public class HomePageSteps {
 		new HomePage().iSelectCategory(categoryname);
 	}
 
-	@And("I open the cart")
+	@And("I open the wishlist")
 	public void iOpenCart() throws InterruptedException {
 		new HomePage().iClickOnCart();
 	}

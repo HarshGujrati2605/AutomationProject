@@ -50,6 +50,7 @@ public class HomePage extends GlobalVariable {
 
 	public void iClickOnCart() throws InterruptedException {
 		Thread.sleep(2000);
+		CommonActions.iImplicitlywait(30, "wishlist");
 		CommonActions.iClickJSEByLocator(cart, "Cart icon click");
 
 	}

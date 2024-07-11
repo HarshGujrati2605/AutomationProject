@@ -47,4 +47,27 @@ public class DashboardSteps {
 		new DashboardPage().iValidateProductDate(data);
 	}
 
+	@And("I entered the order id of the placed product in search field and search")
+	public void iEnterOrdeidInSearch() throws Exception {
+		new DashboardPage().iEnterOrderIDInSearch();
+
+	}
+
+	@Then("the ordered product corresponding to the entered order id should be visible")
+	public void iValidateOrderedProduct() throws Exception {
+		new DashboardPage().iValidateProductAfterSearchUsingOrderID();
+
+	}
+
+	@And("I cancel the order")
+	public void iCancelTheOrder() throws Exception {
+       new DashboardPage().iCancelOrder();
+	}
+
+	@Then("I validate order is cancel")
+	public void iValidateCancellationOfOrder() throws InterruptedException {
+		new DashboardPage().iValidateCancellation();
+		
+	}
+
 }

@@ -547,6 +547,7 @@ public class CommonActions extends GlobalVariable {
 	
 	public static void iClickJSEByLocator(By locator, String elementName) {
 		WebElement ele = getElement(locator);
+		
 		iImplicitlywait(30, elementName);
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
 		jse.executeScript("arguments[0].click();", ele);
