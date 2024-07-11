@@ -24,4 +24,9 @@ public class CartSteps {
 	 public static void iLogOut() throws InterruptedException {
 		 new CartPage().iLogOut(); 
 	 }
+	 
+	 @And("I click checkout")
+	 public void iClickCheckout() throws InterruptedException  {
+		 new CartPage().iClickCheckout();
+	 }
 }

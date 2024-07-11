@@ -12,6 +12,7 @@ public class CartPage {
 	By closecart = By.xpath("//div[contains(@class,'cart-content')]/div/button");
 	By useravatar = By.xpath("//a[contains(@class , 'user-icon')]");
 	By logoutlink = By.xpath("//a[text() = 'Logout']");
+	By checkoutButton = By.xpath("//span[text() = 'Checkout']/ancestor::button");
 	
 
 	public void iValidateProductAddedInTheCart() {
@@ -29,6 +30,12 @@ public class CartPage {
 		Thread.sleep(2000);
 		CommonActions.iClickElementByLocator(useravatar, "User profile picture");
 		CommonActions.iClickElementByLocator(logoutlink, "Log out");		
+	}
+	
+	public void iClickCheckout() throws InterruptedException {
+		Thread.sleep(2000);
+		CommonActions.iClickElementByLocator(checkoutButton, "Checkout button");
+		
 	}
 	
 	

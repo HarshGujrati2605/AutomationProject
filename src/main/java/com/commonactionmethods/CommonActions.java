@@ -6,6 +6,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.time.Duration;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Random;
@@ -257,7 +258,8 @@ public class CommonActions extends GlobalVariable {
 			driver.switchTo().alert().dismiss();
 	}
 
-	public static void hoverOverElement(WebElement element, String name) {
+	public static void hoverOverElement(By locator, String name) {
+		WebElement element = getElement(locator);
 		Actions action = new Actions(driver);
 		action.moveToElement(element).build().perform();
 		iLogMessage("Hover to the " + name);
@@ -551,5 +553,18 @@ public class CommonActions extends GlobalVariable {
 		iLogMessage("i Click on the element " + elementName);
 
 	}
+	
+	public static String getTodayDateAndAddOneDay() {
+		  DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");  
+		   LocalDateTime now = LocalDateTime.now();  
+		   System.out.println(dtf.format(now));  
+		   String localdate = LocalDate
+		      .parse(dtf.format(now))
+		      .plusDays(1)
+		      .toString();
+		   return localdate.substring(8).trim();
+	}
+	
+	
 
 }

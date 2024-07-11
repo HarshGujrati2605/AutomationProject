@@ -8,7 +8,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     Then I am on homepage
 
   @addindustryproduct
-  Scenario Outline: Shop the Industry products from the homepage and complete the checkout
+  Scenario Outline: Shop the Industry products from the homepage and validate product added in the cart
     Given I am on Homepage
     When I select the product category "<category name>"
     And I select the price filter from "<range1>" to "<range2>"
@@ -22,7 +22,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
       | Industry      |    100 | 199.99 |
 
   @addroadtransportproduct
-  Scenario Outline: Shop the Road transport products from the homepage and complete the checkout
+  Scenario Outline: Shop the Road transport products from the homepage and validate product added in the cart
     Given I am on Homepage
     When I select the product category "<category name>"
     And I select the price filter from "<range1>" to "<range2>"
@@ -36,7 +36,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
       | Road Transport |    100 | 199.99 |
 
   @addantifreezecoolantproduct
-  Scenario Outline: Shop the Anti-Freeze Coolant products from the homepage and complete the checkout
+  Scenario Outline: Shop the Anti-Freeze Coolant products from the homepage and validate product added in the cart
     Given I am on Homepage
     When I select the product category "<category name>"
     And I select the price filter from "<range1>" to "<range2>"
@@ -50,7 +50,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
       | Anti-Freeze Coolant |   1000 |      0 |
 
   @addbrakeandclutchfluid
-  Scenario Outline: Shop the Brake & Clutch Fluid products from the homepage and complete the checkout
+  Scenario Outline: Shop the Brake & Clutch Fluid products from the homepage and validate product added in the cart
     Given I am on Homepage
     When I select the product category "<category name>"
     And I select the price filter from "<range1>" to "<range2>"
@@ -64,7 +64,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
       | Brake & Clutch Fluid |   1000 |      0 |
 
   @adddieselengineoils
-  Scenario Outline: Shop the Diesel Engine Oils products from the homepage and complete the checkout
+  Scenario Outline: Shop the Diesel Engine Oils products from the homepage and validate product added in the cart
     Given I am on Homepage
     When I select the product category "<category name>"
     And I select the price filter from "<range1>" to "<range2>"
@@ -78,7 +78,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
       | Diesel Engine Oils |   1000 |      0 |
 
   @addgasolineengineoils
-  Scenario Outline: Shop the Gasoline Engine Oils from the homepage and complete the checkout
+  Scenario Outline: Shop the Gasoline Engine Oils from the homepage and validate product added in the cart
     products from the homepage and complete the checkout
 
     Given I am on Homepage
@@ -94,7 +94,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
       | Gasoline Engine Oils |   1000 |      0 |
 
   @addtransmissionproduct
-  Scenario Outline: Shop the Transmission products from the homepage and complete the checkout
+  Scenario Outline: Shop the Transmission products from the homepage and validate product added in the cart
     products from the homepage and complete the checkout
 
     Given I am on Homepage

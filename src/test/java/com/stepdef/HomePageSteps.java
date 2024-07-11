@@ -17,10 +17,16 @@ public class HomePageSteps {
 	public void iSelectShopByCategory(String categoryname) throws InterruptedException {
 		new HomePage().iSelectCategory(categoryname);
 	}
-	
+
 	@And("I open the cart")
-	public void iOpenCart() throws InterruptedException {	
-		new HomePage().iClickOnCart();	
+	public void iOpenCart() throws InterruptedException {
+		new HomePage().iClickOnCart();
+	}
+
+	@When("I select the product category {string} from product tab")
+	public void iSelectProductFromProductTab(String option) throws InterruptedException {
+         
+		new HomePage().iSelectProductsCategoryFromProductTab(option);
 	}
 
 }

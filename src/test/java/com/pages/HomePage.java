@@ -14,6 +14,7 @@ public class HomePage extends GlobalVariable {
 	static By logoutlink = By.xpath("//a[text() = 'Logout']");
 	static By cart = By.xpath("//a[@id = 'clickcart']/div");
 	static By dashboardlink = By.xpath("//a[text() = 'Dashboard']");
+	static By productstab = By.xpath("//a[text() = 'Products']/parent::li");
 
 	public void iValidatePortal() throws Exception {
 		try {
@@ -54,16 +55,18 @@ public class HomePage extends GlobalVariable {
 	}
 
 	public void iClickDashboard() throws Exception {
-//		try {
-//			CommonActions.iClickElementByLocator(dialogclosebtn, "close");
-//		} catch (Exception e) {
-//			CommonActions.iLogMessage("pop up is not present after login");
-//		}
-	//	CommonActions.isDisplayed(usericon, "User profile picture");
-		new HomePage().iClickHome();
+		iClickHome();
 		CommonActions.iClickElementByLocator(usericon, "User profile picture");
 		CommonActions.iClickElementByLocator(dashboardlink, "Dashboard option");
 
+	}
+	
+	public void iSelectProductsCategoryFromProductTab(String categoryname) throws InterruptedException {
+		CommonActions.hoverOverElement(productstab, "Product tab");
+		Thread.sleep(1000);
+		CommonActions.iClickElementByLocator(By.xpath("//ul[@class = 'submenu']//a[text() = '"+categoryname+"']"), "Ctaegory selected "+categoryname+"");
+		
+		
 	}
 
 }
