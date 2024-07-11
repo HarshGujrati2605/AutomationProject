@@ -6,30 +6,30 @@ Feature: Product Tab Scenarios
     And I enter password as "Test@123456789"
     And I login
     Then I am on homepage
-#
-  #@addindustryproductfromproducttab
-  #Scenario Outline: Shop the Industry products from the product tab and complete the checkout
-    #Given I am on Homepage
-    #When I select the product category "<category name>" from product tab
-    #And I select the price filter from "<range1>" to "<range2>"
-    #And I add the product to the cart
-    #And I open the wishlist
-    #And I validate the product added in the cart
-    #And I click checkout
-    #And I contiue with billing and shipping information
-    #And I add preffered date and time "<time range>"
-    #And I validate product in the checkout page
-    #And I click on confirm order button
-    #Then I see order placed success message with order id
-    #And I entered the order id of the placed product in search field and search
-    #Then the ordered product corresponding to the entered order id should be visible
-    #And I cancel the order
-    #And I entered the order id of the placed product in search field and search
-    #Then I validate order is cancel
-#
-    #Examples: 
-      #| category name | range1 | range2 | time range |
-      #| Industry      |    100 | 199.99 | 9AM-12PM   |
+
+  @addindustryproductfromproducttab
+  Scenario Outline: Shop the Industry products from the product tab and complete the checkout
+    Given I am on Homepage
+    When I select the product category "<category name>" from product tab
+    And I select the price filter from "<range1>" to "<range2>"
+    And I add the product to the cart
+    And I open the wishlist
+    And I validate the product added in the cart
+    And I click checkout
+    And I contiue with billing and shipping information
+    And I add preffered date and time "<time range>"
+    And I validate product in the checkout page
+    And I click on confirm order button
+    Then I see order placed success message with order id
+    And I entered the order id of the placed product in search field and search
+    Then the ordered product corresponding to the entered order id should be visible
+    And I cancel the order
+    And I entered the order id of the placed product in search field and search
+    Then I validate order is cancel
+
+    Examples: 
+      | category name | range1 | range2 | time range |
+      | Industry      |    100 | 199.99 | 9AM-12PM   |
 
   @addroadtransportproduct
   Scenario Outline: Shop the Road transport products products from the product tab and complete the checkout

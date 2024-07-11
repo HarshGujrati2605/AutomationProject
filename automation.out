@@ -1,447 +1,223 @@
-2024-07-11 18:07:470 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:573 INFO  CommonActions:175 - Highlighted the Residnetial option
-2024-07-11 18:07:953 INFO  CommonActions:175 - i Click on the element Residnetial option
-2024-07-11 18:07:30 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:89 INFO  CommonActions:175 - i Click on the element Profile Icon
-2024-07-11 18:07:90 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:961 INFO  CommonActions:175 - i Click on the element Login link
-2024-07-11 18:07:964 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:45 INFO  CommonActions:175 - Highlighted the Username field
-2024-07-11 18:07:105 INFO  CommonActions:175 - i Click on the element Username field
-2024-07-11 18:07:123 INFO  CommonActions:175 - Highlighted the Username field
-2024-07-11 18:07:286 INFO  CommonActions:175 - Clicked onUsername field
-2024-07-11 18:07:287 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:352 INFO  CommonActions:175 - Highlighted the Password field
-2024-07-11 18:07:399 INFO  CommonActions:175 - i Click on the element Password field
-2024-07-11 18:07:411 INFO  CommonActions:175 - Highlighted the Password field
-2024-07-11 18:07:517 INFO  CommonActions:175 - Clicked onPassword field
-2024-07-11 18:07:517 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:559 INFO  CommonActions:175 - Highlighted the Click login button
-2024-07-11 18:07:638 INFO  CommonActions:175 - i Click on the element Click login button
-2024-07-11 18:07:638 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:540 INFO  CommonActions:175 - Highlighted the User profile picture
-2024-07-11 18:07:610 INFO  CommonActions:175 - i Click on the element User profile picture
-2024-07-11 18:07:611 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:656 INFO  CommonActions:175 - Highlighted the Successful alert is present
-2024-07-11 18:07:658 INFO  CommonActions:175 - Element USer profile picture is present.
-2024-07-11 18:07:661 INFO  CommonActions:175 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
-2024-07-11 18:07:692 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:150 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-11 18:07:150 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:300 INFO  CommonActions:175 - Hover to the Product tab
-2024-07-11 18:07:302 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:355 INFO  CommonActions:175 - Highlighted the Ctaegory selected Road Transport
-2024-07-11 18:07:452 INFO  CommonActions:175 - i Click on the element Ctaegory selected Road Transport
-2024-07-11 18:07:453 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:502 INFO  CommonActions:175 - Highlighted the Selcting filter range from 100 to 199.99
-2024-07-11 18:07:576 INFO  CommonActions:175 - i Click on the element Selcting filter range from 100 to 199.99
-2024-07-11 18:07:576 INFO  CommonActions:175 - Getting the text fromProduct title
-2024-07-11 18:07:576 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:617 INFO  CommonActions:175 - Adding Premium Gasoline in the cart
-2024-07-11 18:07:633 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:678 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
-2024-07-11 18:07:691 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:743 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-11 18:07:743 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:771 INFO  CommonActions:175 - ********************    Element actual text is Premium Gasoline***************
-2024-07-11 18:07:771 INFO  CommonActions:175 - ****************** ELement Expected text is Premium Gasoline**********************
-2024-07-11 18:07:805 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:851 INFO  CommonActions:175 - Highlighted the Checkout button
-2024-07-11 18:07:557 INFO  CommonActions:175 - i Click on the element Checkout button
-2024-07-11 18:07:559 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:608 INFO  CommonActions:175 - Highlighted the Continue billing info
-2024-07-11 18:07:669 INFO  CommonActions:175 - i Click on the element Continue billing info
-2024-07-11 18:07:685 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:730 INFO  CommonActions:175 - Highlighted the Continue shipping button
-2024-07-11 18:07:730 INFO  CommonActions:175 - scrolled till the Continue shipping button
-2024-07-11 18:07:738 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:770 INFO  CommonActions:175 - Highlighted the Continue shiiping info
-2024-07-11 18:07:837 INFO  CommonActions:175 - i Click on the element Continue shiiping info
-2024-07-11 18:07:847 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:893 INFO  CommonActions:175 - Highlighted the Preferred date dropdown
-2024-07-11 18:07:969 INFO  CommonActions:175 - i Click on the element Preferred date dropdown
-2024-07-11 18:07:982 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:28 INFO  CommonActions:175 - Highlighted the 12
-2024-07-11 18:07:91 INFO  CommonActions:175 - i Click on the element 12
-2024-07-11 18:07:91 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:127 INFO  CommonActions:175 - Highlighted the Preferred time
-2024-07-11 18:07:173 INFO  CommonActions:175 - i Click on the element Preferred time
-2024-07-11 18:07:173 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:210 INFO  CommonActions:175 - Highlighted the time range
-2024-07-11 18:07:256 INFO  CommonActions:175 - i Click on the element time range
-2024-07-11 18:07:257 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:318 INFO  CommonActions:175 - Highlighted the Delivery instructions
-2024-07-11 18:07:364 INFO  CommonActions:175 - i Click on the element Delivery instructions
-2024-07-11 18:07:375 INFO  CommonActions:175 - Highlighted the Delivery instructions
-2024-07-11 18:07:474 INFO  CommonActions:175 - Clicked onDelivery instructions
-2024-07-11 18:07:474 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:509 INFO  CommonActions:175 - Highlighted the Save button
-2024-07-11 18:07:571 INFO  CommonActions:175 - i Click on the element Save button
-2024-07-11 18:07:572 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:621 INFO  CommonActions:175 - ********************    Element actual text is Premium Gasoline***************
-2024-07-11 18:07:622 INFO  CommonActions:175 - ****************** ELement Expected text is Premium Gasoline**********************
-2024-07-11 18:07:622 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:662 INFO  CommonActions:175 - Highlighted the Sol logo
-2024-07-11 18:07:118 INFO  CommonActions:175 - i Click on the element Sol logo
-2024-07-11 18:07:128 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:412 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-11 18:07:419 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:466 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-11 18:07:482 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:522 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
-2024-07-11 18:07:575 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
-2024-07-11 18:07:583 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:627 INFO  CommonActions:175 - Highlighted the Closing the cart
-2024-07-11 18:07:927 INFO  CommonActions:175 - i Click on the element Closing the cart
-2024-07-11 18:07:928 INFO  CommonActions:175 - Shop the Road transport products products from the product tab and complete the checkout is passed
-2024-07-11 18:07:941 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:225 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-11 18:07:226 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:373 INFO  CommonActions:175 - Hover to the Product tab
-2024-07-11 18:07:375 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:416 INFO  CommonActions:175 - Highlighted the Ctaegory selected Anti-Freeze Coolant
-2024-07-11 18:07:999 INFO  CommonActions:175 - i Click on the element Ctaegory selected Anti-Freeze Coolant
-2024-07-11 18:07:999 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:37 INFO  CommonActions:175 - Highlighted the Selcting filter range from 1000
-2024-07-11 18:07:87 INFO  CommonActions:175 - i Click on the element Selcting filter range from 1000
-2024-07-11 18:07:89 INFO  CommonActions:175 - Getting the text fromProduct title
-2024-07-11 18:07:89 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:120 INFO  CommonActions:175 - Adding Havoline Conventional Antifreeze Coolant in the cart
-2024-07-11 18:07:123 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:180 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
-2024-07-11 18:07:196 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:243 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-11 18:07:243 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:270 INFO  CommonActions:175 - ********************    Element actual text is Havoline Conventional Antifreeze Coolant***************
-2024-07-11 18:07:286 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Conventional Antifreeze Coolant**********************
-2024-07-11 18:07:301 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:346 INFO  CommonActions:175 - Highlighted the Checkout button
-2024-07-11 18:07:662 INFO  CommonActions:175 - i Click on the element Checkout button
-2024-07-11 18:07:663 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:703 INFO  CommonActions:175 - Highlighted the Continue billing info
-2024-07-11 18:07:753 INFO  CommonActions:175 - i Click on the element Continue billing info
-2024-07-11 18:07:759 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:810 INFO  CommonActions:175 - Highlighted the Continue shipping button
-2024-07-11 18:07:810 INFO  CommonActions:175 - scrolled till the Continue shipping button
-2024-07-11 18:07:820 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:851 INFO  CommonActions:175 - Highlighted the Continue shiiping info
-2024-07-11 18:07:913 INFO  CommonActions:175 - i Click on the element Continue shiiping info
-2024-07-11 18:07:920 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:969 INFO  CommonActions:175 - Highlighted the Preferred date dropdown
-2024-07-11 18:07:40 INFO  CommonActions:175 - i Click on the element Preferred date dropdown
-2024-07-11 18:07:50 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:95 INFO  CommonActions:175 - Highlighted the 12
-2024-07-11 18:07:143 INFO  CommonActions:175 - i Click on the element 12
-2024-07-11 18:07:144 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:176 INFO  CommonActions:175 - Highlighted the Preferred time
-2024-07-11 18:07:229 INFO  CommonActions:175 - i Click on the element Preferred time
-2024-07-11 18:07:229 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:262 INFO  CommonActions:175 - Highlighted the time range
-2024-07-11 18:07:311 INFO  CommonActions:175 - i Click on the element time range
-2024-07-11 18:07:311 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:373 INFO  CommonActions:175 - Highlighted the Delivery instructions
-2024-07-11 18:07:417 INFO  CommonActions:175 - i Click on the element Delivery instructions
-2024-07-11 18:07:436 INFO  CommonActions:175 - Highlighted the Delivery instructions
-2024-07-11 18:07:529 INFO  CommonActions:175 - Clicked onDelivery instructions
-2024-07-11 18:07:529 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:564 INFO  CommonActions:175 - Highlighted the Save button
-2024-07-11 18:07:625 INFO  CommonActions:175 - i Click on the element Save button
-2024-07-11 18:07:625 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:655 INFO  CommonActions:175 - ********************    Element actual text is Havoline Conventional Antifreeze Coolant***************
-2024-07-11 18:07:655 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Conventional Antifreeze Coolant**********************
-2024-07-11 18:07:663 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:692 INFO  CommonActions:175 - Highlighted the Sol logo
-2024-07-11 18:07:976 INFO  CommonActions:175 - i Click on the element Sol logo
-2024-07-11 18:07:991 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:283 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-11 18:07:289 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:331 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-11 18:07:340 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:381 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
-2024-07-11 18:07:434 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
-2024-07-11 18:07:447 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:487 INFO  CommonActions:175 - Highlighted the Closing the cart
-2024-07-11 18:07:783 INFO  CommonActions:175 - i Click on the element Closing the cart
-2024-07-11 18:07:784 INFO  CommonActions:175 - Shop the Anti-Freeze Coolant products from the product tab and complete the checkout is passed
-2024-07-11 18:07:810 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:141 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-11 18:07:142 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:299 INFO  CommonActions:175 - Hover to the Product tab
-2024-07-11 18:07:307 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:355 INFO  CommonActions:175 - Highlighted the Ctaegory selected Brake & Clutch Fluid
-2024-07-11 18:07:742 INFO  CommonActions:175 - i Click on the element Ctaegory selected Brake & Clutch Fluid
-2024-07-11 18:07:743 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:792 INFO  CommonActions:175 - Highlighted the Selcting filter range from 1000
-2024-07-11 18:07:847 INFO  CommonActions:175 - i Click on the element Selcting filter range from 1000
-2024-07-11 18:07:847 INFO  CommonActions:175 - Getting the text fromProduct title
-2024-07-11 18:07:848 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:882 INFO  CommonActions:175 - Adding Havoline Brake Fluid (DOT 3) in the cart
-2024-07-11 18:07:897 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:934 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
-2024-07-11 18:07:938 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:973 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-11 18:07:974 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:999 INFO  CommonActions:175 - ********************    Element actual text is Havoline Brake Fluid (DOT 3)***************
-2024-07-11 18:07:999 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Brake Fluid (DOT 3)**********************
-2024-07-11 18:07:22 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:65 INFO  CommonActions:175 - Highlighted the Checkout button
-2024-07-11 18:07:344 INFO  CommonActions:175 - i Click on the element Checkout button
-2024-07-11 18:07:345 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:388 INFO  CommonActions:175 - Highlighted the Continue billing info
-2024-07-11 18:07:450 INFO  CommonActions:175 - i Click on the element Continue billing info
-2024-07-11 18:07:455 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:503 INFO  CommonActions:175 - Highlighted the Continue shipping button
-2024-07-11 18:07:503 INFO  CommonActions:175 - scrolled till the Continue shipping button
-2024-07-11 18:07:516 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:556 INFO  CommonActions:175 - Highlighted the Continue shiiping info
-2024-07-11 18:07:616 INFO  CommonActions:175 - i Click on the element Continue shiiping info
-2024-07-11 18:07:624 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:667 INFO  CommonActions:175 - Highlighted the Preferred date dropdown
-2024-07-11 18:07:748 INFO  CommonActions:175 - i Click on the element Preferred date dropdown
-2024-07-11 18:07:754 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:800 INFO  CommonActions:175 - Highlighted the 12
-2024-07-11 18:07:869 INFO  CommonActions:175 - i Click on the element 12
-2024-07-11 18:07:869 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:909 INFO  CommonActions:175 - Highlighted the Preferred time
-2024-07-11 18:07:963 INFO  CommonActions:175 - i Click on the element Preferred time
-2024-07-11 18:07:963 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:00 INFO  CommonActions:175 - Highlighted the time range
-2024-07-11 18:07:50 INFO  CommonActions:175 - i Click on the element time range
-2024-07-11 18:07:50 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:111 INFO  CommonActions:175 - Highlighted the Delivery instructions
-2024-07-11 18:07:174 INFO  CommonActions:175 - i Click on the element Delivery instructions
-2024-07-11 18:07:190 INFO  CommonActions:175 - Highlighted the Delivery instructions
-2024-07-11 18:07:283 INFO  CommonActions:175 - Clicked onDelivery instructions
-2024-07-11 18:07:283 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:316 INFO  CommonActions:175 - Highlighted the Save button
-2024-07-11 18:07:378 INFO  CommonActions:175 - i Click on the element Save button
-2024-07-11 18:07:378 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:412 INFO  CommonActions:175 - ********************    Element actual text is Havoline Brake Fluid (DOT 3)***************
-2024-07-11 18:07:412 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Brake Fluid (DOT 3)**********************
-2024-07-11 18:07:419 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:449 INFO  CommonActions:175 - Highlighted the Sol logo
-2024-07-11 18:07:592 INFO  CommonActions:175 - i Click on the element Sol logo
-2024-07-11 18:07:606 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:07 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-11 18:07:16 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:77 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-11 18:07:78 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:117 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
-2024-07-11 18:07:171 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
-2024-07-11 18:07:180 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:222 INFO  CommonActions:175 - Highlighted the Closing the cart
-2024-07-11 18:07:578 INFO  CommonActions:175 - i Click on the element Closing the cart
-2024-07-11 18:07:578 INFO  CommonActions:175 - Shop the  Brake & Clutch Fluid products from the product tab and complete the checkout is passed
-2024-07-11 18:07:592 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:777 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-11 18:07:778 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:933 INFO  CommonActions:175 - Hover to the Product tab
-2024-07-11 18:07:942 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:985 INFO  CommonActions:175 - Highlighted the Ctaegory selected Diesel Engine Oils
-2024-07-11 18:07:709 INFO  CommonActions:175 - i Click on the element Ctaegory selected Diesel Engine Oils
-2024-07-11 18:07:710 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:749 INFO  CommonActions:175 - Highlighted the Selcting filter range from 1000
-2024-07-11 18:07:246 INFO  CommonActions:175 - i Click on the element Selcting filter range from 1000
-2024-07-11 18:07:247 INFO  CommonActions:175 - Getting the text fromProduct title
-2024-07-11 18:07:247 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:283 INFO  CommonActions:175 - Adding Ursa Monograde Diesel Engine Oil (HD SAE 40) in the cart
-2024-07-11 18:07:296 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:342 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
-2024-07-11 18:07:355 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:388 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-11 18:07:388 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:414 INFO  CommonActions:175 - ********************    Element actual text is Ursa Monograde Diesel Engine Oil (HD SAE 40)***************
-2024-07-11 18:07:414 INFO  CommonActions:175 - ****************** ELement Expected text is Ursa Monograde Diesel Engine Oil (HD SAE 40)**********************
-2024-07-11 18:07:435 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:482 INFO  CommonActions:175 - Highlighted the Checkout button
-2024-07-11 18:07:38 INFO  CommonActions:175 - i Click on the element Checkout button
-2024-07-11 18:07:38 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:75 INFO  CommonActions:175 - Highlighted the Continue billing info
-2024-07-11 18:07:129 INFO  CommonActions:175 - i Click on the element Continue billing info
-2024-07-11 18:07:138 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:188 INFO  CommonActions:175 - Highlighted the Continue shipping button
-2024-07-11 18:07:189 INFO  CommonActions:175 - scrolled till the Continue shipping button
-2024-07-11 18:07:195 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:235 INFO  CommonActions:175 - Highlighted the Continue shiiping info
-2024-07-11 18:07:285 INFO  CommonActions:175 - i Click on the element Continue shiiping info
-2024-07-11 18:07:294 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:337 INFO  CommonActions:175 - Highlighted the Preferred date dropdown
-2024-07-11 18:07:411 INFO  CommonActions:175 - i Click on the element Preferred date dropdown
-2024-07-11 18:07:413 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:455 INFO  CommonActions:175 - Highlighted the 12
-2024-07-11 18:07:505 INFO  CommonActions:175 - i Click on the element 12
-2024-07-11 18:07:506 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:544 INFO  CommonActions:175 - Highlighted the Preferred time
-2024-07-11 18:07:600 INFO  CommonActions:175 - i Click on the element Preferred time
-2024-07-11 18:07:602 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:636 INFO  CommonActions:175 - Highlighted the time range
-2024-07-11 18:07:688 INFO  CommonActions:175 - i Click on the element time range
-2024-07-11 18:07:688 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:755 INFO  CommonActions:175 - Highlighted the Delivery instructions
-2024-07-11 18:07:800 INFO  CommonActions:175 - i Click on the element Delivery instructions
-2024-07-11 18:07:815 INFO  CommonActions:175 - Highlighted the Delivery instructions
-2024-07-11 18:07:908 INFO  CommonActions:175 - Clicked onDelivery instructions
-2024-07-11 18:07:908 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:941 INFO  CommonActions:175 - Highlighted the Save button
-2024-07-11 18:07:994 INFO  CommonActions:175 - i Click on the element Save button
-2024-07-11 18:07:995 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:48 INFO  CommonActions:175 - ********************    Element actual text is Ursa Monograde Diesel Engine Oil (HD SAE 40)***************
-2024-07-11 18:07:48 INFO  CommonActions:175 - ****************** ELement Expected text is Ursa Monograde Diesel Engine Oil (HD SAE 40)**********************
-2024-07-11 18:07:61 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:93 INFO  CommonActions:175 - Highlighted the Sol logo
-2024-07-11 18:07:142 INFO  CommonActions:175 - i Click on the element Sol logo
-2024-07-11 18:07:148 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:654 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-11 18:07:667 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:717 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-11 18:07:725 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:766 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
-2024-07-11 18:07:814 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
-2024-07-11 18:07:828 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:884 INFO  CommonActions:175 - Highlighted the Closing the cart
-2024-07-11 18:07:54 INFO  CommonActions:175 - i Click on the element Closing the cart
-2024-07-11 18:07:54 INFO  CommonActions:175 - Shop the Diesel Engine Oils products from the product tab and complete the checkout is passed
-2024-07-11 18:07:70 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:153 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-11 18:07:153 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:984 INFO  CommonActions:175 - Hover to the Product tab
-2024-07-11 18:07:999 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:38 INFO  CommonActions:175 - Highlighted the Ctaegory selected Gasoline Engine Oils
-2024-07-11 18:07:690 INFO  CommonActions:175 - i Click on the element Ctaegory selected Gasoline Engine Oils
-2024-07-11 18:07:690 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:739 INFO  CommonActions:175 - Highlighted the Selcting filter range from 1000
-2024-07-11 18:07:123 INFO  CommonActions:175 - i Click on the element Selcting filter range from 1000
-2024-07-11 18:07:124 INFO  CommonActions:175 - Getting the text fromProduct title
-2024-07-11 18:07:124 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:162 INFO  CommonActions:175 - Adding Havoline Motor Oil (10W30) in the cart
-2024-07-11 18:07:170 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:246 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
-2024-07-11 18:07:251 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:300 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-11 18:07:300 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:341 INFO  CommonActions:175 - ********************    Element actual text is Havoline Motor Oil (10W30)***************
-2024-07-11 18:07:341 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Motor Oil (10W30)**********************
-2024-07-11 18:07:367 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:417 INFO  CommonActions:175 - Highlighted the Checkout button
-2024-07-11 18:07:668 INFO  CommonActions:175 - i Click on the element Checkout button
-2024-07-11 18:07:669 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:711 INFO  CommonActions:175 - Highlighted the Continue billing info
-2024-07-11 18:07:764 INFO  CommonActions:175 - i Click on the element Continue billing info
-2024-07-11 18:07:769 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:817 INFO  CommonActions:175 - Highlighted the Continue shipping button
-2024-07-11 18:07:817 INFO  CommonActions:175 - scrolled till the Continue shipping button
-2024-07-11 18:07:833 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:864 INFO  CommonActions:175 - Highlighted the Continue shiiping info
-2024-07-11 18:07:934 INFO  CommonActions:175 - i Click on the element Continue shiiping info
-2024-07-11 18:07:945 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:985 INFO  CommonActions:175 - Highlighted the Preferred date dropdown
-2024-07-11 18:07:45 INFO  CommonActions:175 - i Click on the element Preferred date dropdown
-2024-07-11 18:07:60 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:102 INFO  CommonActions:175 - Highlighted the 12
-2024-07-11 18:07:148 INFO  CommonActions:175 - i Click on the element 12
-2024-07-11 18:07:149 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:185 INFO  CommonActions:175 - Highlighted the Preferred time
-2024-07-11 18:07:242 INFO  CommonActions:175 - i Click on the element Preferred time
-2024-07-11 18:07:242 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:277 INFO  CommonActions:175 - Highlighted the time range
-2024-07-11 18:07:338 INFO  CommonActions:175 - i Click on the element time range
-2024-07-11 18:07:338 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:397 INFO  CommonActions:175 - Highlighted the Delivery instructions
-2024-07-11 18:07:439 INFO  CommonActions:175 - i Click on the element Delivery instructions
-2024-07-11 18:07:453 INFO  CommonActions:175 - Highlighted the Delivery instructions
-2024-07-11 18:07:536 INFO  CommonActions:175 - Clicked onDelivery instructions
-2024-07-11 18:07:536 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:569 INFO  CommonActions:175 - Highlighted the Save button
-2024-07-11 18:07:622 INFO  CommonActions:175 - i Click on the element Save button
-2024-07-11 18:07:622 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:659 INFO  CommonActions:175 - ********************    Element actual text is Havoline Motor Oil (10W30)***************
-2024-07-11 18:07:660 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Motor Oil (10W30)**********************
-2024-07-11 18:07:666 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:700 INFO  CommonActions:175 - Highlighted the Sol logo
-2024-07-11 18:07:278 INFO  CommonActions:175 - i Click on the element Sol logo
-2024-07-11 18:07:294 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:141 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-11 18:07:154 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:200 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-11 18:07:215 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:251 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
-2024-07-11 18:07:300 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
-2024-07-11 18:07:302 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:345 INFO  CommonActions:175 - Highlighted the Closing the cart
-2024-07-11 18:07:726 INFO  CommonActions:175 - i Click on the element Closing the cart
-2024-07-11 18:07:726 INFO  CommonActions:175 - Shop the Gasoline Engine Oils products from the product tab and complete the checkout is passed
-2024-07-11 18:07:739 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:53 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-11 18:07:53 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:218 INFO  CommonActions:175 - Hover to the Product tab
-2024-07-11 18:07:222 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:264 INFO  CommonActions:175 - Highlighted the Ctaegory selected Transmission
-2024-07-11 18:07:728 INFO  CommonActions:175 - i Click on the element Ctaegory selected Transmission
-2024-07-11 18:07:728 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:766 INFO  CommonActions:175 - Highlighted the Selcting filter range from 1000
-2024-07-11 18:07:847 INFO  CommonActions:175 - i Click on the element Selcting filter range from 1000
-2024-07-11 18:07:849 INFO  CommonActions:175 - Getting the text fromProduct title
-2024-07-11 18:07:850 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:886 INFO  CommonActions:175 - Adding Havoline Automatic Transmission Fluid (MD3) in the cart
-2024-07-11 18:07:893 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:931 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
-2024-07-11 18:07:942 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:973 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-11 18:07:973 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:999 INFO  CommonActions:175 - ********************    Element actual text is Havoline Automatic Transmission Fluid (MD3)***************
-2024-07-11 18:07:999 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Automatic Transmission Fluid (MD3)**********************
-2024-07-11 18:07:13 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:54 INFO  CommonActions:175 - Highlighted the Checkout button
-2024-07-11 18:07:326 INFO  CommonActions:175 - i Click on the element Checkout button
-2024-07-11 18:07:327 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:364 INFO  CommonActions:175 - Highlighted the Continue billing info
-2024-07-11 18:07:434 INFO  CommonActions:175 - i Click on the element Continue billing info
-2024-07-11 18:07:449 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:500 INFO  CommonActions:175 - Highlighted the Continue shipping button
-2024-07-11 18:07:501 INFO  CommonActions:175 - scrolled till the Continue shipping button
+2024-07-11 18:07:731 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:836 INFO  CommonActions:175 - Highlighted the Residnetial option
+2024-07-11 18:07:80 INFO  CommonActions:175 - i Click on the element Residnetial option
+2024-07-11 18:07:146 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:216 INFO  CommonActions:175 - i Click on the element Profile Icon
+2024-07-11 18:07:216 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:382 INFO  CommonActions:175 - i Click on the element Login link
+2024-07-11 18:07:395 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:472 INFO  CommonActions:175 - Highlighted the Username field
+2024-07-11 18:07:535 INFO  CommonActions:175 - i Click on the element Username field
+2024-07-11 18:07:563 INFO  CommonActions:175 - Highlighted the Username field
+2024-07-11 18:07:700 INFO  CommonActions:175 - Clicked onUsername field
+2024-07-11 18:07:702 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:767 INFO  CommonActions:175 - Highlighted the Password field
+2024-07-11 18:07:813 INFO  CommonActions:175 - i Click on the element Password field
+2024-07-11 18:07:831 INFO  CommonActions:175 - Highlighted the Password field
+2024-07-11 18:07:932 INFO  CommonActions:175 - Clicked onPassword field
+2024-07-11 18:07:933 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:969 INFO  CommonActions:175 - Highlighted the Click login button
+2024-07-11 18:07:29 INFO  CommonActions:175 - i Click on the element Click login button
+2024-07-11 18:07:33 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:521 INFO  CommonActions:175 - Highlighted the User profile picture
+2024-07-11 18:07:579 INFO  CommonActions:175 - i Click on the element User profile picture
+2024-07-11 18:07:579 INFO  CommonActions:175 - Waiting for element to be Present
+2024-07-11 18:07:611 INFO  CommonActions:175 - User profile picture is displayed....
+2024-07-11 18:07:628 INFO  CommonActions:175 - Highlighted the User profile picture
+2024-07-11 18:07:628 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:667 INFO  CommonActions:175 - Highlighted the User profile picture
+2024-07-11 18:07:732 INFO  CommonActions:175 - i Click on the element User profile picture
+2024-07-11 18:07:733 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:782 INFO  CommonActions:175 - Highlighted the Log out
+2024-07-11 18:07:519 INFO  CommonActions:175 - i Click on the element Log out
+2024-07-11 18:07:520 INFO  CommonActions:175 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
+2024-07-11 18:07:555 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:595 INFO  CommonActions:175 - i Click on the element Profile Icon
+2024-07-11 18:07:595 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:828 INFO  CommonActions:175 - i Click on the element Login link
+2024-07-11 18:07:840 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:908 INFO  CommonActions:175 - Highlighted the Username field
+2024-07-11 18:07:961 INFO  CommonActions:175 - i Click on the element Username field
+2024-07-11 18:07:985 INFO  CommonActions:175 - Highlighted the Username field
+2024-07-11 18:07:121 INFO  CommonActions:175 - Clicked onUsername field
+2024-07-11 18:07:121 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:189 INFO  CommonActions:175 - Highlighted the Password field
+2024-07-11 18:07:240 INFO  CommonActions:175 - i Click on the element Password field
+2024-07-11 18:07:256 INFO  CommonActions:175 - Highlighted the Password field
+2024-07-11 18:07:361 INFO  CommonActions:175 - Clicked onPassword field
+2024-07-11 18:07:361 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:392 INFO  CommonActions:175 - Highlighted the Click login button
+2024-07-11 18:07:441 INFO  CommonActions:175 - i Click on the element Click login button
+2024-07-11 18:07:442 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:418 INFO  CommonActions:175 - Highlighted the User profile picture
+2024-07-11 18:07:500 INFO  CommonActions:175 - i Click on the element User profile picture
+2024-07-11 18:07:501 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:547 INFO  CommonActions:175 - Highlighted the Successful alert is present
+2024-07-11 18:07:548 INFO  CommonActions:175 - Element USer profile picture is present.
+2024-07-11 18:07:548 INFO  CommonActions:175 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
+2024-07-11 18:07:580 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:145 INFO  CommonActions:175 - i Click on the element Home menu
+2024-07-11 18:07:145 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:196 INFO  CommonActions:175 - i Click on the element Industry category is selected
+2024-07-11 18:07:200 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:261 INFO  CommonActions:175 - Highlighted the Selcting filter range from 100 to 199.99
+2024-07-11 18:07:23 INFO  CommonActions:175 - i Click on the element Selcting filter range from 100 to 199.99
+2024-07-11 18:07:25 INFO  CommonActions:175 - Getting the text fromProduct title
+2024-07-11 18:07:25 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:86 INFO  CommonActions:175 - Adding Intermediate Fuel Oil (75/25) Blended in the cart
+2024-07-11 18:07:92 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:220 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
+2024-07-11 18:07:225 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:277 INFO  CommonActions:175 - i Click on the element Cart icon click
+2024-07-11 18:07:279 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:327 INFO  CommonActions:175 - ********************    Element actual text is Intermediate Fuel Oil (75/25) Blended***************
+2024-07-11 18:07:327 INFO  CommonActions:175 - ****************** ELement Expected text is Intermediate Fuel Oil (75/25) Blended**********************
+2024-07-11 18:07:358 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:413 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
+2024-07-11 18:07:494 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
 2024-07-11 18:07:504 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:543 INFO  CommonActions:175 - Highlighted the Continue shiiping info
-2024-07-11 18:07:604 INFO  CommonActions:175 - i Click on the element Continue shiiping info
-2024-07-11 18:07:614 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:656 INFO  CommonActions:175 - Highlighted the Preferred date dropdown
-2024-07-11 18:07:720 INFO  CommonActions:175 - i Click on the element Preferred date dropdown
-2024-07-11 18:07:723 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:759 INFO  CommonActions:175 - Highlighted the 12
-2024-07-11 18:07:820 INFO  CommonActions:175 - i Click on the element 12
-2024-07-11 18:07:820 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:851 INFO  CommonActions:175 - Highlighted the Preferred time
-2024-07-11 18:07:899 INFO  CommonActions:175 - i Click on the element Preferred time
-2024-07-11 18:07:899 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:931 INFO  CommonActions:175 - Highlighted the time range
-2024-07-11 18:07:21 INFO  CommonActions:175 - i Click on the element time range
-2024-07-11 18:07:22 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:93 INFO  CommonActions:175 - Highlighted the Delivery instructions
-2024-07-11 18:07:137 INFO  CommonActions:175 - i Click on the element Delivery instructions
-2024-07-11 18:07:154 INFO  CommonActions:175 - Highlighted the Delivery instructions
-2024-07-11 18:07:243 INFO  CommonActions:175 - Clicked onDelivery instructions
+2024-07-11 18:07:560 INFO  CommonActions:175 - Highlighted the Closing the cart
+2024-07-11 18:07:439 INFO  CommonActions:175 - i Click on the element Closing the cart
+2024-07-11 18:07:439 INFO  CommonActions:175 - Shop the Industry products from the homepage and validate product added in the cart is passed
+2024-07-11 18:07:460 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:556 INFO  CommonActions:175 - i Click on the element Home menu
+2024-07-11 18:07:557 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:322 INFO  CommonActions:175 - i Click on the element Road Transport category is selected
+2024-07-11 18:07:323 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:407 INFO  CommonActions:175 - Highlighted the Selcting filter range from 100 to 199.99
+2024-07-11 18:07:663 INFO  CommonActions:175 - i Click on the element Selcting filter range from 100 to 199.99
+2024-07-11 18:07:664 INFO  CommonActions:175 - Getting the text fromProduct title
+2024-07-11 18:07:665 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:731 INFO  CommonActions:175 - Adding Premium Gasoline in the cart
+2024-07-11 18:07:736 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:808 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
+2024-07-11 18:07:822 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:881 INFO  CommonActions:175 - i Click on the element Cart icon click
+2024-07-11 18:07:882 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:930 INFO  CommonActions:175 - ********************    Element actual text is Premium Gasoline***************
+2024-07-11 18:07:930 INFO  CommonActions:175 - ****************** ELement Expected text is Premium Gasoline**********************
+2024-07-11 18:07:952 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:16 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
+2024-07-11 18:07:109 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
+2024-07-11 18:07:114 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:174 INFO  CommonActions:175 - Highlighted the Closing the cart
+2024-07-11 18:07:476 INFO  CommonActions:175 - i Click on the element Closing the cart
+2024-07-11 18:07:477 INFO  CommonActions:175 - Shop the Road transport products from the homepage and validate product added in the cart is passed
+2024-07-11 18:07:490 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:685 INFO  CommonActions:175 - i Click on the element Home menu
+2024-07-11 18:07:685 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:975 INFO  CommonActions:175 - i Click on the element Anti-Freeze Coolant category is selected
+2024-07-11 18:07:975 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:34 INFO  CommonActions:175 - Highlighted the Selcting filter range from 1000
+2024-07-11 18:07:32 INFO  CommonActions:175 - i Click on the element Selcting filter range from 1000
+2024-07-11 18:07:33 INFO  CommonActions:175 - Getting the text fromProduct title
+2024-07-11 18:07:33 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:99 INFO  CommonActions:175 - Adding Havoline Conventional Antifreeze Coolant in the cart
+2024-07-11 18:07:100 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:221 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
+2024-07-11 18:07:235 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:309 INFO  CommonActions:175 - i Click on the element Cart icon click
+2024-07-11 18:07:309 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:357 INFO  CommonActions:175 - ********************    Element actual text is Havoline Conventional Antifreeze Coolant***************
+2024-07-11 18:07:357 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Conventional Antifreeze Coolant**********************
+2024-07-11 18:07:377 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:439 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
+2024-07-11 18:07:528 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
+2024-07-11 18:07:538 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:592 INFO  CommonActions:175 - Highlighted the Closing the cart
+2024-07-11 18:07:572 INFO  CommonActions:175 - i Click on the element Closing the cart
+2024-07-11 18:07:573 INFO  CommonActions:175 - Shop the Anti-Freeze Coolant products from the homepage and validate product added in the cart is passed
+2024-07-11 18:07:583 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:172 INFO  CommonActions:175 - i Click on the element Home menu
+2024-07-11 18:07:173 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:990 INFO  CommonActions:175 - i Click on the element Brake & Clutch Fluid category is selected
+2024-07-11 18:07:990 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:49 INFO  CommonActions:175 - Highlighted the Selcting filter range from 1000
+2024-07-11 18:07:979 INFO  CommonActions:175 - i Click on the element Selcting filter range from 1000
+2024-07-11 18:07:980 INFO  CommonActions:175 - Getting the text fromProduct title
+2024-07-11 18:07:980 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:44 INFO  CommonActions:175 - Adding Havoline Brake Fluid (DOT 3) in the cart
+2024-07-11 18:07:55 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:131 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
+2024-07-11 18:07:146 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:204 INFO  CommonActions:175 - i Click on the element Cart icon click
+2024-07-11 18:07:205 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:250 INFO  CommonActions:175 - ********************    Element actual text is Havoline Brake Fluid (DOT 3)***************
+2024-07-11 18:07:250 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Brake Fluid (DOT 3)**********************
+2024-07-11 18:07:263 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:323 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
+2024-07-11 18:07:417 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
+2024-07-11 18:07:423 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:477 INFO  CommonActions:175 - Highlighted the Closing the cart
+2024-07-11 18:07:194 INFO  CommonActions:175 - i Click on the element Closing the cart
+2024-07-11 18:07:194 INFO  CommonActions:175 - Shop the Brake & Clutch Fluid products from the homepage and validate product added in the cart is passed
+2024-07-11 18:07:212 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:99 INFO  CommonActions:175 - i Click on the element Home menu
+2024-07-11 18:07:99 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:920 INFO  CommonActions:175 - i Click on the element Diesel Engine Oils category is selected
+2024-07-11 18:07:921 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:982 INFO  CommonActions:175 - Highlighted the Selcting filter range from 1000
+2024-07-11 18:07:87 INFO  CommonActions:175 - i Click on the element Selcting filter range from 1000
+2024-07-11 18:07:88 INFO  CommonActions:175 - Getting the text fromProduct title
+2024-07-11 18:07:88 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:148 INFO  CommonActions:175 - Adding Ursa Monograde Diesel Engine Oil (HD SAE 40) in the cart
+2024-07-11 18:07:158 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:228 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
 2024-07-11 18:07:243 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:276 INFO  CommonActions:175 - Highlighted the Save button
-2024-07-11 18:07:333 INFO  CommonActions:175 - i Click on the element Save button
-2024-07-11 18:07:334 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:385 INFO  CommonActions:175 - ********************    Element actual text is Havoline Automatic Transmission Fluid (MD3)***************
-2024-07-11 18:07:385 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Automatic Transmission Fluid (MD3)**********************
-2024-07-11 18:07:393 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:421 INFO  CommonActions:175 - Highlighted the Sol logo
-2024-07-11 18:07:309 INFO  CommonActions:175 - i Click on the element Sol logo
-2024-07-11 18:07:321 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:993 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-11 18:07:04 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:79 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-11 18:07:91 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:131 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
-2024-07-11 18:07:179 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
-2024-07-11 18:07:181 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:236 INFO  CommonActions:175 - Highlighted the Closing the cart
-2024-07-11 18:07:237 INFO  CommonActions:175 - i Click on the element Closing the cart
-2024-07-11 18:07:247 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:304 INFO  CommonActions:175 - Highlighted the User profile picture
-2024-07-11 18:07:400 INFO  CommonActions:175 - i Click on the element User profile picture
-2024-07-11 18:07:401 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-11 18:07:491 INFO  CommonActions:175 - Highlighted the Log out
-2024-07-11 18:07:896 INFO  CommonActions:175 - i Click on the element Log out
-2024-07-11 18:07:896 INFO  CommonActions:175 - Shop the Road transport products from the product tab and complete the checkout is passed
+2024-07-11 18:07:301 INFO  CommonActions:175 - i Click on the element Cart icon click
+2024-07-11 18:07:301 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:347 INFO  CommonActions:175 - ********************    Element actual text is Ursa Monograde Diesel Engine Oil (HD SAE 40)***************
+2024-07-11 18:07:348 INFO  CommonActions:175 - ****************** ELement Expected text is Ursa Monograde Diesel Engine Oil (HD SAE 40)**********************
+2024-07-11 18:07:374 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:431 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
+2024-07-11 18:07:513 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
+2024-07-11 18:07:516 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:574 INFO  CommonActions:175 - Highlighted the Closing the cart
+2024-07-11 18:07:113 INFO  CommonActions:175 - i Click on the element Closing the cart
+2024-07-11 18:07:113 INFO  CommonActions:175 - Shop the Diesel Engine Oils products from the homepage and validate product added in the cart is passed
+2024-07-11 18:07:130 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:529 INFO  CommonActions:175 - i Click on the element Home menu
+2024-07-11 18:07:530 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:597 INFO  CommonActions:175 - i Click on the element Gasoline Engine Oils category is selected
+2024-07-11 18:07:597 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:656 INFO  CommonActions:175 - Highlighted the Selcting filter range from 1000
+2024-07-11 18:07:602 INFO  CommonActions:175 - i Click on the element Selcting filter range from 1000
+2024-07-11 18:07:603 INFO  CommonActions:175 - Getting the text fromProduct title
+2024-07-11 18:07:603 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:668 INFO  CommonActions:175 - Adding Havoline Motor Oil (10W30) in the cart
+2024-07-11 18:07:680 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:792 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
+2024-07-11 18:07:810 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:866 INFO  CommonActions:175 - i Click on the element Cart icon click
+2024-07-11 18:07:866 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:912 INFO  CommonActions:175 - ********************    Element actual text is Havoline Motor Oil (10W30)***************
+2024-07-11 18:07:912 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Motor Oil (10W30)**********************
+2024-07-11 18:07:924 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:984 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
+2024-07-11 18:07:74 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
+2024-07-11 18:07:80 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:144 INFO  CommonActions:175 - Highlighted the Closing the cart
+2024-07-11 18:07:104 INFO  CommonActions:175 - i Click on the element Closing the cart
+2024-07-11 18:07:105 INFO  CommonActions:175 - Shop the Gasoline Engine Oils from the homepage and validate product added in the cart is passed
+2024-07-11 18:07:116 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:119 INFO  CommonActions:175 - i Click on the element Home menu
+2024-07-11 18:07:120 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:975 INFO  CommonActions:175 - i Click on the element Transmission category is selected
+2024-07-11 18:07:975 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:39 INFO  CommonActions:175 - Highlighted the Selcting filter range from 1000
+2024-07-11 18:07:771 INFO  CommonActions:175 - i Click on the element Selcting filter range from 1000
+2024-07-11 18:07:771 INFO  CommonActions:175 - Getting the text fromProduct title
+2024-07-11 18:07:771 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:836 INFO  CommonActions:175 - Adding Havoline Automatic Transmission Fluid (MD3) in the cart
+2024-07-11 18:07:838 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:913 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
+2024-07-11 18:07:917 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:966 INFO  CommonActions:175 - i Click on the element Cart icon click
+2024-07-11 18:07:967 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:15 INFO  CommonActions:175 - ********************    Element actual text is Havoline Automatic Transmission Fluid (MD3)***************
+2024-07-11 18:07:15 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Automatic Transmission Fluid (MD3)**********************
+2024-07-11 18:07:34 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:90 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
+2024-07-11 18:07:160 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
+2024-07-11 18:07:162 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-11 18:07:216 INFO  CommonActions:175 - Highlighted the Closing the cart
