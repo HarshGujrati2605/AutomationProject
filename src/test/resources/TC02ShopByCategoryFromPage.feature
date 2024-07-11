@@ -15,6 +15,12 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     And I add the product to the cart
     And I open the wishlist
     Then I validate the product added in the cart
+    And I click checkout
+    And I contiue with billing and shipping information
+    And I add preffered date and time "<time range>"
+    And I validate product in the checkout page
+    And I click sol logo
+    And I open the wishlist
     And I remove the product from the cart and close the cart
 
     Examples: 
@@ -29,6 +35,12 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     And I add the product to the cart
     And I open the wishlist
     Then I validate the product added in the cart
+    And I click checkout
+    And I contiue with billing and shipping information
+    And I add preffered date and time "<time range>"
+    And I validate product in the checkout page
+    And I click sol logo
+    And I open the wishlist
     And I remove the product from the cart and close the cart
 
     Examples: 
@@ -43,6 +55,12 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     And I add the product to the cart
     And I open the wishlist
     Then I validate the product added in the cart
+    And I click checkout
+    And I contiue with billing and shipping information
+    And I add preffered date and time "<time range>"
+    And I validate product in the checkout page
+    And I click sol logo
+    And I open the wishlist
     And I remove the product from the cart and close the cart
 
     Examples: 
@@ -57,6 +75,12 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     And I add the product to the cart
     And I open the wishlist
     Then I validate the product added in the cart
+    And I click checkout
+    And I contiue with billing and shipping information
+    And I add preffered date and time "<time range>"
+    And I validate product in the checkout page
+    And I click sol logo
+    And I open the wishlist
     And I remove the product from the cart and close the cart
 
     Examples: 
@@ -71,6 +95,12 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     And I add the product to the cart
     And I open the wishlist
     Then I validate the product added in the cart
+    And I click checkout
+    And I contiue with billing and shipping information
+    And I add preffered date and time "<time range>"
+    And I validate product in the checkout page
+    And I click sol logo
+    And I open the wishlist
     And I remove the product from the cart and close the cart
 
     Examples: 
@@ -87,6 +117,12 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     And I add the product to the cart
     And I open the wishlist
     Then I validate the product added in the cart
+    And I click checkout
+    And I contiue with billing and shipping information
+    And I add preffered date and time "<time range>"
+    And I validate product in the checkout page
+    And I click sol logo
+    And I open the wishlist
     And I remove the product from the cart and close the cart
 
     Examples: 
@@ -103,6 +139,12 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     And I add the product to the cart
     And I open the wishlist
     Then I validate the product added in the cart
+    And I click checkout
+    And I contiue with billing and shipping information
+    And I add preffered date and time "<time range>"
+    And I validate product in the checkout page
+    And I click sol logo
+    And I open the wishlist
     And I remove the product from the cart and close the cart
     And I logout
 
