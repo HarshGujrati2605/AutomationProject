@@ -2,8 +2,8 @@
 Feature: Shop the Industry products from the homepage and complete the checkout
 
   Scenario: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.
-    When I enter username as "Testqa12@mailinator.com "
-    And I enter password as "Welcome@12345"
+    When I enter username as "gurpreet.singh22@yopmail.com"
+    And I enter password as "Test@123456789"
     Then I login
     Then I am on homepage
 
@@ -17,7 +17,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     Then I validate the product added in the cart
     And I click checkout
     And I contiue with billing and shipping information
-    And I add preffered date and time "<time range>"
+    And I add preffered date and time "9AM-12PM"
     And I validate product in the checkout page
     And I click sol logo
     And I open the wishlist
@@ -37,7 +37,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     Then I validate the product added in the cart
     And I click checkout
     And I contiue with billing and shipping information
-    And I add preffered date and time "<time range>"
+    And I add preffered date and time "9AM-12PM"
     And I validate product in the checkout page
     And I click sol logo
     And I open the wishlist
@@ -57,7 +57,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     Then I validate the product added in the cart
     And I click checkout
     And I contiue with billing and shipping information
-    And I add preffered date and time "<time range>"
+    And I add preffered date and time "9AM-12PM"
     And I validate product in the checkout page
     And I click sol logo
     And I open the wishlist
@@ -77,7 +77,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     Then I validate the product added in the cart
     And I click checkout
     And I contiue with billing and shipping information
-    And I add preffered date and time "<time range>"
+    And I add preffered date and time "9AM-12PM"
     And I validate product in the checkout page
     And I click sol logo
     And I open the wishlist
@@ -97,7 +97,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     Then I validate the product added in the cart
     And I click checkout
     And I contiue with billing and shipping information
-    And I add preffered date and time "<time range>"
+    And I add preffered date and time "9AM-12PM"
     And I validate product in the checkout page
     And I click sol logo
     And I open the wishlist
@@ -119,7 +119,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     Then I validate the product added in the cart
     And I click checkout
     And I contiue with billing and shipping information
-    And I add preffered date and time "<time range>"
+    And I add preffered date and time "9AM-12PM"
     And I validate product in the checkout page
     And I click sol logo
     And I open the wishlist
@@ -141,7 +141,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
     Then I validate the product added in the cart
     And I click checkout
     And I contiue with billing and shipping information
-    And I add preffered date and time "<time range>"
+    And I add preffered date and time "9AM-12PM"
     And I validate product in the checkout page
     And I click sol logo
     And I open the wishlist
