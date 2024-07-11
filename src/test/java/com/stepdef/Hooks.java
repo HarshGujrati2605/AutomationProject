@@ -21,17 +21,27 @@ public class Hooks extends GlobalVariable {
 	}
 
 	@After
-	public static void teardown(io.cucumber.java.Scenario scenario)
-			throws UnsupportedEncodingException {
+	public static void teardown(io.cucumber.java.Scenario scenario) throws UnsupportedEncodingException {
 		if (scenario.isFailed()) {
 			BaseClass.captureScreenshot(scenario.getName());
 			CommonActions.iLogMessage("Screenshot taken");
 			driver.quit();
 		} else {
 			CommonActions.iLogMessage(scenario.getName() + " is passed");
-			driver.quit();
 		}
 
 	}
+
+	@AfterAll
+	public static void sendEmails() {
+		try {
+     		driver.quit();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
 
 }
