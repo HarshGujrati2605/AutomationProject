@@ -28,7 +28,12 @@ public class CheckoutPage {
 		Thread.sleep(1000);
 		CommonActions.iScrollToTheElementByLocator(continueshippingbutton, "Continue shipping button");
 		Thread.sleep(1000);
-		CommonActions.iClickElementByLocator(continueshippingbutton, "Continue shiiping info");
+		try {
+			CommonActions.iClickElementByLocator(continueshippingbutton, "Continue shiiping info");
+		} catch (Exception e) {
+			CommonActions.iClickJSEByLocator(continueshippingbutton, "Continue shiiping info");
+
+		}
 
 	}
 
@@ -63,7 +68,7 @@ public class CheckoutPage {
 		CommonActions.iLogMessage("Order ID is " + GlobalVariable.orderid);
 		CommonActions.iClickElementByLocator(dashboardbuton, "Dashboard");
 	}
-	
+
 	public void iClickSolLogo() throws InterruptedException {
 		CommonActions.iClickElementByLocator(sollogo, "Sol logo");
 		new HomePage().iClickHome();

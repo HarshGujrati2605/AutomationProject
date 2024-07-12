@@ -40,7 +40,7 @@ public class DashboardPage {
 		CommonActions.iLogMessage("Number of products present is the category " + orderstatusname + " is  "
 				+ statusofallorders.size() + "");
 		for (WebElement statusofsingle : statusofallorders) {
-			CommonActions.iVerifyExactElementTextOfElement(statusofsingle, "Penid", "Order status");
+			CommonActions.iVerifyExactElementTextOfElement(statusofsingle, orderstatusname, "Order status");
 		}
 
 	}
