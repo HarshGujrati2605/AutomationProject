@@ -21,7 +21,7 @@ public class AppAcess extends GlobalVariable {
 
 			driver = DriverUtils.getDriver();
 			  
-			driver.get(Constants.getUrl());
+			driver.get(BaseClass.getURL());
 			driver.manage().window().maximize();
 			try {
 				CommonActions.iClickElementByLocator(LoginPage.residentialbutton, "Residnetial option");
