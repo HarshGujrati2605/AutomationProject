@@ -1,48 +1,60 @@
-2024-07-20 13:07:911 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:56 INFO  CommonActions:175 - Highlighted the Residnetial option
-2024-07-20 13:07:372 INFO  CommonActions:175 - i Click on the element Residnetial option
-2024-07-20 13:07:507 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:635 INFO  CommonActions:175 - i Click on the element Profile Icon
-2024-07-20 13:07:636 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:937 INFO  CommonActions:175 - i Click on the element Login link
-2024-07-20 13:07:947 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:97 INFO  CommonActions:175 - Highlighted the Username field
-2024-07-20 13:07:185 INFO  CommonActions:175 - i Click on the element Username field
-2024-07-20 13:07:228 INFO  CommonActions:175 - Highlighted the Username field
-2024-07-20 13:07:475 INFO  CommonActions:175 - Clicked onUsername field
-2024-07-20 13:07:480 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:600 INFO  CommonActions:175 - Highlighted the Password field
-2024-07-20 13:07:683 INFO  CommonActions:175 - i Click on the element Password field
-2024-07-20 13:07:719 INFO  CommonActions:175 - Highlighted the Password field
-2024-07-20 13:07:906 INFO  CommonActions:175 - Clicked onPassword field
-2024-07-20 13:07:907 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:05 INFO  CommonActions:175 - Highlighted the Click login button
-2024-07-20 13:07:87 INFO  CommonActions:175 - i Click on the element Click login button
-2024-07-20 13:07:92 INFO  CommonActions:175 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
-2024-07-20 13:07:160 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:760 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-20 13:07:760 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:862 INFO  CommonActions:175 - Highlighted the User profile picture
-2024-07-20 13:07:921 INFO  CommonActions:175 - i Click on the element User profile picture
-2024-07-20 13:07:921 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:999 INFO  CommonActions:175 - Highlighted the Dashboard option
-2024-07-20 13:07:540 INFO  CommonActions:175 - i Click on the element Dashboard option
-2024-07-20 13:07:541 INFO  CommonActions:175 - Waiting for element to be Present
-2024-07-20 13:07:591 INFO  CommonActions:175 - Dashboard page header title is displayed....
-2024-07-20 13:07:623 INFO  CommonActions:175 - Highlighted the Dashboard page header title
-2024-07-20 13:07:626 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:699 INFO  CommonActions:175 - Highlighted the Wishlist
-2024-07-20 13:07:828 INFO  CommonActions:175 - i Click on the element Wishlist
-2024-07-20 13:07:830 INFO  CommonActions:175 - Getting the text fromProduct title
-2024-07-20 13:07:832 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:925 INFO  CommonActions:175 - Adding Havoline Conventional Antifreeze Coolant in the cart
-2024-07-20 13:07:939 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:538 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
-2024-07-20 13:07:544 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:616 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-20 13:07:617 INFO  CommonActions:175 - Waiting for elements to be visible
-2024-07-20 13:07:678 ERROR CommonActions:180 - Product is not present in the cart!!
-2024-07-20 13:07:697 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:742 INFO  CommonActions:175 - ********************    Element actual text is Bunker 'C' / HFO***************
-2024-07-20 13:07:743 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Conventional Antifreeze Coolant**********************
-2024-07-20 13:07:170 INFO  CommonActions:175 - Screenshot taken
+2024-07-20 13:07:02 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:139 INFO  CommonActions:175 - Highlighted the Residnetial option
+2024-07-20 13:07:459 INFO  CommonActions:175 - i Click on the element Residnetial option
+2024-07-20 13:07:611 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:699 INFO  CommonActions:175 - i Click on the element Profile Icon
+2024-07-20 13:07:700 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:944 INFO  CommonActions:175 - i Click on the element Login link
+2024-07-20 13:07:952 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:91 INFO  CommonActions:175 - Highlighted the Username field
+2024-07-20 13:07:160 INFO  CommonActions:175 - i Click on the element Username field
+2024-07-20 13:07:190 INFO  CommonActions:175 - Highlighted the Username field
+2024-07-20 13:07:427 INFO  CommonActions:175 - Clicked onUsername field
+2024-07-20 13:07:430 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:536 INFO  CommonActions:175 - Highlighted the Password field
+2024-07-20 13:07:609 INFO  CommonActions:175 - i Click on the element Password field
+2024-07-20 13:07:639 INFO  CommonActions:175 - Highlighted the Password field
+2024-07-20 13:07:827 INFO  CommonActions:175 - Clicked onPassword field
+2024-07-20 13:07:829 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:895 INFO  CommonActions:175 - Highlighted the Click login button
+2024-07-20 13:07:961 INFO  CommonActions:175 - i Click on the element Click login button
+2024-07-20 13:07:965 INFO  CommonActions:175 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
+2024-07-20 13:07:23 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:115 INFO  CommonActions:175 - i Click on the element Home menu
+2024-07-20 13:07:116 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:192 INFO  CommonActions:175 - Highlighted the User profile picture
+2024-07-20 13:07:279 INFO  CommonActions:175 - i Click on the element User profile picture
+2024-07-20 13:07:280 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:356 INFO  CommonActions:175 - Highlighted the Dashboard option
+2024-07-20 13:07:168 INFO  CommonActions:175 - i Click on the element Dashboard option
+2024-07-20 13:07:169 INFO  CommonActions:175 - Waiting for element to be Present
+2024-07-20 13:07:224 INFO  CommonActions:175 - Dashboard page header title is displayed....
+2024-07-20 13:07:260 INFO  CommonActions:175 - Highlighted the Dashboard page header title
+2024-07-20 13:07:261 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:335 INFO  CommonActions:175 - Highlighted the Wishlist
+2024-07-20 13:07:533 INFO  CommonActions:175 - i Click on the element Wishlist
+2024-07-20 13:07:535 INFO  CommonActions:175 - Getting the text fromProduct title
+2024-07-20 13:07:536 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:600 INFO  CommonActions:175 - Adding Havoline Conventional Antifreeze Coolant in the cart
+2024-07-20 13:07:607 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:749 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
+2024-07-20 13:07:752 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:847 INFO  CommonActions:175 - i Click on the element Cart icon click
+2024-07-20 13:07:849 INFO  CommonActions:175 - Waiting for elements to be visible
+2024-07-20 13:07:950 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:11 INFO  CommonActions:175 - ********************    Element actual text is Havoline Conventional Antifreeze Coolant***************
+2024-07-20 13:07:12 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Conventional Antifreeze Coolant**********************
+2024-07-20 13:07:62 ERROR CommonActions:180 - Product is not present in the cart!!
+2024-07-20 13:07:70 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:145 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
+2024-07-20 13:07:189 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
+2024-07-20 13:07:204 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:274 INFO  CommonActions:175 - Highlighted the Closing the cart
+2024-07-20 13:07:468 INFO  CommonActions:175 - i Click on the element Closing the cart
+2024-07-20 13:07:481 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:576 INFO  CommonActions:175 - Highlighted the User profile picture
+2024-07-20 13:07:660 INFO  CommonActions:175 - i Click on the element User profile picture
+2024-07-20 13:07:661 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-20 13:07:761 INFO  CommonActions:175 - Highlighted the Log out
+2024-07-20 13:07:630 INFO  CommonActions:175 - i Click on the element Log out
+2024-07-20 13:07:631 INFO  CommonActions:175 - Users should have the ability to add an item from their wishlist to the shopping cart on the SOL website. is passed
