@@ -17,5 +17,9 @@ public class GlobalVariable {
 	public static String address;
 	public static String phone;
 	public static String emailid;
+	public static String newuser_firstname;
+	public static String newuser_emailid;
+	public static String newuser_phone;
+	public static String companyNamechild;
     }
 

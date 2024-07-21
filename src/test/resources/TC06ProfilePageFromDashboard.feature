@@ -1,4 +1,4 @@
-@regression @productstab
+@regression @pprofilepage
 Feature: Profile page scenarios
 
   Scenario: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.

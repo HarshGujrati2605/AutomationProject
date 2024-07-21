@@ -1,4 +1,4 @@
-@regression @productstab
+@regression @Manageusers
 Feature: PWishlist from Dashboard Scenarios
 
   Scenario: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.
@@ -11,14 +11,23 @@ Feature: PWishlist from Dashboard Scenarios
     Given I am on homepage and click dashboard
     And I am on dashboard page
     And I select the "<options>" from dashboard menu
-    And I update the saved address of the person with state "<statename>"
-    Then I validate the saved address should be visible after update
+    And I add new user with role "<rolename>" and "<language>"
+    Then I search the added user and it should be visible
 
     Examples: 
-      | options | statename |
-      | Profile | Surrey    |
-      
-  
+      | options      | rolename     |language|
+      | Manage Users | Finance User |English|
 
       
-  
+  @addnewuserinchildcompany
+  Scenario Outline: The admin user should be able to add a new child company from the company management section on the SOL website.
+    Given I add new child company
+    And I select the child company from dropdown
+    And I add new user with role "<rolename>" and "<language>"
+    Then I search the added user and it should be visible
+    And I logout
+
+    Examples: 
+      | options      | rolename     |language|
+      | Manage Users | Finance User |English|
+      

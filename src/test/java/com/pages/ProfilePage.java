@@ -20,7 +20,6 @@ public class ProfilePage extends GlobalVariable {
 	By address1 = By.xpath("//input[contains(@name , 'address1')]");
 	By address2 = By.xpath("//input[contains(@name , 'address2')]");
 	By address3 = By.xpath("//input[contains(@name , 'address3')]");
-	
 	By zipcodefield = By.xpath("//input[contains(@name , 'zipcode')]");
 	By continuebutton = By.xpath("//button[contains(@id , 'MyaccountProfilePortlet_INSTANCE_hodm_submit')]");
 	By addressname = By.xpath("(//div[contains(@class , 'ship-active-card')]//span)[5]");
@@ -29,6 +28,8 @@ public class ProfilePage extends GlobalVariable {
 	By addnewaddress = By.cssSelector(".addnew-ship-card");
 	By shippingcardslist = By.xpath("//div[contains(@class , 'info-body')]//div[contains(@class , 'ship-active-card')]/div[not(contains(@class , 'addeditaddress addnew-ship-card'))]");
 
+	
+	
 	public void updateAddress(String statename) throws Exception {
 		Thread.sleep(2000);
 		CommonActions.iScrollToTheElementByLocator(addresscardforscroll, "address");

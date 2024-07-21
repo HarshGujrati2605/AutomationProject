@@ -579,10 +579,21 @@ public class CommonActions extends GlobalVariable {
 		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
 		Random rand = new Random();
 		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 3; i++) {
 			sb.append(chars.charAt(rand.nextInt(chars.length())));
 		}
 		return "Anvita" + sb.toString();
+
+	}
+	
+	public static String randomNewUserNmaeGeneratornew() {
+		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
+		Random rand = new Random();
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < 4; i++) {
+			sb.append(chars.charAt(rand.nextInt(chars.length())));
+		}
+		return "Madhu" + sb.toString();
 
 	}
 	
@@ -624,6 +635,39 @@ public class CommonActions extends GlobalVariable {
 		Select select = new Select(ele);
 		select.selectByVisibleText(name);
 		
+	}
+	
+	public static WebElement waitforelementvisible(By locator, String elementName) throws Exception {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		Thread.sleep(6000);
+		WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+		return ele;	
+	}
+	
+	public static void clickOnElementAndTypeOnElement(WebElement ele, String value, String nameofelement) throws Exception {
+		if (driver != null) {
+			ele.clear();
+			iClick(ele, nameofelement);
+			highlightElementRed(ele, nameofelement);
+			ele.sendKeys(Keys.chord(Keys.CONTROL, "a"));
+			ele.sendKeys(Keys.chord(Keys.DELETE));
+			Thread.sleep(1000);
+			ele.sendKeys(value);
+			iLogMessage("Clicked on" + nameofelement);
+		} else {
+			throw new Exception("Element not present");
+		}
+	}
+	
+	public static String randomCOmpanyGenerator() {
+		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
+		Random rand = new Random();
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < 4; i++) {
+			sb.append(chars.charAt(rand.nextInt(chars.length())));
+		}
+		return "TestConsulting" + sb.toString();
+
 	}
 
 }
