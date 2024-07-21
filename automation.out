@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2024-07-20 13:07:02 INFO  CommonActions:175 - Waiting for element to be visible
 2024-07-20 13:07:139 INFO  CommonActions:175 - Highlighted the Residnetial option
 2024-07-20 13:07:459 INFO  CommonActions:175 - i Click on the element Residnetial option
@@ -58,3 +59,38 @@
 2024-07-20 13:07:761 INFO  CommonActions:175 - Highlighted the Log out
 2024-07-20 13:07:630 INFO  CommonActions:175 - i Click on the element Log out
 2024-07-20 13:07:631 INFO  CommonActions:175 - Users should have the ability to add an item from their wishlist to the shopping cart on the SOL website. is passed
+=======
+2024-07-17 12:07:590 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-17 12:07:740 INFO  CommonActions:175 - Highlighted the Residnetial option
+2024-07-17 12:07:552 INFO  CommonActions:175 - i Click on the element Residnetial option
+2024-07-17 12:07:643 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-17 12:07:701 INFO  CommonActions:175 - i Click on the element Profile Icon
+2024-07-17 12:07:701 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-17 12:07:155 INFO  CommonActions:175 - i Click on the element Login link
+2024-07-17 12:07:161 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-17 12:07:314 INFO  CommonActions:175 - Highlighted the Username field
+2024-07-17 12:07:410 INFO  CommonActions:175 - i Click on the element Username field
+2024-07-17 12:07:443 INFO  CommonActions:175 - Highlighted the Username field
+2024-07-17 12:07:696 INFO  CommonActions:175 - Clicked onUsername field
+2024-07-17 12:07:697 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-17 12:07:826 INFO  CommonActions:175 - Highlighted the Password field
+2024-07-17 12:07:929 INFO  CommonActions:175 - i Click on the element Password field
+2024-07-17 12:07:957 INFO  CommonActions:175 - Highlighted the Password field
+2024-07-17 12:07:149 INFO  CommonActions:175 - Clicked onPassword field
+2024-07-17 12:07:149 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-17 12:07:232 INFO  CommonActions:175 - Highlighted the Click login button
+2024-07-17 12:07:342 INFO  CommonActions:175 - i Click on the element Click login button
+2024-07-17 12:07:355 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-17 12:07:624 INFO  CommonActions:175 - Highlighted the User profile picture
+2024-07-17 12:07:711 INFO  CommonActions:175 - i Click on the element User profile picture
+2024-07-17 12:07:712 INFO  CommonActions:175 - Waiting for element to be Present
+2024-07-17 12:07:751 INFO  CommonActions:175 - User profile picture is displayed....
+2024-07-17 12:07:780 INFO  CommonActions:175 - Highlighted the User profile picture
+2024-07-17 12:07:780 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-17 12:07:831 INFO  CommonActions:175 - Highlighted the User profile picture
+2024-07-17 12:07:916 INFO  CommonActions:175 - i Click on the element User profile picture
+2024-07-17 12:07:916 INFO  CommonActions:175 - Waiting for element to be visible
+2024-07-17 12:07:974 INFO  CommonActions:175 - Highlighted the Log out
+2024-07-17 12:07:654 INFO  CommonActions:175 - i Click on the element Log out
+2024-07-17 12:07:656 INFO  CommonActions:175 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
+>>>>>>> ba4d6b6d5554fccd031e47cbc8ce31d3460bc76b
