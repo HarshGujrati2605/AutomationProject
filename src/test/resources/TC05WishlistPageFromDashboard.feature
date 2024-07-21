@@ -1,5 +1,5 @@
-@regression @productstab
-Feature: PWishlist from Dashboard Scenarios
+@regression @dashboardwishlist
+Feature: Wishlist from Dashboard Scenarios
 
   Scenario: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.
     Given I enter username as "gurpreet.singh22@yopmail.com"

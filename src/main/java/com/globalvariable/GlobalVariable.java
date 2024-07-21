@@ -10,5 +10,12 @@ public class GlobalVariable {
 	public static WebDriver driver ;
 	public static String product_title;
 	public static String orderid;
+	public static String updated_firstname;
+	public static String updated_cellnumber;
+	public static String firstname;
+	public static String lastname;
+	public static String address;
+	public static String phone;
+	public static String emailid;
     }
 

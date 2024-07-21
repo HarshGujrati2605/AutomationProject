@@ -1,96 +1,147 @@
-<<<<<<< HEAD
-2024-07-20 13:07:02 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:139 INFO  CommonActions:175 - Highlighted the Residnetial option
-2024-07-20 13:07:459 INFO  CommonActions:175 - i Click on the element Residnetial option
-2024-07-20 13:07:611 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:699 INFO  CommonActions:175 - i Click on the element Profile Icon
-2024-07-20 13:07:700 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:944 INFO  CommonActions:175 - i Click on the element Login link
-2024-07-20 13:07:952 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:91 INFO  CommonActions:175 - Highlighted the Username field
-2024-07-20 13:07:160 INFO  CommonActions:175 - i Click on the element Username field
-2024-07-20 13:07:190 INFO  CommonActions:175 - Highlighted the Username field
-2024-07-20 13:07:427 INFO  CommonActions:175 - Clicked onUsername field
-2024-07-20 13:07:430 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:536 INFO  CommonActions:175 - Highlighted the Password field
-2024-07-20 13:07:609 INFO  CommonActions:175 - i Click on the element Password field
-2024-07-20 13:07:639 INFO  CommonActions:175 - Highlighted the Password field
-2024-07-20 13:07:827 INFO  CommonActions:175 - Clicked onPassword field
-2024-07-20 13:07:829 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:895 INFO  CommonActions:175 - Highlighted the Click login button
-2024-07-20 13:07:961 INFO  CommonActions:175 - i Click on the element Click login button
-2024-07-20 13:07:965 INFO  CommonActions:175 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
-2024-07-20 13:07:23 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:115 INFO  CommonActions:175 - i Click on the element Home menu
-2024-07-20 13:07:116 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:192 INFO  CommonActions:175 - Highlighted the User profile picture
-2024-07-20 13:07:279 INFO  CommonActions:175 - i Click on the element User profile picture
-2024-07-20 13:07:280 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:356 INFO  CommonActions:175 - Highlighted the Dashboard option
-2024-07-20 13:07:168 INFO  CommonActions:175 - i Click on the element Dashboard option
-2024-07-20 13:07:169 INFO  CommonActions:175 - Waiting for element to be Present
-2024-07-20 13:07:224 INFO  CommonActions:175 - Dashboard page header title is displayed....
-2024-07-20 13:07:260 INFO  CommonActions:175 - Highlighted the Dashboard page header title
-2024-07-20 13:07:261 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:335 INFO  CommonActions:175 - Highlighted the Wishlist
-2024-07-20 13:07:533 INFO  CommonActions:175 - i Click on the element Wishlist
-2024-07-20 13:07:535 INFO  CommonActions:175 - Getting the text fromProduct title
-2024-07-20 13:07:536 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:600 INFO  CommonActions:175 - Adding Havoline Conventional Antifreeze Coolant in the cart
-2024-07-20 13:07:607 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:749 INFO  CommonActions:175 - i Click on the element Add to cart button of the first visible product
-2024-07-20 13:07:752 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:847 INFO  CommonActions:175 - i Click on the element Cart icon click
-2024-07-20 13:07:849 INFO  CommonActions:175 - Waiting for elements to be visible
-2024-07-20 13:07:950 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:11 INFO  CommonActions:175 - ********************    Element actual text is Havoline Conventional Antifreeze Coolant***************
-2024-07-20 13:07:12 INFO  CommonActions:175 - ****************** ELement Expected text is Havoline Conventional Antifreeze Coolant**********************
-2024-07-20 13:07:62 ERROR CommonActions:180 - Product is not present in the cart!!
-2024-07-20 13:07:70 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:145 INFO  CommonActions:175 - Highlighted the Deleting the product in the cart
-2024-07-20 13:07:189 INFO  CommonActions:175 - i Click on the element Deleting the product in the cart
-2024-07-20 13:07:204 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:274 INFO  CommonActions:175 - Highlighted the Closing the cart
-2024-07-20 13:07:468 INFO  CommonActions:175 - i Click on the element Closing the cart
-2024-07-20 13:07:481 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:576 INFO  CommonActions:175 - Highlighted the User profile picture
-2024-07-20 13:07:660 INFO  CommonActions:175 - i Click on the element User profile picture
-2024-07-20 13:07:661 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-20 13:07:761 INFO  CommonActions:175 - Highlighted the Log out
-2024-07-20 13:07:630 INFO  CommonActions:175 - i Click on the element Log out
-2024-07-20 13:07:631 INFO  CommonActions:175 - Users should have the ability to add an item from their wishlist to the shopping cart on the SOL website. is passed
-=======
-2024-07-17 12:07:590 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-17 12:07:740 INFO  CommonActions:175 - Highlighted the Residnetial option
-2024-07-17 12:07:552 INFO  CommonActions:175 - i Click on the element Residnetial option
-2024-07-17 12:07:643 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-17 12:07:701 INFO  CommonActions:175 - i Click on the element Profile Icon
-2024-07-17 12:07:701 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-17 12:07:155 INFO  CommonActions:175 - i Click on the element Login link
-2024-07-17 12:07:161 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-17 12:07:314 INFO  CommonActions:175 - Highlighted the Username field
-2024-07-17 12:07:410 INFO  CommonActions:175 - i Click on the element Username field
-2024-07-17 12:07:443 INFO  CommonActions:175 - Highlighted the Username field
-2024-07-17 12:07:696 INFO  CommonActions:175 - Clicked onUsername field
-2024-07-17 12:07:697 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-17 12:07:826 INFO  CommonActions:175 - Highlighted the Password field
-2024-07-17 12:07:929 INFO  CommonActions:175 - i Click on the element Password field
-2024-07-17 12:07:957 INFO  CommonActions:175 - Highlighted the Password field
-2024-07-17 12:07:149 INFO  CommonActions:175 - Clicked onPassword field
-2024-07-17 12:07:149 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-17 12:07:232 INFO  CommonActions:175 - Highlighted the Click login button
-2024-07-17 12:07:342 INFO  CommonActions:175 - i Click on the element Click login button
-2024-07-17 12:07:355 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-17 12:07:624 INFO  CommonActions:175 - Highlighted the User profile picture
-2024-07-17 12:07:711 INFO  CommonActions:175 - i Click on the element User profile picture
-2024-07-17 12:07:712 INFO  CommonActions:175 - Waiting for element to be Present
-2024-07-17 12:07:751 INFO  CommonActions:175 - User profile picture is displayed....
-2024-07-17 12:07:780 INFO  CommonActions:175 - Highlighted the User profile picture
-2024-07-17 12:07:780 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-17 12:07:831 INFO  CommonActions:175 - Highlighted the User profile picture
-2024-07-17 12:07:916 INFO  CommonActions:175 - i Click on the element User profile picture
-2024-07-17 12:07:916 INFO  CommonActions:175 - Waiting for element to be visible
-2024-07-17 12:07:974 INFO  CommonActions:175 - Highlighted the Log out
-2024-07-17 12:07:654 INFO  CommonActions:175 - i Click on the element Log out
-2024-07-17 12:07:656 INFO  CommonActions:175 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
->>>>>>> ba4d6b6d5554fccd031e47cbc8ce31d3460bc76b
+2024-07-21 16:07:502 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:628 INFO  CommonActions:176 - Highlighted the Residnetial option
+2024-07-21 16:07:822 INFO  CommonActions:176 - i Click on the element Residnetial option
+2024-07-21 16:07:966 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:44 INFO  CommonActions:176 - i Click on the element Profile Icon
+2024-07-21 16:07:46 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:217 INFO  CommonActions:176 - i Click on the element Login link
+2024-07-21 16:07:223 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:370 INFO  CommonActions:176 - Highlighted the Username field
+2024-07-21 16:07:451 INFO  CommonActions:176 - i Click on the element Username field
+2024-07-21 16:07:488 INFO  CommonActions:176 - Highlighted the Username field
+2024-07-21 16:07:733 INFO  CommonActions:176 - Clicked onUsername field
+2024-07-21 16:07:737 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:868 INFO  CommonActions:176 - Highlighted the Password field
+2024-07-21 16:07:955 INFO  CommonActions:176 - i Click on the element Password field
+2024-07-21 16:07:995 INFO  CommonActions:176 - Highlighted the Password field
+2024-07-21 16:07:210 INFO  CommonActions:176 - Clicked onPassword field
+2024-07-21 16:07:211 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:277 INFO  CommonActions:176 - Highlighted the Click login button
+2024-07-21 16:07:363 INFO  CommonActions:176 - i Click on the element Click login button
+2024-07-21 16:07:368 INFO  CommonActions:176 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
+2024-07-21 16:07:429 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:89 INFO  CommonActions:176 - i Click on the element Home menu
+2024-07-21 16:07:90 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:167 INFO  CommonActions:176 - Highlighted the User profile picture
+2024-07-21 16:07:256 INFO  CommonActions:176 - i Click on the element User profile picture
+2024-07-21 16:07:257 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:337 INFO  CommonActions:176 - Highlighted the Dashboard option
+2024-07-21 16:07:619 INFO  CommonActions:176 - i Click on the element Dashboard option
+2024-07-21 16:07:621 INFO  CommonActions:176 - Waiting for element to be Present
+2024-07-21 16:07:661 INFO  CommonActions:176 - Dashboard page header title is displayed....
+2024-07-21 16:07:687 INFO  CommonActions:176 - Highlighted the Dashboard page header title
+2024-07-21 16:07:689 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:750 INFO  CommonActions:176 - Highlighted the Profile
+2024-07-21 16:07:952 INFO  CommonActions:176 - i Click on the element Profile
+2024-07-21 16:07:966 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:46 INFO  CommonActions:176 - Highlighted the address
+2024-07-21 16:07:47 INFO  CommonActions:176 - scrolled till the address
+2024-07-21 16:07:58 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:141 INFO  CommonActions:176 - Highlighted the Edit address icon
+2024-07-21 16:07:195 INFO  CommonActions:176 - i Click on the element Edit address icon
+2024-07-21 16:07:196 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:261 INFO  CommonActions:176 - Highlighted the First name
+2024-07-21 16:07:353 INFO  CommonActions:176 - i Click on the element First name
+2024-07-21 16:07:393 INFO  CommonActions:176 - Highlighted the First name
+2024-07-21 16:07:585 INFO  CommonActions:176 - Clicked onFirst name
+2024-07-21 16:07:587 INFO  CommonActions:176 - Updated the firstname ShauryaNx
+2024-07-21 16:07:588 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:740 INFO  CommonActions:176 - Highlighted the Cell number
+2024-07-21 16:07:841 INFO  CommonActions:176 - i Click on the element Cell number
+2024-07-21 16:07:879 INFO  CommonActions:176 - Highlighted the Cell number
+2024-07-21 16:07:57 INFO  CommonActions:176 - Clicked onCell number
+2024-07-21 16:07:58 INFO  CommonActions:176 - Updated the cellphone 0965066709
+2024-07-21 16:07:58 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:185 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:245 INFO  CommonActions:176 - Highlighted the continue button
+2024-07-21 16:07:319 INFO  CommonActions:176 - i Click on the element continue button
+2024-07-21 16:07:329 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:383 INFO  CommonActions:176 - Getting the text fromfirstname
+2024-07-21 16:07:400 INFO  CommonActions:176 - ************** Mr ShauryaNx Sharma
+2024-07-21 16:07:400 INFO  CommonActions:176 - Getting the text fromfirstname
+2024-07-21 16:07:414 INFO  CommonActions:176 - The actual text contain the partial element text: ShauryaNx
+2024-07-21 16:07:424 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:465 INFO  CommonActions:176 - Getting the text fromPhonenumber
+2024-07-21 16:07:481 INFO  CommonActions:176 - ************** +1 0965066709
+2024-07-21 16:07:482 INFO  CommonActions:176 - Getting the text fromPhonenumber
+2024-07-21 16:07:493 INFO  CommonActions:176 - The actual text contain the partial element text: 0965066709
+2024-07-21 16:07:501 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:806 INFO  CommonActions:176 - i Click on the element Home menu
+2024-07-21 16:07:807 INFO  CommonActions:176 - The user should be able to update their shipping information by clicking on the Edit icon in their profile settings on the SOL website. is passed
+2024-07-21 16:07:834 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:110 INFO  CommonActions:176 - i Click on the element Home menu
+2024-07-21 16:07:110 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:185 INFO  CommonActions:176 - Highlighted the User profile picture
+2024-07-21 16:07:330 INFO  CommonActions:176 - i Click on the element User profile picture
+2024-07-21 16:07:331 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:392 INFO  CommonActions:176 - Highlighted the Dashboard option
+2024-07-21 16:07:611 INFO  CommonActions:176 - i Click on the element Dashboard option
+2024-07-21 16:07:612 INFO  CommonActions:176 - Waiting for element to be Present
+2024-07-21 16:07:657 INFO  CommonActions:176 - Dashboard page header title is displayed....
+2024-07-21 16:07:695 INFO  CommonActions:176 - Highlighted the Dashboard page header title
+2024-07-21 16:07:696 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:775 INFO  CommonActions:176 - Highlighted the Profile
+2024-07-21 16:07:953 INFO  CommonActions:176 - i Click on the element Profile
+2024-07-21 16:07:955 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:36 INFO  CommonActions:176 - Highlighted the addnewaddres
+2024-07-21 16:07:37 INFO  CommonActions:176 - scrolled till the addnewaddres
+2024-07-21 16:07:42 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:104 INFO  CommonActions:176 - Highlighted the addnewaddress
+2024-07-21 16:07:168 INFO  CommonActions:176 - i Click on the element addnewaddress
+2024-07-21 16:07:170 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:219 INFO  CommonActions:176 - Highlighted the firstname
+2024-07-21 16:07:325 INFO  CommonActions:176 - i Click on the element firstname
+2024-07-21 16:07:365 INFO  CommonActions:176 - Highlighted the firstname
+2024-07-21 16:07:219 INFO  CommonActions:176 - Clicked onfirstname
+2024-07-21 16:07:219 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:339 INFO  CommonActions:176 - Highlighted the lastname
+2024-07-21 16:07:483 INFO  CommonActions:176 - i Click on the element lastname
+2024-07-21 16:07:519 INFO  CommonActions:176 - Highlighted the lastname
+2024-07-21 16:07:706 INFO  CommonActions:176 - Clicked onlastname
+2024-07-21 16:07:707 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:820 INFO  CommonActions:176 - Highlighted the Email
+2024-07-21 16:07:896 INFO  CommonActions:176 - i Click on the element Email
+2024-07-21 16:07:930 INFO  CommonActions:176 - Highlighted the Email
+2024-07-21 16:07:117 INFO  CommonActions:176 - Clicked onEmail
+2024-07-21 16:07:118 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:231 INFO  CommonActions:176 - Highlighted the phone
+2024-07-21 16:07:326 INFO  CommonActions:176 - i Click on the element phone
+2024-07-21 16:07:371 INFO  CommonActions:176 - Highlighted the phone
+2024-07-21 16:07:591 INFO  CommonActions:176 - Clicked onphone
+2024-07-21 16:07:591 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:700 INFO  CommonActions:176 - Highlighted the firstname
+2024-07-21 16:07:800 INFO  CommonActions:176 - i Click on the element firstname
+2024-07-21 16:07:835 INFO  CommonActions:176 - Highlighted the firstname
+2024-07-21 16:07:15 INFO  CommonActions:176 - Clicked onfirstname
+2024-07-21 16:07:16 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:167 INFO  CommonActions:176 - Highlighted the firstname
+2024-07-21 16:07:238 INFO  CommonActions:176 - i Click on the element firstname
+2024-07-21 16:07:268 INFO  CommonActions:176 - Highlighted the firstname
+2024-07-21 16:07:470 INFO  CommonActions:176 - Clicked onfirstname
+2024-07-21 16:07:470 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:592 INFO  CommonActions:176 - Highlighted the firstname
+2024-07-21 16:07:669 INFO  CommonActions:176 - i Click on the element firstname
+2024-07-21 16:07:711 INFO  CommonActions:176 - Highlighted the firstname
+2024-07-21 16:07:916 INFO  CommonActions:176 - Clicked onfirstname
+2024-07-21 16:07:917 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:36 INFO  CommonActions:176 - Highlighted the Surrey
+2024-07-21 16:07:105 INFO  CommonActions:176 - i Click on the element Surrey
+2024-07-21 16:07:139 INFO  CommonActions:176 - Highlighted the Surrey
+2024-07-21 16:07:300 INFO  CommonActions:176 - Clicked onSurrey
+2024-07-21 16:07:300 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:357 INFO  CommonActions:176 - Highlighted the continue button
+2024-07-21 16:07:414 INFO  CommonActions:176 - i Click on the element continue button
+2024-07-21 16:07:421 INFO  CommonActions:176 - Waiting for elements to be visible
+2024-07-21 16:07:749 INFO  CommonActions:176 - The total number of shippment address added is 22
+2024-07-21 16:07:750 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:793 INFO  CommonActions:176 - ********************    Element actual text is Anvitaia KulkarniUD***************
+2024-07-21 16:07:794 INFO  CommonActions:176 - ****************** ELement Expected text is Anvitaia KulkarniUD**********************
+2024-07-21 16:07:813 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:853 INFO  CommonActions:176 - ********************    Element actual text is PuneDR@test.com***************
+2024-07-21 16:07:853 INFO  CommonActions:176 - ****************** ELement Expected text is PuneDR@test.com**********************
+2024-07-21 16:07:870 INFO  CommonActions:176 - Waiting for element to be visible
+2024-07-21 16:07:910 INFO  CommonActions:176 - Getting the text fromPhone number
+2024-07-21 16:07:923 INFO  CommonActions:176 - ************** +1 1282227226
+2024-07-21 16:07:924 INFO  CommonActions:176 - Getting the text fromPhone number
+2024-07-21 16:07:939 INFO  CommonActions:176 - The actual text contain the partial element text: 1282227226
+2024-07-21 16:07:941 INFO  CommonActions:176 - The user should be able to add a new shipping address in the shipping address section of the SOL website. is passed
