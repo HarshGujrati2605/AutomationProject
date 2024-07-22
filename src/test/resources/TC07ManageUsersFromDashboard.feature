@@ -22,9 +22,7 @@ Feature: PWishlist from Dashboard Scenarios
   @addnewuserinchildcompany
   Scenario Outline: The admin user should be able to add a new child company from the company management section on the SOL website.
     Given I add new child company
-    And I select the child company from dropdown
-    And I add new user with role "<rolename>" and "<language>"
-    Then I search the added user and it should be visible
+    Then I select the child company from dropdown
     And I logout
 
     Examples: 

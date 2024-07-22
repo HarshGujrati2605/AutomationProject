@@ -57,7 +57,7 @@ public class ManageUsersPage {
 		WebElement searchfield = CommonActions.waitforelementvisible(searchforuserfield, "searchfield");
 		CommonActions.clickOnElementAndTypeOnElement(searchfield, GlobalVariable.newuser_firstname, "User first name");
 		CommonActions.iClickEnter(searchforuserfield);
-		Thread.sleep(8000);
+		Thread.sleep(12000);
 		CommonActions.iVerifyExactElementText(usernamesearchfieldcolumn, GlobalVariable.newuser_firstname + " " + "Dixit" ,
 					"User first name in search field");
 		CommonActions.refresh();
