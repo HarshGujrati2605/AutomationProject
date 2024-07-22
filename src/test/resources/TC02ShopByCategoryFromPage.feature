@@ -129,6 +129,7 @@ Feature: Shop the Industry products from the homepage and complete the checkout
       | category name        | range1 | range2 |
       | Gasoline Engine Oils |   1000 |      0 |
 
+
   @addtransmissionproduct
   Scenario Outline: Shop the Transmission products from the homepage and validate product added in the cart
     products from the homepage and complete the checkout
