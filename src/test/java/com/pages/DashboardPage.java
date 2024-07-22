@@ -22,6 +22,9 @@ public class DashboardPage {
 	By commentfield = By.xpath("//input[contains(@name , 'comment')]");
 	By requesttocancel = By.xpath("//button[text() = 'Request to Cancel']");
 	By okbutton = By.xpath("//button[text() ='OK']");
+	By addtocartbutton = By.xpath(
+			"(//div[contains(@class , 'add-to-cart-wrapper')]//button[contains(@class , 'btn-add-to-cart ')])[1]");
+	By getProductTitle = By.xpath("(//div[@class = 'prod-title']/a/h3)[1]");
 
 	public void iValidateDashboardPage() throws Exception {
 
@@ -96,11 +99,26 @@ public class DashboardPage {
 	public void iValidateCancellation() throws InterruptedException {
 		List<WebElement> statusofallorders = CommonActions.getElementList(orderstatus);
 		for (WebElement statusofsingle : statusofallorders) {
-			CommonActions.iVerifyExactElementTextOfElement(statusofsingle, "Pending Cancellation", "Order status cancellation");
+			CommonActions.iVerifyExactElementTextOfElement(statusofsingle, "Pending Cancellation",
+					"Order status cancellation");
 		}
-		
+
 		new HomePage().iClickHome();
 
+	}
+
+	public void iSelectOptionFromDashboardPage(String option) throws InterruptedException {
+
+		CommonActions.iClickElementByLocator(
+				By.xpath("//div[contains(@class , 'SiteNavigationMenuPortlet')]//a[text() = '" + option + "']"),
+				option);
+	}
+	
+	public void iSelectProductFromWishlist() throws InterruptedException {
+		GlobalVariable.product_title = CommonActions.iGetTextByLoctor(getProductTitle, "Product title");
+		CommonActions.iLogMessage("Adding " + GlobalVariable.product_title + " in the cart");
+		Thread.sleep(2000);
+		CommonActions.iClickJSEByLocator(addtocartbutton, "Add to cart button of the first visible product");
 	}
 
 }

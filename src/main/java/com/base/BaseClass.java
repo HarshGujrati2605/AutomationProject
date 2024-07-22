@@ -51,21 +51,12 @@ public class BaseClass extends GlobalVariable {
 		Properties properties = new Properties();
 		FileInputStream configfile = new FileInputStream("config.properties");
 		properties.load(configfile);
-		String url = properties.getProperty("appiumURL");
+		String url = properties.getProperty("url");
 		return url;
 
 	}
 
 	
-	public static String getCloudDeviceChoice() throws IOException {
-		Properties properties = new Properties();
-		FileInputStream configfile = new FileInputStream("config.properties");
-		properties.load(configfile);
-		String response = properties.getProperty("Device");
-		return response;
-
-	}
-
 	public static String getHeadlessChoice() throws IOException {
 		Properties properties = new Properties();
 		FileInputStream configfile = new FileInputStream("config.properties");

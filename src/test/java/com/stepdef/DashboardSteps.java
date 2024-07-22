@@ -61,13 +61,23 @@ public class DashboardSteps {
 
 	@And("I cancel the order")
 	public void iCancelTheOrder() throws Exception {
-       new DashboardPage().iCancelOrder();
+		new DashboardPage().iCancelOrder();
 	}
 
 	@Then("I validate order is cancel")
 	public void iValidateCancellationOfOrder() throws InterruptedException {
 		new DashboardPage().iValidateCancellation();
-		
+
+	}
+
+	@And("I select the {string} from dashboard menu")
+	public void iSelectNavigationOption(String option) throws InterruptedException {
+		new DashboardPage().iSelectOptionFromDashboardPage(option);
+	}
+
+	@And("I select the product from the wishlist from dashboard page")
+	public void iSelectProductFromWishlistDashboard() throws InterruptedException {
+		new DashboardPage().iSelectProductFromWishlist();
 	}
 
 }
