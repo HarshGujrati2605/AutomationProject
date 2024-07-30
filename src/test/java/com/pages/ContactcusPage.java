@@ -51,6 +51,7 @@ public class ContactcusPage {
     	CommonActions.clickOnElementAndType(messagefield, "Sales Querry", "Message");
     	CommonActions.iScrollToTheElementByLocator(messagefield, "Message field");
     	Thread.sleep(1000);
+    	Thread.sleep(10000); // Added to add captcha manually
     	CommonActions.iClickElementByLocator(submitbutton, "Submit button");
     	
     }

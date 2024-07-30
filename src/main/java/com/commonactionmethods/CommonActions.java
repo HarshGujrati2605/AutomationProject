@@ -65,6 +65,7 @@ public class CommonActions extends GlobalVariable {
 	}
 
 	public static void isDisplayed(By elementlocator, String elementName) throws Exception {
+		iImplicitlywait(30, elementName);
 		WebElement element = getElementIfPresent(elementlocator);
 		if (element.isDisplayed()) {
 			iLogMessage(elementName + " is displayed....");
@@ -112,7 +113,7 @@ public class CommonActions extends GlobalVariable {
 
 	public static void iVerifyPartialElementText(By elementlocator, String expectedText, String elementName)
 			throws Exception {
-        Thread.sleep(1000);
+		Thread.sleep(1000);
 		WebElement ele = getElement(elementlocator);
 		iLogMessage("************** " + iGetText(ele, elementName));
 		if (iGetText(ele, elementName).contains(expectedText)) {
@@ -563,6 +564,27 @@ public class CommonActions extends GlobalVariable {
 		String localdate = LocalDate.parse(dtf.format(now)).plusDays(1).toString();
 		return localdate.substring(8).trim();
 	}
+	public static String randomString(int length) {
+		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
+		Random rand = new Random();
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < length; i++) {
+			sb.append(chars.charAt(rand.nextInt(chars.length())));
+		}
+		return sb.toString();
+
+	}
+	
+	public static String randomCompanyString() {
+		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
+		Random rand = new Random();
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < 6; i++) {
+			sb.append(chars.charAt(rand.nextInt(chars.length())));
+		}
+		return "DemoComp"+sb.toString();
+
+	}
 
 	public static String randomNameGenerator() {
 		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
@@ -574,7 +596,7 @@ public class CommonActions extends GlobalVariable {
 		return "Shaurya" + sb.toString();
 
 	}
-	
+
 	public static String randomNameGeneratornew() {
 		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
 		Random rand = new Random();
@@ -585,7 +607,7 @@ public class CommonActions extends GlobalVariable {
 		return "Anvita" + sb.toString();
 
 	}
-	
+
 	public static String randomNewUserNmaeGeneratornew() {
 		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
 		Random rand = new Random();
@@ -596,7 +618,7 @@ public class CommonActions extends GlobalVariable {
 		return "Madhu" + sb.toString();
 
 	}
-	
+
 	public static String randomLastnameGenerator() {
 		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
 		Random rand = new Random();
@@ -607,7 +629,7 @@ public class CommonActions extends GlobalVariable {
 		return "Kulkarni" + sb.toString();
 
 	}
-	
+
 	public static String randomEmailIdGenerator() {
 		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
 		Random rand = new Random();
@@ -615,7 +637,18 @@ public class CommonActions extends GlobalVariable {
 		for (int i = 0; i < 2; i++) {
 			sb.append(chars.charAt(rand.nextInt(chars.length())));
 		}
-		return "Pune" + sb.toString() +"@test.com";
+		return "Pune" + sb.toString() + "@mailinator.com";
+
+	}
+
+	public static String randomEmailIdGeneratorTest() {
+		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
+		Random rand = new Random();
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < 4; i++) {
+			sb.append(chars.charAt(rand.nextInt(chars.length())));
+		}
+		return "Test" + sb.toString() + "@mailinator.com";
 
 	}
 
@@ -629,22 +662,29 @@ public class CommonActions extends GlobalVariable {
 		return sb.toString();
 
 	}
-	
-	public static void selectOptionFromDropdownclass(By loctor , String name) {	
+
+	public static void selectOptionFromDropdownclass(By loctor, String name) {
 		WebElement ele = getElement(loctor);
 		Select select = new Select(ele);
 		select.selectByVisibleText(name);
-		
+		try {
+			Thread.sleep(1000);
+		} catch (Exception e) {
+			iLogErrorMessage("Exception occur");
+
+		}
+
 	}
-	
+
 	public static WebElement waitforelementvisible(By locator, String elementName) throws Exception {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		Thread.sleep(6000);
 		WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-		return ele;	
+		return ele;
 	}
-	
-	public static void clickOnElementAndTypeOnElement(WebElement ele, String value, String nameofelement) throws Exception {
+
+	public static void clickOnElementAndTypeOnElement(WebElement ele, String value, String nameofelement)
+			throws Exception {
 		if (driver != null) {
 			ele.clear();
 			iClick(ele, nameofelement);
@@ -658,7 +698,7 @@ public class CommonActions extends GlobalVariable {
 			throw new Exception("Element not present");
 		}
 	}
-	
+
 	public static String randomCOmpanyGenerator() {
 		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
 		Random rand = new Random();
