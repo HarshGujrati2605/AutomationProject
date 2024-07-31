@@ -1,89 +1,89 @@
-2024-07-31 10:07:616 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:724 INFO  CommonActions:177 - Highlighted the Residnetial option
-2024-07-31 10:07:796 INFO  CommonActions:177 - i Click on the element Residnetial option
-2024-07-31 10:07:866 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:925 INFO  CommonActions:177 - i Click on the element Profile Icon
-2024-07-31 10:07:925 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:250 INFO  CommonActions:177 - i Click on the element Login link
-2024-07-31 10:07:261 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:342 INFO  CommonActions:177 - Highlighted the Username field
-2024-07-31 10:07:405 INFO  CommonActions:177 - i Click on the element Username field
-2024-07-31 10:07:430 INFO  CommonActions:177 - Highlighted the Username field
-2024-07-31 10:07:606 INFO  CommonActions:177 - Clicked onUsername field
-2024-07-31 10:07:608 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:679 INFO  CommonActions:177 - Highlighted the Password field
-2024-07-31 10:07:731 INFO  CommonActions:177 - i Click on the element Password field
-2024-07-31 10:07:747 INFO  CommonActions:177 - Highlighted the Password field
-2024-07-31 10:07:872 INFO  CommonActions:177 - Clicked onPassword field
-2024-07-31 10:07:872 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:913 INFO  CommonActions:177 - Highlighted the Click login button
-2024-07-31 10:07:987 INFO  CommonActions:177 - i Click on the element Click login button
-2024-07-31 10:07:988 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:490 INFO  CommonActions:177 - Highlighted the User profile picture
-2024-07-31 10:07:544 INFO  CommonActions:177 - i Click on the element User profile picture
-2024-07-31 10:07:544 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:581 INFO  CommonActions:177 - Highlighted the Successful alert is present
-2024-07-31 10:07:581 INFO  CommonActions:177 - Element USer profile picture is present.
-2024-07-31 10:07:581 INFO  CommonActions:177 - Users are required to log in to the SOL website. is passed
-2024-07-31 10:07:610 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:658 INFO  CommonActions:177 - Highlighted the Contact Us Tab
-2024-07-31 10:07:186 INFO  CommonActions:177 - i Click on the element Contact Us Tab
-2024-07-31 10:07:188 INFO  CommonActions:177 - Waiting for element to be Present
-2024-07-31 10:07:213 INFO  CommonActions:177 - Contact Us header is displayed....
-2024-07-31 10:07:232 INFO  CommonActions:177 - Highlighted the Contact Us header
-2024-07-31 10:07:233 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:281 INFO  CommonActions:177 - Highlighted the Sales Query is selected
-2024-07-31 10:07:335 INFO  CommonActions:177 - i Click on the element Sales Query is selected
-2024-07-31 10:07:336 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:380 INFO  CommonActions:177 - Highlighted the title dropdown
-2024-07-31 10:07:448 INFO  CommonActions:177 - i Click on the element title dropdown
-2024-07-31 10:07:451 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:498 INFO  CommonActions:177 - Highlighted the Choosing Mr. as title
-2024-07-31 10:07:542 INFO  CommonActions:177 - i Click on the element Choosing Mr. as title
-2024-07-31 10:07:555 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:622 INFO  CommonActions:177 - Highlighted the First name
-2024-07-31 10:07:674 INFO  CommonActions:177 - i Click on the element First name
-2024-07-31 10:07:698 INFO  CommonActions:177 - Highlighted the First name
-2024-07-31 10:07:822 INFO  CommonActions:177 - Clicked onFirst name
-2024-07-31 10:07:822 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:896 INFO  CommonActions:177 - Highlighted the Last name
-2024-07-31 10:07:947 INFO  CommonActions:177 - i Click on the element Last name
-2024-07-31 10:07:964 INFO  CommonActions:177 - Highlighted the Last name
-2024-07-31 10:07:89 INFO  CommonActions:177 - Clicked onLast name
-2024-07-31 10:07:104 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:236 INFO  CommonActions:177 - Highlighted the Email field
-2024-07-31 10:07:313 INFO  CommonActions:177 - i Click on the element Email field
-2024-07-31 10:07:343 INFO  CommonActions:177 - Highlighted the Email field
-2024-07-31 10:07:542 INFO  CommonActions:177 - Clicked onEmail field
-2024-07-31 10:07:543 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:585 INFO  CommonActions:177 - Highlighted the Phone number dropdown
-2024-07-31 10:07:631 INFO  CommonActions:177 - i Click on the element Phone number dropdown
-2024-07-31 10:07:660 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:697 INFO  CommonActions:177 - Highlighted the +33
-2024-07-31 10:07:743 INFO  CommonActions:177 - i Click on the element +33
-2024-07-31 10:07:767 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:833 INFO  CommonActions:177 - Highlighted the Mobile number
-2024-07-31 10:07:877 INFO  CommonActions:177 - i Click on the element Mobile number
-2024-07-31 10:07:899 INFO  CommonActions:177 - Highlighted the Mobile number
-2024-07-31 10:07:13 INFO  CommonActions:177 - Clicked onMobile number
-2024-07-31 10:07:13 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:81 INFO  CommonActions:177 - Highlighted the Message
-2024-07-31 10:07:124 INFO  CommonActions:177 - i Click on the element Message
-2024-07-31 10:07:144 INFO  CommonActions:177 - Highlighted the Message
-2024-07-31 10:07:286 INFO  CommonActions:177 - Clicked onMessage
-2024-07-31 10:07:287 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:325 INFO  CommonActions:177 - Highlighted the Message field
-2024-07-31 10:07:325 INFO  CommonActions:177 - scrolled till the Message field
-2024-07-31 10:07:342 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:387 INFO  CommonActions:177 - Highlighted the Submit button
-2024-07-31 10:07:173 INFO  CommonActions:177 - i Click on the element Submit button
-2024-07-31 10:07:176 INFO  CommonActions:177 - Waiting for element to be Present
-2024-07-31 10:07:203 INFO  CommonActions:177 - Success message is displayed....
-2024-07-31 10:07:223 INFO  CommonActions:177 - Highlighted the Success message
-2024-07-31 10:07:232 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:275 INFO  CommonActions:177 - Highlighted the User profile picture
-2024-07-31 10:07:322 INFO  CommonActions:177 - i Click on the element User profile picture
-2024-07-31 10:07:322 INFO  CommonActions:177 - Waiting for element to be visible
-2024-07-31 10:07:369 INFO  CommonActions:177 - Highlighted the Log out
-2024-07-31 10:07:140 INFO  CommonActions:177 - i Click on the element Log out
-2024-07-31 10:07:140 INFO  CommonActions:177 - Query can be submited from Contact Us page is passed
+2024-07-31 10:07:836 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 10:07:32 INFO  CommonActions:177 - Highlighted the Residnetial option
+2024-07-31 10:07:766 INFO  CommonActions:177 - i Click on the element Residnetial option
+2024-07-31 10:07:846 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 10:07:913 INFO  CommonActions:177 - i Click on the element Profile Icon
+2024-07-31 10:07:914 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 10:07:269 INFO  CommonActions:177 - i Click on the element Login link
+2024-07-31 10:07:282 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 10:07:363 INFO  CommonActions:177 - Highlighted the Username field
+2024-07-31 10:07:432 INFO  CommonActions:177 - i Click on the element Username field
+2024-07-31 10:07:442 INFO  CommonActions:177 - Highlighted the Username field
+2024-07-31 10:07:643 INFO  CommonActions:177 - Clicked onUsername field
+2024-07-31 10:07:644 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 10:07:727 INFO  CommonActions:177 - Highlighted the Password field
+2024-07-31 10:07:786 INFO  CommonActions:177 - i Click on the element Password field
+2024-07-31 10:07:808 INFO  CommonActions:177 - Highlighted the Password field
+2024-07-31 10:07:947 INFO  CommonActions:177 - Clicked onPassword field
+2024-07-31 10:07:948 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 10:07:18 INFO  CommonActions:177 - Highlighted the Click login button
+2024-07-31 10:07:77 INFO  CommonActions:177 - i Click on the element Click login button
+2024-07-31 10:07:77 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:346 INFO  CommonActions:177 - Highlighted the User profile picture
+2024-07-31 11:07:402 INFO  CommonActions:177 - i Click on the element User profile picture
+2024-07-31 11:07:402 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:444 INFO  CommonActions:177 - Highlighted the Successful alert is present
+2024-07-31 11:07:444 INFO  CommonActions:177 - Element USer profile picture is present.
+2024-07-31 11:07:444 INFO  CommonActions:177 - Users are required to log in to the SOL website. is passed
+2024-07-31 11:07:475 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:531 INFO  CommonActions:177 - Highlighted the Contact Us Tab
+2024-07-31 11:07:568 INFO  CommonActions:177 - i Click on the element Contact Us Tab
+2024-07-31 11:07:572 INFO  CommonActions:177 - Waiting for element to be Present
+2024-07-31 11:07:602 INFO  CommonActions:177 - Contact Us header is displayed....
+2024-07-31 11:07:623 INFO  CommonActions:177 - Highlighted the Contact Us header
+2024-07-31 11:07:624 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:673 INFO  CommonActions:177 - Highlighted the Sales Query is selected
+2024-07-31 11:07:722 INFO  CommonActions:177 - i Click on the element Sales Query is selected
+2024-07-31 11:07:723 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:771 INFO  CommonActions:177 - Highlighted the title dropdown
+2024-07-31 11:07:826 INFO  CommonActions:177 - i Click on the element title dropdown
+2024-07-31 11:07:829 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:872 INFO  CommonActions:177 - Highlighted the Choosing Mr. as title
+2024-07-31 11:07:917 INFO  CommonActions:177 - i Click on the element Choosing Mr. as title
+2024-07-31 11:07:930 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:10 INFO  CommonActions:177 - Highlighted the First name
+2024-07-31 11:07:70 INFO  CommonActions:177 - i Click on the element First name
+2024-07-31 11:07:95 INFO  CommonActions:177 - Highlighted the First name
+2024-07-31 11:07:216 INFO  CommonActions:177 - Clicked onFirst name
+2024-07-31 11:07:216 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:284 INFO  CommonActions:177 - Highlighted the Last name
+2024-07-31 11:07:333 INFO  CommonActions:177 - i Click on the element Last name
+2024-07-31 11:07:344 INFO  CommonActions:177 - Highlighted the Last name
+2024-07-31 11:07:486 INFO  CommonActions:177 - Clicked onLast name
+2024-07-31 11:07:506 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:626 INFO  CommonActions:177 - Highlighted the Email field
+2024-07-31 11:07:744 INFO  CommonActions:177 - i Click on the element Email field
+2024-07-31 11:07:759 INFO  CommonActions:177 - Highlighted the Email field
+2024-07-31 11:07:981 INFO  CommonActions:177 - Clicked onEmail field
+2024-07-31 11:07:981 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:26 INFO  CommonActions:177 - Highlighted the Phone number dropdown
+2024-07-31 11:07:78 INFO  CommonActions:177 - i Click on the element Phone number dropdown
+2024-07-31 11:07:112 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:149 INFO  CommonActions:177 - Highlighted the +33
+2024-07-31 11:07:209 INFO  CommonActions:177 - i Click on the element +33
+2024-07-31 11:07:243 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:309 INFO  CommonActions:177 - Highlighted the Mobile number
+2024-07-31 11:07:358 INFO  CommonActions:177 - i Click on the element Mobile number
+2024-07-31 11:07:375 INFO  CommonActions:177 - Highlighted the Mobile number
+2024-07-31 11:07:522 INFO  CommonActions:177 - Clicked onMobile number
+2024-07-31 11:07:522 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:599 INFO  CommonActions:177 - Highlighted the Message
+2024-07-31 11:07:647 INFO  CommonActions:177 - i Click on the element Message
+2024-07-31 11:07:658 INFO  CommonActions:177 - Highlighted the Message
+2024-07-31 11:07:793 INFO  CommonActions:177 - Clicked onMessage
+2024-07-31 11:07:793 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:834 INFO  CommonActions:177 - Highlighted the Message field
+2024-07-31 11:07:834 INFO  CommonActions:177 - scrolled till the Message field
+2024-07-31 11:07:843 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:886 INFO  CommonActions:177 - Highlighted the Submit button
+2024-07-31 11:07:626 INFO  CommonActions:177 - i Click on the element Submit button
+2024-07-31 11:07:629 INFO  CommonActions:177 - Waiting for element to be Present
+2024-07-31 11:07:661 INFO  CommonActions:177 - Success message is displayed....
+2024-07-31 11:07:685 INFO  CommonActions:177 - Highlighted the Success message
+2024-07-31 11:07:690 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:734 INFO  CommonActions:177 - Highlighted the User profile picture
+2024-07-31 11:07:803 INFO  CommonActions:177 - i Click on the element User profile picture
+2024-07-31 11:07:803 INFO  CommonActions:177 - Waiting for element to be visible
+2024-07-31 11:07:847 INFO  CommonActions:177 - Highlighted the Log out
+2024-07-31 11:07:590 INFO  CommonActions:177 - i Click on the element Log out
+2024-07-31 11:07:590 INFO  CommonActions:177 - Query can be submited from Contact Us page is passed
