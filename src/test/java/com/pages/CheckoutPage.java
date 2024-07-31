@@ -46,9 +46,13 @@ public class CheckoutPage {
 		CommonActions.iClickElementByLocator(By.xpath("//div[contains(@class , 'calendar left')]//td[text() = '"
 				+ tomorrowdate + "' and not( contains(@class , 'disabled'))]"), tomorrowdate);
 		CommonActions.iClickElementByLocator(preferredtime, "Preferred time");
+		Thread.sleep(1000);
 		CommonActions.iClickElementByLocator(By.xpath("//li[text() = ' " + timerange + " ']"), "time range");
 		CommonActions.clickOnElementAndType(deleiveryinstruction, "NA", "Delivery instructions");
-		CommonActions.iClickElementByLocator(savebutton, "Save button");
+		Thread.sleep(1000);
+		CommonActions.iScrollDownCoordinates(0, 100);
+		Thread.sleep(1000);
+		CommonActions.iClickJSEByLocator(savebutton, "Save button");
 
 	}
 

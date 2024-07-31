@@ -33,10 +33,11 @@ public class ProfilePage extends GlobalVariable {
 	public void updateAddress(String statename) throws Exception {
 		Thread.sleep(2000);
 		CommonActions.iScrollToTheElementByLocator(addresscardforscroll, "address");
-		Thread.sleep(1000);
-		CommonActions.iClickElementByLocator(editiconaddress, "Edit address icon");
+		Thread.sleep(2000);
+		CommonActions.iClickJSEByLocator(editiconaddress, "Edit address icon");
 		GlobalVariable.updated_firstname = CommonActions.randomNameGenerator();
 		GlobalVariable.updated_cellnumber = CommonActions.randomMobileNumberGenerator();
+		Thread.sleep(1000);
 		CommonActions.clickOnElementAndType(firstnameaddress, GlobalVariable.updated_firstname, "First name");
 		CommonActions.iLogMessage("Updated the firstname " + GlobalVariable.updated_firstname);
 		CommonActions.clickOnElementAndType(cellphonenumber, GlobalVariable.updated_cellnumber, "Cell number");
@@ -56,8 +57,8 @@ public class ProfilePage extends GlobalVariable {
 	
 	public void iAddnewAddress(String statename) throws Exception {
 		CommonActions.iScrollToTheElementByLocator(addnewaddress, "addnewaddres");
-		Thread.sleep(1000);
-		CommonActions.iClickElementByLocator(addnewaddress, "addnewaddress");
+		Thread.sleep(3000);
+		CommonActions.iClickJSEByLocator(addnewaddress, "addnewaddress");
 		GlobalVariable.firstname = CommonActions.randomNameGeneratornew();
 		GlobalVariable.lastname = CommonActions.randomLastnameGenerator();
 		GlobalVariable.phone = CommonActions.randomMobileNumberGenerator();
