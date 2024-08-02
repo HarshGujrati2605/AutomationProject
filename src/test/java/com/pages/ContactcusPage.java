@@ -39,6 +39,8 @@ public class ContactcusPage {
     	CommonActions.iClickElementByLocator(titledropdown, "title dropdown");
     	Thread.sleep(2000);
     	CommonActions.iClickElementByLocator(By.xpath("//li[@data-title-value= 'mr']"), "Choosing Mr. as title");
+    	Thread.sleep(2000);
+    	CommonActions.scrollPage(null))
     	CommonActions.clickOnElementAndType(firstname, "Gurpreet", "First name");
     	CommonActions.clickOnElementAndType(lastname, "Singh", "Last name");
     	CommonActions.iScrollToTheElementByLocator(email, "email");
