@@ -41,6 +41,7 @@ public class BaseClass extends GlobalVariable {
 			System.out.println("Screenshot taken");
 		} catch (Exception e) {
 
+			
 			System.out.println("Exception while taking screenshot " + e.getMessage());
 
 		}
@@ -62,7 +63,7 @@ public class BaseClass extends GlobalVariable {
 		FileInputStream configfile = new FileInputStream("config.properties");
 		properties.load(configfile);
 		String response = properties.getProperty("headless");
-		return response;
+		return response.trim();
 
 	}
 	

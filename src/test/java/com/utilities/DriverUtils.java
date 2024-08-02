@@ -21,16 +21,16 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverUtils extends GlobalVariable {
 	public static String browserchoice;
-
+	public static String headless;
 	public static WebDriver getDriver() throws IOException {
-
+		
 		browserchoice = BaseClass.getBrowserChoice();
 		switch (browserchoice.toLowerCase()) {
 		case "chrome":
 			try {
-				String headless = BaseClass.getHeadlessChoice();
+			    headless = BaseClass.getHeadlessChoice().trim();
 				final ChromeOptions chromeOptions = new ChromeOptions();
-				if (headless.equals("true")) {
+				if (headless.equalsIgnoreCase("true")) {
 					chromeOptions.addArguments("--headless");
 				}
 				chromeOptions.addArguments("window-size=1920,1080");
@@ -42,7 +42,7 @@ public class DriverUtils extends GlobalVariable {
 				chromeOptions.addArguments("--disable-dev-shm-usage");
 				chromeOptions.addArguments("--no-sandbox");
 				WebDriverManager.chromedriver().setup();
-				driver = new ChromeDriver();
+				driver = new ChromeDriver(chromeOptions);
 				CommonActions action = new CommonActions(driver);
 				return driver;
 			} catch (Exception e) {
@@ -57,7 +57,7 @@ public class DriverUtils extends GlobalVariable {
 			try {
 				String headless = BaseClass.getHeadlessChoice();
 				final FirefoxOptions firefoxOptions = new FirefoxOptions();
-				if (headless.equals("true")) {
+				if (headless.equalsIgnoreCase("true")) {
 					firefoxOptions.addArguments("--headless");
 				}
 				firefoxOptions.addArguments("window-size=1920,1080");
@@ -69,7 +69,7 @@ public class DriverUtils extends GlobalVariable {
 				firefoxOptions.addArguments("--disable-dev-shm-usage");
 				firefoxOptions.addArguments("--no-sandbox");
 				WebDriverManager.firefoxdriver().setup();
-				driver = new FirefoxDriver();
+				driver = new FirefoxDriver(firefoxOptions);
 				CommonActions action = new CommonActions(driver);
 				return driver;
 			} catch (Exception e) {
@@ -84,7 +84,7 @@ public class DriverUtils extends GlobalVariable {
 			try {
 				String headless = BaseClass.getHeadlessChoice();
 				final EdgeOptions edgeoptions = new EdgeOptions();
-				if (headless.equals("true")) {
+				if (headless.equalsIgnoreCase("true")) {
 					edgeoptions.addArguments("--headless");
 				}
 				edgeoptions.addArguments("window-size=1920,1080");
@@ -96,7 +96,7 @@ public class DriverUtils extends GlobalVariable {
 				edgeoptions.addArguments("--disable-dev-shm-usage");
 				edgeoptions.addArguments("--no-sandbox");
 				WebDriverManager.edgedriver().setup();
-				driver = new EdgeDriver();
+				driver = new EdgeDriver(edgeoptions);
 				CommonActions action = new CommonActions(driver);
 				return driver;
 			} catch (Exception e) {
@@ -127,7 +127,7 @@ public class DriverUtils extends GlobalVariable {
 			try {
 				String headless = BaseClass.getHeadlessChoice();
 				final ChromeOptions chromeOptions = new ChromeOptions();
-				if (headless.equals("true")) {
+				if (headless.equalsIgnoreCase("true")) {
 					chromeOptions.addArguments("--headless");
 				}
 				chromeOptions.addArguments("window-size=1920,1080");
