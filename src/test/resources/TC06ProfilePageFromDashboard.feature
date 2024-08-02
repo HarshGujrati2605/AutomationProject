@@ -1,4 +1,4 @@
-@regression @pprofilepage
+@regression @profilepage
 Feature: Profile page scenarios
 
   Scenario: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.
@@ -25,6 +25,7 @@ Feature: Profile page scenarios
     And I select the "<options>" from dashboard menu
     And I add the new address of the person with state "<statename>"
     Then I validate the new added address
+    And I logout
 
     Examples: 
       | options | statename |

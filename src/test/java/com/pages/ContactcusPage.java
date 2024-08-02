@@ -40,14 +40,21 @@ public class ContactcusPage {
     	Thread.sleep(2000);
     	CommonActions.iClickElementByLocator(By.xpath("//li[@data-title-value= 'mr']"), "Choosing Mr. as title");
     	Thread.sleep(2000);
-    	CommonActions.scrollPage(null))
+    	CommonActions.iScrollDownCoordinates(0, 100);
+    	Thread.sleep(1000);
     	CommonActions.clickOnElementAndType(firstname, "Gurpreet", "First name");
     	CommonActions.clickOnElementAndType(lastname, "Singh", "Last name");
-    	CommonActions.iScrollToTheElementByLocator(email, "email");
+    	CommonActions.iScrollDownCoordinates(0, 100);
+    	Thread.sleep(1000);
+    	CommonActions.iScrollDownCoordinates(0, 100);
     	CommonActions.clickOnElementAndType(email, "gurpreet.singh22@yopmail.com", "Email field");
     	CommonActions.iClickElementByLocator(phonenumberdropdown, "Phone number dropdown");
     	Thread.sleep(1000);
+    	CommonActions.iScrollDownCoordinates(0, 100);
+    	Thread.sleep(1000);
     	CommonActions.iClickElementByLocator(By.xpath("//li[@data-code-value= '33']"), "+33");
+    	Thread.sleep(1000);
+    	CommonActions.iScrollDownCoordinates(0, 100);
     	Thread.sleep(1000);
     	CommonActions.clickOnElementAndType(phonenumber, CommonActions.randomMobileNumberGenerator(), "Mobile number");
     	CommonActions.clickOnElementAndType(messagefield, "Sales Querry", "Message");

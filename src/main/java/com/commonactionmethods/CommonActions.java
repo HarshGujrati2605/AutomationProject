@@ -562,8 +562,14 @@ public class CommonActions extends GlobalVariable {
 		LocalDateTime now = LocalDateTime.now();
 		System.out.println(dtf.format(now));
 		String localdate = LocalDate.parse(dtf.format(now)).plusDays(1).toString();
-		return localdate.substring(8).trim();
+		if (localdate.substring(8).charAt(0) == '0') {
+			System.out.println("Local date has zero in the first place");
+			return localdate.substring(9).trim();
+		} else {
+			return localdate.substring(8).trim();
+		}
 	}
+
 	public static String randomString(int length) {
 		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
 		Random rand = new Random();
@@ -574,7 +580,7 @@ public class CommonActions extends GlobalVariable {
 		return sb.toString();
 
 	}
-	
+
 	public static String randomCompanyString() {
 		String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
 		Random rand = new Random();
@@ -582,7 +588,7 @@ public class CommonActions extends GlobalVariable {
 		for (int i = 0; i < 6; i++) {
 			sb.append(chars.charAt(rand.nextInt(chars.length())));
 		}
-		return "DemoComp"+sb.toString();
+		return "DemoComp" + sb.toString();
 
 	}
 

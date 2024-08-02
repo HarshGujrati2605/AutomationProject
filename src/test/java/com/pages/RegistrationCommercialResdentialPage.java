@@ -31,6 +31,7 @@ public class RegistrationCommercialResdentialPage {
 	By registsuccessmessage = By.xpath("//h2[contains(text() , 'Thank You for registering with us')]");
 	By gobackhome = By.cssSelector(".back-home");
 	By comapanyname = By.xpath("//input[contains(@name , 'company')]");
+	By postalcode = By.xpath("//input[contains(@name , 'postalCode')]");
 
 	static String usertype;
 
@@ -77,6 +78,7 @@ public class RegistrationCommercialResdentialPage {
 		CommonActions.selectOptionFromDropdownclass(countrydropdown, "Jamaica");
 		CommonActions.selectOptionFromDropdownclass(statedropdown, "Surrey");
 		CommonActions.selectOptionFromDropdownclass(citydropdown, "Portland");
+		CommonActions.clickOnElementAndType(postalcode, "452001", "postal code");
 
 	}
 
