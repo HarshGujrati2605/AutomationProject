@@ -11,11 +11,13 @@ import com.implementation.AppAcess;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 
 public class Hooks extends GlobalVariable {
 
 	@Before
-	public void setup() throws IOException {
+	public void setup(Scenario scenario) throws IOException {
+		scenario.log("Project name: SolJamaicaWebAutomation");
 		AppAcess.openApplication();
 
 	}

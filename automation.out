@@ -1,1 +1,13 @@
-2024-08-02 20:08:234 INFO  CommonActions:177 - Screenshot taken
+2024-08-03 12:08:459 INFO  CommonActions:177 - Waiting for element to be visible
+2024-08-03 12:08:565 INFO  CommonActions:177 - Highlighted the Residnetial option
+2024-08-03 12:08:84 INFO  CommonActions:177 - i Click on the element Residnetial option
+2024-08-03 12:08:119 INFO  CommonActions:177 - Waiting for element to be visible
+2024-08-03 12:08:180 INFO  CommonActions:177 - i Click on the element Profile Icon
+2024-08-03 12:08:181 INFO  CommonActions:177 - Waiting for element to be visible
+2024-08-03 12:08:167 INFO  CommonActions:177 - i Click on the element Login link
+2024-08-03 12:08:183 INFO  CommonActions:177 - Waiting for element to be visible
+2024-08-03 12:08:279 INFO  CommonActions:177 - Highlighted the Username field
+2024-08-03 12:08:371 INFO  CommonActions:177 - i Click on the element Username field
+2024-08-03 12:08:403 INFO  CommonActions:177 - Highlighted the Username field
+2024-08-03 12:08:624 INFO  CommonActions:177 - Clicked onUsername field
+2024-08-03 12:08:630 INFO  CommonActions:177 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
