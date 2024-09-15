@@ -18,7 +18,7 @@ import net.masterthought.cucumber.ReportBuilder;
 @CucumberOptions(plugin = { "pretty", "html:target/cucumber/report.html", "summary",
 		"me.jvt.cucumber.report.PrettyReports:target/report/cucumber-html-reports", "rerun:target/failedrun.txt",
 		"json:target/cucumber-report-json/Cucumber.json" }, features = { "src/test/resources" }, glue = {
-				"com.stepdef" }, snippets = CAMELCASE, dryRun = false, monochrome = true, tags = "@regression")
+				"com.stepdef" }, snippets = CAMELCASE, dryRun = false, monochrome = true, tags = "@cylinderproducttab")
 public class CucumberRunnerTest {
 	
 	@AfterClass

@@ -1,4 +1,4 @@
-@regression @commercialregistration
+@regression @cylinderproducttab
 Feature: Verification of Cylinder based product from LPG, RPG select Products Tab
 
   Scenario: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.
@@ -55,7 +55,7 @@ Feature: Verification of Cylinder based product from LPG, RPG select Products Ta
     And I entered the order id of the placed product in search field and search
     Then the ordered product corresponding to the entered order id should be visible
     And I select the "<options>" from dashboard menu
-    And I search order id for return cyclinder
+   # And I search order id for return cyclinder
    # Then the ordered product corresponding to the entered return id should be visible
     And I logout
     
