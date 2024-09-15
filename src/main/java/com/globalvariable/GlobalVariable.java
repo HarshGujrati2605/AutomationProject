@@ -22,5 +22,6 @@ public class GlobalVariable {
 	public static String newuser_phone;
 	public static String companyNamechild;
 	public static String reg_emailid;
+	public static String returnid;
     }
 

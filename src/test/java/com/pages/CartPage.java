@@ -45,7 +45,7 @@ public class CartPage {
 	}
 
 	public void iClickCheckout() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		CommonActions.iClickElementByLocator(checkoutButton, "Checkout button");
 
 	}

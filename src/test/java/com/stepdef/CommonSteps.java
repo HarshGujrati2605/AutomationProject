@@ -23,4 +23,9 @@ public class CommonSteps {
 		new HomePage().iClickHome();
 	}
 
+	@And("I add product to the cart using product code {string}")
+	public void iAddProductToTheCartUsingPrdCode(String code) throws InterruptedException {
+		new CommonPage().iAddProductUsingProductCode(code);
+	}
+
 }
