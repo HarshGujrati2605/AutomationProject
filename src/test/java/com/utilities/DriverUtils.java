@@ -41,8 +41,10 @@ public class DriverUtils extends GlobalVariable {
 				chromeOptions.addArguments("--disable-gpu");
 				chromeOptions.addArguments("--disable-dev-shm-usage");
 				chromeOptions.addArguments("--no-sandbox");
-				WebDriverManager.chromedriver().setup();
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\chromedriver.exe");
 				driver = new ChromeDriver(chromeOptions);
+//				WebDriverManager.chromedriver().setup();
+//				driver = new ChromeDriver(chromeOptions);
 				CommonActions action = new CommonActions(driver);
 				return driver;
 			} catch (Exception e) {
@@ -138,8 +140,10 @@ public class DriverUtils extends GlobalVariable {
 				chromeOptions.addArguments("--disable-gpu");
 				chromeOptions.addArguments("--disable-dev-shm-usage");
 				chromeOptions.addArguments("--no-sandbox");
-				WebDriverManager.chromedriver().setup();
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\chromedriver.exe");
 				driver = new ChromeDriver(chromeOptions);
+//				WebDriverManager.chromedriver().setup();
+//				driver = new ChromeDriver(chromeOptions);
 				CommonActions commonActions = new CommonActions(driver);
 				return driver;
 			} catch (Exception e) {

@@ -55,8 +55,6 @@ Feature: Verification of Cylinder based product from LPG, RPG select Products Ta
     And I entered the order id of the placed product in search field and search
     Then the ordered product corresponding to the entered order id should be visible
     And I select the "<options>" from dashboard menu
-   # And I search order id for return cyclinder
-   # Then the ordered product corresponding to the entered return id should be visible
     And I logout
     
 
