@@ -77,7 +77,15 @@ public class DriverUtils extends GlobalVariable {
 				firefoxOptions.addArguments("--disable-gpu");
 				firefoxOptions.addArguments("--disable-dev-shm-usage");
 				firefoxOptions.addArguments("--no-sandbox");
-				WebDriverManager.firefoxdriver().setup();
+				if (BaseClass.getDriverType().toLowerCase().trim().equals("executable")) {
+					System.setProperty("webdriver.chrome.driver",
+							System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\geckodriver.exe");
+					System.out.println("Executing through driver.exe");
+				} else {
+					WebDriverManager.firefoxdriver().setup();
+					System.out.println("executing through webdrivermanager manager");
+				}
+//				
 				driver = new FirefoxDriver(firefoxOptions);
 				CommonActions action = new CommonActions(driver);
 				return driver;
@@ -104,7 +112,14 @@ public class DriverUtils extends GlobalVariable {
 				edgeoptions.addArguments("--disable-gpu");
 				edgeoptions.addArguments("--disable-dev-shm-usage");
 				edgeoptions.addArguments("--no-sandbox");
-				WebDriverManager.edgedriver().setup();
+				if (BaseClass.getDriverType().toLowerCase().trim().equals("executable")) {
+					System.setProperty("webdriver.chrome.driver",
+							System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\msedgedriver.exe");
+					System.out.println("Executing through driver.exe");
+				} else {
+					WebDriverManager.edgedriver().setup();
+					System.out.println("executing through webdrivermanager manager");
+				}
 				driver = new EdgeDriver(edgeoptions);
 				CommonActions action = new CommonActions(driver);
 				return driver;
