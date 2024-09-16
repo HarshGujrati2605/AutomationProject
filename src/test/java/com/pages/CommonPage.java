@@ -10,13 +10,13 @@ public class CommonPage {
 	By addtocartbutton = By.xpath(
 			"(//div[contains(@class , 'add-to-cart-wrapper')]//button[contains(@class , 'btn-add-to-cart ')])[1]");
 	By getProductTitle = By.xpath("(//div[@class = 'prod-title']/a/h3)[1]");
+	
 
 	public static void iSelectFilterRange(String range1, String range2) throws InterruptedException {
 
 		if (!range1.equals("1000")) {
 			CommonActions.iClickElementByLocator(By.xpath(
-					"//form[contains(@id , 'CPPriceRangeFacetsPortlet_INSTANCE_otal')]/fieldset//label/input[@data-term-id = '["
-							+ range1 + " TO " + range2 + "]']/.."),
+					"//form[contains(@id , 'CPPriceRangeFacetsPortlet_INSTANCE_otal')]/fieldset//label/input[@data-term-id = '["+ range1 + " TO " + range2 + "]']/.. | //form[contains(@id , 'CPPriceRangeFacetsPortlet_INSTANCE_yrol')]/fieldset//label/input[@data-term-id = '["+ range1 + " TO " + range2 + "]']/.."),
 					"Selcting filter range from " + range1 + " to " + range2 + "");
 		} else if (range1.equals("1000")) {
 			CommonActions.iClickElementByLocator(By.xpath(
@@ -37,6 +37,14 @@ public class CommonPage {
 //		} catch (Exception e) {
 //			CommonActions.iClickJSEByLocator(addtocartbutton, "Add to cart button of the first visible product");
 //		}
+	}
+	
+	public void iAddProductUsingProductCode(String prdcode) throws InterruptedException {
+		GlobalVariable.product_title = CommonActions.iGetTextByLoctor(By.xpath("//span[text() = '"+prdcode+"']/ancestor::div[contains(@class , 'prod-card')]//div[contains(@class , 'title')]/a/h3"), prdcode);
+		CommonActions.iLogMessage("Adding " + GlobalVariable.product_title + " in the cart");
+		Thread.sleep(2000);
+		CommonActions.iClickJSEByLocator(By.xpath("//span[text() = '"+prdcode+"']/ancestor::div[contains(@class , 'prod-card')]//span[text() = 'Add to Cart']"), prdcode);
+		
 	}
 
 }
