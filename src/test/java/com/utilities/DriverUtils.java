@@ -22,13 +22,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class DriverUtils extends GlobalVariable {
 	public static String browserchoice;
 	public static String headless;
+
 	public static WebDriver getDriver() throws IOException {
-		
+
 		browserchoice = BaseClass.getBrowserChoice();
 		switch (browserchoice.toLowerCase()) {
 		case "chrome":
 			try {
-			    headless = BaseClass.getHeadlessChoice().trim();
+				headless = BaseClass.getHeadlessChoice().trim();
 				final ChromeOptions chromeOptions = new ChromeOptions();
 				if (headless.equalsIgnoreCase("true")) {
 					chromeOptions.addArguments("--headless");
@@ -41,10 +42,16 @@ public class DriverUtils extends GlobalVariable {
 				chromeOptions.addArguments("--disable-gpu");
 				chromeOptions.addArguments("--disable-dev-shm-usage");
 				chromeOptions.addArguments("--no-sandbox");
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\chromedriver.exe");
+				if (BaseClass.getDriverType().toLowerCase().trim().equals("executable")) {
+					System.setProperty("webdriver.chrome.driver",
+							System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\chromedriver.exe");
+				} else {
+					WebDriverManager.chromedriver().setup();
+					System.out.println("executing manager");
+				}
+
 				driver = new ChromeDriver(chromeOptions);
-//				WebDriverManager.chromedriver().setup();
-//				driver = new ChromeDriver(chromeOptions);
+
 				CommonActions action = new CommonActions(driver);
 				return driver;
 			} catch (Exception e) {
@@ -81,7 +88,7 @@ public class DriverUtils extends GlobalVariable {
 			}
 
 			break;
-			
+
 		case "edge":
 			try {
 				String headless = BaseClass.getHeadlessChoice();
@@ -140,7 +147,8 @@ public class DriverUtils extends GlobalVariable {
 				chromeOptions.addArguments("--disable-gpu");
 				chromeOptions.addArguments("--disable-dev-shm-usage");
 				chromeOptions.addArguments("--no-sandbox");
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver",
+						System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\chromedriver.exe");
 				driver = new ChromeDriver(chromeOptions);
 //				WebDriverManager.chromedriver().setup();
 //				driver = new ChromeDriver(chromeOptions);
