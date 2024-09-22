@@ -56,6 +56,16 @@ public class BaseClass extends GlobalVariable {
 		return url;
 
 	}
+	
+	public static String getDriverType() throws IOException {
+
+		Properties properties = new Properties();
+		FileInputStream configfile = new FileInputStream("config.properties");
+		properties.load(configfile);
+		String typeofdriver = properties.getProperty("driver");
+		return typeofdriver;
+
+	}
 
 	
 	public static String getHeadlessChoice() throws IOException {

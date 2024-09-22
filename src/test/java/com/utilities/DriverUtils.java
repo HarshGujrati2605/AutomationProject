@@ -22,13 +22,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class DriverUtils extends GlobalVariable {
 	public static String browserchoice;
 	public static String headless;
+
 	public static WebDriver getDriver() throws IOException {
-		
+
 		browserchoice = BaseClass.getBrowserChoice();
 		switch (browserchoice.toLowerCase()) {
 		case "chrome":
 			try {
-			    headless = BaseClass.getHeadlessChoice().trim();
+				headless = BaseClass.getHeadlessChoice().trim();
 				final ChromeOptions chromeOptions = new ChromeOptions();
 				if (headless.equalsIgnoreCase("true")) {
 					chromeOptions.addArguments("--headless");
@@ -41,8 +42,16 @@ public class DriverUtils extends GlobalVariable {
 				chromeOptions.addArguments("--disable-gpu");
 				chromeOptions.addArguments("--disable-dev-shm-usage");
 				chromeOptions.addArguments("--no-sandbox");
-				WebDriverManager.chromedriver().setup();
+				if (BaseClass.getDriverType().toLowerCase().trim().equals("executable")) {
+					System.setProperty("webdriver.chrome.driver",
+							System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\chromedriver.exe");
+				} else {
+					WebDriverManager.chromedriver().setup();
+					System.out.println("executing manager");
+				}
+
 				driver = new ChromeDriver(chromeOptions);
+
 				CommonActions action = new CommonActions(driver);
 				return driver;
 			} catch (Exception e) {
@@ -68,7 +77,15 @@ public class DriverUtils extends GlobalVariable {
 				firefoxOptions.addArguments("--disable-gpu");
 				firefoxOptions.addArguments("--disable-dev-shm-usage");
 				firefoxOptions.addArguments("--no-sandbox");
-				WebDriverManager.firefoxdriver().setup();
+				if (BaseClass.getDriverType().toLowerCase().trim().equals("executable")) {
+					System.setProperty("webdriver.chrome.driver",
+							System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\geckodriver.exe");
+					System.out.println("Executing through driver.exe");
+				} else {
+					WebDriverManager.firefoxdriver().setup();
+					System.out.println("executing through webdrivermanager manager");
+				}
+//				
 				driver = new FirefoxDriver(firefoxOptions);
 				CommonActions action = new CommonActions(driver);
 				return driver;
@@ -79,7 +96,7 @@ public class DriverUtils extends GlobalVariable {
 			}
 
 			break;
-			
+
 		case "edge":
 			try {
 				String headless = BaseClass.getHeadlessChoice();
@@ -95,7 +112,14 @@ public class DriverUtils extends GlobalVariable {
 				edgeoptions.addArguments("--disable-gpu");
 				edgeoptions.addArguments("--disable-dev-shm-usage");
 				edgeoptions.addArguments("--no-sandbox");
-				WebDriverManager.edgedriver().setup();
+				if (BaseClass.getDriverType().toLowerCase().trim().equals("executable")) {
+					System.setProperty("webdriver.chrome.driver",
+							System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\msedgedriver.exe");
+					System.out.println("Executing through driver.exe");
+				} else {
+					WebDriverManager.edgedriver().setup();
+					System.out.println("executing through webdrivermanager manager");
+				}
 				driver = new EdgeDriver(edgeoptions);
 				CommonActions action = new CommonActions(driver);
 				return driver;
@@ -138,8 +162,11 @@ public class DriverUtils extends GlobalVariable {
 				chromeOptions.addArguments("--disable-gpu");
 				chromeOptions.addArguments("--disable-dev-shm-usage");
 				chromeOptions.addArguments("--no-sandbox");
-				WebDriverManager.chromedriver().setup();
+				System.setProperty("webdriver.chrome.driver",
+						System.getProperty("user.dir") + "\\src\\main\\resources\\driver\\chromedriver.exe");
 				driver = new ChromeDriver(chromeOptions);
+//				WebDriverManager.chromedriver().setup();
+//				driver = new ChromeDriver(chromeOptions);
 				CommonActions commonActions = new CommonActions(driver);
 				return driver;
 			} catch (Exception e) {

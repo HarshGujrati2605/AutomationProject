@@ -19,19 +19,19 @@ import net.masterthought.cucumber.ReportBuilder;
 		"me.jvt.cucumber.report.PrettyReports:target/report/cucumber-html-reports", "rerun:target/failedrun.txt",
 		"json:target/cucumber-report-json/Cucumber.json" }, features = { "src/test/resources" }, glue = {
 				"com.stepdef" }, snippets = CAMELCASE, dryRun = false, monochrome = true, tags = "@cylinderproducttab")
+
 public class CucumberRunnerTest {
-	
+
 	@AfterClass
 	public static void teardown() {
-		
+
 		File outputdirec = new File("target/report/cucumber-html-reports");
 		List json = new ArrayList<>();
 		json.add("target/cucumber-report-json/Cucumber.json");
 		Configuration configuration = new Configuration(outputdirec, "SolJamaicaWebAutomation");
-		ReportBuilder build  = new ReportBuilder(json, configuration);
+		ReportBuilder build = new ReportBuilder(json, configuration);
 		build.generateReports();
-		
-		
+
 	}
 
 }
