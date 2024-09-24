@@ -108,12 +108,18 @@ public class DashboardPage {
 	}
 
 	public void iSelectOptionFromDashboardPage(String option) throws InterruptedException {
+		try {
+			CommonActions.iClickElementByLocator(
+					By.xpath("//div[contains(@class , 'SiteNavigationMenuPortlet')]//a[text() = '" + option + "']"),
+					option);
+		} catch (Exception e) {
+			CommonActions.iClickJSEByLocator(
+					By.xpath("//div[contains(@class , 'SiteNavigationMenuPortlet')]//a[text() = '" + option + "']"),
+					option);
 
-		CommonActions.iClickElementByLocator(
-				By.xpath("//div[contains(@class , 'SiteNavigationMenuPortlet')]//a[text() = '" + option + "']"),
-				option);
+		}
 	}
-	
+
 	public void iSelectProductFromWishlist() throws InterruptedException {
 		GlobalVariable.product_title = CommonActions.iGetTextByLoctor(getProductTitle, "Product title");
 		CommonActions.iLogMessage("Adding " + GlobalVariable.product_title + " in the cart");

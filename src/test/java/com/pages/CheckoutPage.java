@@ -47,9 +47,8 @@ public class CheckoutPage {
 		CommonActions.iClickElementByLocator(continuebillinginfo, "Continue billing info");
 		Thread.sleep(3000);
 		try {
-		CommonActions.iClickJSEByLocator(shippingaddresscheckbox, "shppingaddress");
-		}
-		catch (Exception e) {
+			CommonActions.iClickJSEByLocator(shippingaddresscheckbox, "shppingaddress");
+		} catch (Exception e) {
 			CommonActions.iLogMessage("Shipping address is not available");
 		}
 		Thread.sleep(1000);
@@ -70,8 +69,13 @@ public class CheckoutPage {
 		CommonActions.iClickElementByLocator(preffereddatedropdown, "Preferred date dropdown");
 		String tomorrowdate = CommonActions.getTodayDateAndAddOneDay();
 		Thread.sleep(2000);
-		CommonActions.iClickElementByLocator(By.xpath("//div[contains(@class , 'calendar left')]//td[text() = '"
-				+ tomorrowdate + "' and not( contains(@class , 'disabled'))]"), tomorrowdate);
+		try {
+			CommonActions.iClickElementByLocator(By.xpath("//div[contains(@class , 'calendar left')]//td[text() = '"
+					+ tomorrowdate + "' and not( contains(@class , 'disabled'))]"), tomorrowdate);
+		} catch (Exception e) {
+			CommonActions.iClickElementByLocator(By.xpath("//div[contains(@class , 'calendar left')]//td[text() = '"
+					+ tomorrowdate + "' and not( contains(@class , 'disabled'))]"), tomorrowdate);
+		}
 		CommonActions.iClickElementByLocator(preferredtime, "Preferred time");
 		Thread.sleep(1000);
 		CommonActions.iClickElementByLocator(By.xpath("//li[text() = ' " + timerange + " ']"), "time range");
@@ -98,13 +102,14 @@ public class CheckoutPage {
 	public void iClickConfirmbutton() throws InterruptedException {
 		CommonActions.iClickElementByLocator(orderconfirmationbutton, "Confirm order button");
 	}
-	
+
 	public void iValidateReturnID() throws Exception {
-		
+
 		CommonActions.isDisplayed(orderconfirmationmessage, "Order placed success message");
-		GlobalVariable.returnid = CommonActions.iGetTextByLoctor(By.xpath("//p[text() = 'Return ID ']//following-sibling::span"), "order id");
+		GlobalVariable.returnid = CommonActions
+				.iGetTextByLoctor(By.xpath("//p[text() = 'Return ID ']//following-sibling::span"), "order id");
 		CommonActions.iLogMessage("Return ID is " + GlobalVariable.returnid);
-		
+
 	}
 
 	public void iValidateOrderPlaced() throws Exception {
@@ -120,7 +125,12 @@ public class CheckoutPage {
 	}
 
 	public void iSkipReturnBottle() throws InterruptedException {
-		CommonActions.iClickElementByLocator(skipreturnbottle, "skip return bottle");
+		Thread.sleep(2000);
+		try {
+			CommonActions.iClickElementByLocator(skipreturnbottle, "skip return bottle");
+		} catch (Exception e) {
+			CommonActions.iClickJSEByLocator(skipreturnbottle, "skip return bottle");
+		}
 	}
 
 	public void iClickCashBtn() throws InterruptedException {
@@ -134,7 +144,11 @@ public class CheckoutPage {
 				"I will pick from Sol branch", "Instrctions");
 		Thread.sleep(1000);
 		CommonActions.iScrollDownCoordinates(0, 100);
-		CommonActions.iClickElementByLocator(By.cssSelector(".btn-continue.save-btn"), "Save button");
+		try {
+			CommonActions.iClickElementByLocator(By.cssSelector(".btn-continue.save-btn"), "Save button");
+		} catch (Exception e) {
+			CommonActions.iClickJSEByLocator(By.cssSelector(".btn-continue.save-btn"), "Save button");
+		}
 	}
 
 }
