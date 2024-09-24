@@ -138,10 +138,17 @@ public class CheckoutPage {
 	}
 
 	public void iEnterValueForReturnCyl(String value) throws Exception {
-
-		CommonActions.clickOnElementAndType(returnqty, value, "return quatity");
+        Thread.sleep(2000);
+        CommonActions.clickOnElementAndType(returnqty, value, "return quatity");
+        Thread.sleep(1000);
+        try {
 		CommonActions.clickOnElementAndType(By.cssSelector("input#returnBottleDeliveryInstructionId"),
 				"I will pick from Sol branch", "Instrctions");
+        }
+        catch (Exception e) {
+        	CommonActions.clickOnElementAndType(By.cssSelector("input#returnBottleDeliveryInstructionId"),
+    				"I will pick from Sol branch", "Instrctions");
+		}
 		Thread.sleep(1000);
 		CommonActions.iScrollDownCoordinates(0, 100);
 		try {
