@@ -23,5 +23,6 @@ public class GlobalVariable {
 	public static String companyNamechild;
 	public static String reg_emailid;
 	public static String returnid;
+	public static String requestreturnid;
     }
 

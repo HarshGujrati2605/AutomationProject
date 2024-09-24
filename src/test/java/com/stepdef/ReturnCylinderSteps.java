@@ -39,7 +39,36 @@ public class ReturnCylinderSteps {
 	@Then("I validate the return success message")
 	public void iValidateSuccessMesage() throws Exception {
 		new ReturnCylinderPage().iValidateSuccessReturnMessage();
-		new HomePage().iClickHome();
+
+	}
+
+	@And("I select the pickup address as return sol branch")
+	public void iSelectSOLBranch() throws InterruptedException {
+
+		new ReturnCylinderPage().iSelectSOLPickupAddress();
+	}
+
+	@And("I click on cancel button on searched return id")
+	public void iClickOnCancelReturnId() throws InterruptedException {
+		new ReturnCylinderPage().iCancelReturn();
+	}
+
+	@And("I validate the cancellation pop up is visible")
+	public void iValidateCancellationPopUps() throws Exception {
+		new ReturnCylinderPage().iValidateCancellationPopup();
+
+	}
+
+	@Then("I validate the pending cancellation status")
+	public void iValidateCancellationStatus() throws Exception {
+		new ReturnCylinderPage().iValidatePendingCancellationStatus();
+	}
+
+	@And("I search order id for return request cyclinder")
+	public void searchreturnreqIdCylinder() throws Exception {
+
+		new ReturnCylinderPage().iSearchReturnReqId();
+
 	}
 
 }

@@ -132,6 +132,8 @@ public class CheckoutPage {
 		CommonActions.clickOnElementAndType(returnqty, value, "return quatity");
 		CommonActions.clickOnElementAndType(By.cssSelector("input#returnBottleDeliveryInstructionId"),
 				"I will pick from Sol branch", "Instrctions");
+		Thread.sleep(1000);
+		CommonActions.iScrollDownCoordinates(0, 100);
 		CommonActions.iClickElementByLocator(By.cssSelector(".btn-continue.save-btn"), "Save button");
 	}
 

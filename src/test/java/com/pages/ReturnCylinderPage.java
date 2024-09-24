@@ -15,6 +15,13 @@ public class ReturnCylinderPage {
 	By submitpickupaddressbtn = By.cssSelector("#pickHomeID");
 	By submitreturnform = By.cssSelector("#submitreturnID");
 	By alertsuccess = By.xpath("//h2[text () = 'Request Submitted']");
+	By solbranchpickup = By.xpath("//button[text() = ' Return at SOL office ']");
+	By cancelorderbutton = By
+			.xpath("//div[contains(@class , 'action-block-return')]/img[contains(@onclick ,'CancelOrder')]");
+	By cancellationpopup = By.xpath("//p[text() = 'Are you sure you want to cancel this return?']");
+	By cancelrequest = By.xpath("//button[text() = 'Request To Cancel']");
+	By cancellationrequestemailpopup = By.xpath("//h5[contains(text()  ,'Cancellation request sent successfully')]");
+	By pendingcancelstatus = By.xpath("//td[text() = ' Pending Cancellation']");
 
 	public void searchorderidreturncylinder() throws Exception {
 
@@ -24,8 +31,13 @@ public class ReturnCylinderPage {
 
 	public void iValidateReturnIdProductInSearch() throws Exception {
 		Thread.sleep(4000);
-		CommonActions.isDisplayed(By.xpath("//span[text() = '" + GlobalVariable.returnid + "']"),
-				"search product in return results");
+		try {
+			CommonActions.isDisplayed(By.xpath("//span[text() = '" + GlobalVariable.returnid + "']"),
+					"search product in return results");
+		} catch (Exception e) {
+			CommonActions.isDisplayed(By.xpath("//span[text() = '" + GlobalVariable.requestreturnid + "']"),
+					"search product in return results");
+		}
 	}
 
 	public void iClickQuantityDropdown() throws InterruptedException {
@@ -37,6 +49,8 @@ public class ReturnCylinderPage {
 				By.xpath("//input[@value= '" + prdname
 						+ "']/ancestor::div[contains(@class , 'items')]//input[@type = 'number']"),
 				quantity, "return quantity");
+		CommonActions.clickOnElementAndType(By.cssSelector("input#deliveryInstructionId"), "For demo purpose",
+				quantity);
 		CommonActions.iClickElementByLocator(submitqtybtn, "Submit button");
 	}
 
@@ -48,7 +62,38 @@ public class ReturnCylinderPage {
 	}
 
 	public void iValidateSuccessReturnMessage() throws Exception {
-        CommonActions.isDisplayed(alertsuccess, "alret success message after submission of return equest");
+		CommonActions.isDisplayed(alertsuccess, "alret success message after submission of return equest");
+		GlobalVariable.requestreturnid = CommonActions.iGetTextByLoctor(By.cssSelector(".order-id"), "return id");
+
+	}
+
+	public void iSelectSOLPickupAddress() throws InterruptedException {
+		CommonActions.iClickElementByLocator(solbranchpickup, "sol branch pickup");
+	}
+
+	public void iCancelReturn() throws InterruptedException {
+		CommonActions.iClickElementByLocator(cancelorderbutton, "Cancel order button");
+	}
+
+	public void iValidateCancellationPopup() throws Exception {
+		Thread.sleep(2000);
+		CommonActions.isDisplayed(cancellationpopup, "cancel alert");
+		CommonActions.iClickJSEByLocator(cancelrequest, "cancel order button");
+		Thread.sleep(2000);
+		CommonActions.isDisplayed(cancellationrequestemailpopup, "cancellation pop up");
+		CommonActions.iClickElementByLocator(By.xpath("//button[text() = 'OK']"), "Ok button");
+	}
+
+	public void iValidatePendingCancellationStatus() throws Exception {
+		Thread.sleep(2000);
+		CommonActions.isDisplayed(pendingcancelstatus, "pending cancellation status");
+	}
+
+	public void iSearchReturnReqId() throws Exception {
+		CommonActions.clickOnElementAndType(searchreturn, GlobalVariable.requestreturnid, "rertun request ID");
+		CommonActions.iLogMessage("request return id is" + " " + GlobalVariable.requestreturnid);
+		CommonActions.iClickEnter(searchreturn);
+		Thread.sleep(2000);
 	}
 
 }
