@@ -19,8 +19,6 @@ public class ReturnCylinderSteps {
 	@Then("the ordered product corresponding to the entered return id should be visible")
 	public void iValidatePrdInReturn() throws Exception {
 		new ReturnCylinderPage().iValidateReturnIdProductInSearch();
-		new HomePage().iClickHome();
-
 	}
 
 	@Given("I am on return and click on quantity dropdown")
@@ -41,6 +39,7 @@ public class ReturnCylinderSteps {
 	@Then("I validate the return success message")
 	public void iValidateSuccessMesage() throws Exception {
 		new ReturnCylinderPage().iValidateSuccessReturnMessage();
+		new HomePage().iClickHome();
 	}
 
 }
