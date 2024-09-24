@@ -33,5 +33,10 @@ public class ManageUsersSteps {
 		new ManageUsersPage().adduserinchildcompany();
 		
 	}
+	
+	 @And("I add the {string} and {string}")
+	 public void iAddCountryAndState(String country , String state) {
+		 
+	 }
 
 }

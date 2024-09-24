@@ -94,4 +94,10 @@ public class RegistrationCommercialResdentialPage {
 		CommonActions.isDisplayed(registsuccessmessage, "registration success message");
 		CommonActions.iClickElementByLocator(gobackhome, "Go back home button");
 	}
+	
+	public void iAddCountryAndState(String country , String state) {
+		CommonActions.selectOptionFromDropdownclass(countrydropdown, country);
+		CommonActions.selectOptionFromDropdownclass(citydropdown, state);
+		
+	}
 }

@@ -20,7 +20,7 @@ public class ManageUsersPage {
 	By address2 = By.xpath("//input[contains(@name , 'address2')]");
 	By address3 = By.xpath("//input[contains(@name , 'address3')]");
 	By zipcodefield = By.xpath("//input[contains(@name , 'zipcode')]");
-	By adduserbtn = By.xpath("//button[contains(@id , 'ManageUsersPortlet_INSTANCE_ikez_submit')]");
+	By adduserbtn = By.xpath("//span[text() = 'Add User']/ancestor::button");
 	By searchforuserfield = By.xpath("//input[@placeholder = 'Search For User']");
 	By usernamesearchfieldcolumn = By.xpath("//td[contains(@class , 'name')]");
 	By addnewchildcompany = By.xpath("//p[text() = 'Add New Child Company']");
