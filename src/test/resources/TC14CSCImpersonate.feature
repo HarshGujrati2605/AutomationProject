@@ -13,8 +13,9 @@ Feature: User login in CSC account and open the B2C account and add LPG  based
 
     Given I am on Homepage
     And I click on cubic menu icon
+    And I select users and organisation from menu
+    And I select the "<user>" from user and organisation page and clicked on imperosnate user
    
     Examples: 
-      | category name | range1 | range2 | time range | code  | options         | value |
-      | Cylinders     |      0 |  49.99 | 9AM-12PM   | 10050 | Return Cylinder |     1 |
-
+     |user|
+     |    |

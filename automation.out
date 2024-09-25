@@ -1,172 +1,135 @@
-2024-09-25 12:09:896 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:04 INFO  CommonActions:177 - Highlighted the Residnetial option
-2024-09-25 12:09:396 INFO  CommonActions:177 - i Click on the element Residnetial option
-2024-09-25 12:09:426 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:480 INFO  CommonActions:177 - i Click on the element Profile Icon
-2024-09-25 12:09:481 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:528 INFO  CommonActions:177 - i Click on the element Login link
-2024-09-25 12:09:534 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:614 INFO  CommonActions:177 - Highlighted the Username field
-2024-09-25 12:09:670 INFO  CommonActions:177 - i Click on the element Username field
-2024-09-25 12:09:691 INFO  CommonActions:177 - Highlighted the Username field
-2024-09-25 12:09:831 INFO  CommonActions:177 - Clicked onUsername field
-2024-09-25 12:09:833 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:910 INFO  CommonActions:177 - Highlighted the Password field
-2024-09-25 12:09:974 INFO  CommonActions:177 - i Click on the element Password field
-2024-09-25 12:09:995 INFO  CommonActions:177 - Highlighted the Password field
-2024-09-25 12:09:95 INFO  CommonActions:177 - Clicked onPassword field
-2024-09-25 12:09:96 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:135 INFO  CommonActions:177 - Highlighted the Click login button
-2024-09-25 12:09:199 INFO  CommonActions:177 - i Click on the element Click login button
-2024-09-25 12:09:199 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:276 INFO  CommonActions:177 - pop up is not present after login
-2024-09-25 12:09:276 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:328 INFO  CommonActions:177 - Highlighted the Successful alert is present
-2024-09-25 12:09:328 INFO  CommonActions:177 - Element USer profile picture is present.
-2024-09-25 12:09:330 INFO  CommonActions:177 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
-2024-09-25 12:09:365 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:697 INFO  CommonActions:177 - i Click on the element Home menu
-2024-09-25 12:09:697 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:879 INFO  CommonActions:177 - Hover to the Product tab
-2024-09-25 12:09:887 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:933 INFO  CommonActions:177 - Highlighted the Ctaegory selected Cylinders
-2024-09-25 12:09:394 INFO  CommonActions:177 - i Click on the element Ctaegory selected Cylinders
-2024-09-25 12:09:395 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:445 INFO  CommonActions:177 - Highlighted the Selcting filter range from 0 to 49.99
-2024-09-25 12:09:503 INFO  CommonActions:177 - i Click on the element Selcting filter range from 0 to 49.99
-2024-09-25 12:09:503 INFO  CommonActions:177 - Getting the text from10050
-2024-09-25 12:09:503 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:536 INFO  CommonActions:177 - Adding Cooking Gas 10KG/22LB in the cart
-2024-09-25 12:09:538 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:579 INFO  CommonActions:177 - i Click on the element 10050
-2024-09-25 12:09:592 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:648 INFO  CommonActions:177 - i Click on the element Cart icon click
-2024-09-25 12:09:648 INFO  CommonActions:177 - Waiting for elements to be visible
-2024-09-25 12:09:699 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:730 INFO  CommonActions:177 - ********************    Element actual text is Cooking Gas 10KG/22LB***************
-2024-09-25 12:09:730 INFO  CommonActions:177 - ****************** ELement Expected text is Cooking Gas 10KG/22LB**********************
-2024-09-25 12:09:753 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:810 INFO  CommonActions:177 - Highlighted the Checkout button
-2024-09-25 12:09:471 INFO  CommonActions:177 - i Click on the element Checkout button
-2024-09-25 12:09:472 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:535 INFO  CommonActions:177 - Highlighted the Continue billing info
-2024-09-25 12:09:590 INFO  CommonActions:177 - i Click on the element Continue billing info
-2024-09-25 12:09:606 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:661 INFO  CommonActions:177 - i Click on the element shppingaddress
-2024-09-25 12:09:674 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:723 INFO  CommonActions:177 - Highlighted the Continue shipping button
-2024-09-25 12:09:724 INFO  CommonActions:177 - scrolled till the Continue shipping button
-2024-09-25 12:09:729 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:772 INFO  CommonActions:177 - Highlighted the Continue shiiping info
-2024-09-25 12:09:832 INFO  CommonActions:177 - i Click on the element Continue shiiping info
-2024-09-25 12:09:846 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:890 INFO  CommonActions:177 - i Click on the element quantity add
-2024-09-25 12:09:901 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:939 INFO  CommonActions:177 - i Click on the element quantity add
-2024-09-25 12:09:957 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:39 INFO  CommonActions:177 - Highlighted the Instrctions
-2024-09-25 12:09:96 INFO  CommonActions:177 - i Click on the element Instrctions
-2024-09-25 12:09:120 INFO  CommonActions:177 - Highlighted the Instrctions
-2024-09-25 12:09:303 INFO  CommonActions:177 - Clicked onInstrctions
-2024-09-25 12:09:830 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:875 INFO  CommonActions:177 - Highlighted the Save button
-2024-09-25 12:09:950 INFO  CommonActions:177 - i Click on the element Save button
-2024-09-25 12:09:957 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:04 INFO  CommonActions:177 - Highlighted the Preferred date dropdown
-2024-09-25 12:09:84 INFO  CommonActions:177 - i Click on the element Preferred date dropdown
-2024-09-25 12:09:101 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:148 INFO  CommonActions:177 - Highlighted the 26
-2024-09-25 12:09:211 INFO  CommonActions:177 - i Click on the element 26
-2024-09-25 12:09:211 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:255 INFO  CommonActions:177 - Highlighted the Preferred time
-2024-09-25 12:09:303 INFO  CommonActions:177 - i Click on the element Preferred time
-2024-09-25 12:09:315 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:364 INFO  CommonActions:177 - Highlighted the time range
-2024-09-25 12:09:413 INFO  CommonActions:177 - i Click on the element time range
-2024-09-25 12:09:413 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:482 INFO  CommonActions:177 - Highlighted the PO number
-2024-09-25 12:09:535 INFO  CommonActions:177 - i Click on the element PO number
-2024-09-25 12:09:557 INFO  CommonActions:177 - Highlighted the PO number
-2024-09-25 12:09:669 INFO  CommonActions:177 - Clicked onPO number
-2024-09-25 12:09:670 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:744 INFO  CommonActions:177 - Highlighted the Delivery instructions
-2024-09-25 12:09:794 INFO  CommonActions:177 - i Click on the element Delivery instructions
-2024-09-25 12:09:814 INFO  CommonActions:177 - Highlighted the Delivery instructions
-2024-09-25 12:09:914 INFO  CommonActions:177 - Clicked onDelivery instructions
-2024-09-25 12:09:954 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:997 INFO  CommonActions:177 - i Click on the element Save button
-2024-09-25 12:09:12 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:66 INFO  CommonActions:177 - Highlighted the Cash button
-2024-09-25 12:09:131 INFO  CommonActions:177 - i Click on the element Cash button
-2024-09-25 12:09:132 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:176 INFO  CommonActions:177 - ********************    Element actual text is Cooking Gas 10KG/22LB***************
-2024-09-25 12:09:176 INFO  CommonActions:177 - ****************** ELement Expected text is Cooking Gas 10KG/22LB**********************
-2024-09-25 12:09:191 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:245 INFO  CommonActions:177 - Highlighted the Confirm order button
-2024-09-25 12:09:308 INFO  CommonActions:177 - i Click on the element Confirm order button
-2024-09-25 12:09:311 INFO  CommonActions:177 - Waiting for element to be Present
-2024-09-25 12:09:523 INFO  CommonActions:177 - Order placed success message is displayed....
-2024-09-25 12:09:543 INFO  CommonActions:177 - Highlighted the Order placed success message
-2024-09-25 12:09:543 INFO  CommonActions:177 - Getting the text fromorder id
-2024-09-25 12:09:543 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:581 INFO  CommonActions:177 - Return ID is 1279364
-2024-09-25 12:09:583 INFO  CommonActions:177 - Waiting for element to be Present
-2024-09-25 12:09:600 INFO  CommonActions:177 - Order placed success message is displayed....
-2024-09-25 12:09:615 INFO  CommonActions:177 - Highlighted the Order placed success message
-2024-09-25 12:09:615 INFO  CommonActions:177 - Getting the text fromorder id
-2024-09-25 12:09:615 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:643 INFO  CommonActions:177 - Order ID is 1279358
-2024-09-25 12:09:643 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:678 INFO  CommonActions:177 - Highlighted the Dashboard
-2024-09-25 12:09:64 INFO  CommonActions:177 - i Click on the element Dashboard
-2024-09-25 12:09:64 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:141 INFO  CommonActions:177 - Highlighted the searched for orderid 1279358
-2024-09-25 12:09:195 INFO  CommonActions:177 - i Click on the element searched for orderid 1279358
-2024-09-25 12:09:233 INFO  CommonActions:177 - Highlighted the searched for orderid 1279358
-2024-09-25 12:09:340 INFO  CommonActions:177 - Clicked onsearched for orderid 1279358
-2024-09-25 12:09:342 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:28 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:66 INFO  CommonActions:177 - ********************    Element actual text is 1279358***************
-2024-09-25 12:09:66 INFO  CommonActions:177 - ****************** ELement Expected text is 1279358**********************
-2024-09-25 12:09:78 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:135 INFO  CommonActions:177 - Highlighted the Return Cylinder
-2024-09-25 12:09:728 INFO  CommonActions:177 - i Click on the element Return Cylinder
-2024-09-25 12:09:729 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:801 INFO  CommonActions:177 - Highlighted the Order ID
-2024-09-25 12:09:844 INFO  CommonActions:177 - i Click on the element Order ID
-2024-09-25 12:09:860 INFO  CommonActions:177 - Highlighted the Order ID
-2024-09-25 12:09:978 INFO  CommonActions:177 - Clicked onOrder ID
-2024-09-25 12:09:980 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:50 INFO  CommonActions:177 - Waiting for element to be Present
-2024-09-25 12:09:78 INFO  CommonActions:177 - search product in return results is displayed....
-2024-09-25 12:09:94 INFO  CommonActions:177 - Highlighted the search product in return results
-2024-09-25 12:09:95 INFO  CommonActions:177 - Verification of Cylinder based product from LPG, RPG select Products Tab is passed
-2024-09-25 12:09:117 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:161 INFO  CommonActions:177 - Highlighted the quantity dropdown
-2024-09-25 12:09:247 INFO  CommonActions:177 - i Click on the element quantity dropdown
-2024-09-25 12:09:249 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:320 INFO  CommonActions:177 - Highlighted the return quantity
-2024-09-25 12:09:369 INFO  CommonActions:177 - i Click on the element return quantity
-2024-09-25 12:09:381 INFO  CommonActions:177 - Highlighted the return quantity
-2024-09-25 12:09:525 INFO  CommonActions:177 - Clicked onreturn quantity
-2024-09-25 12:09:525 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:587 INFO  CommonActions:177 - Highlighted the 1
-2024-09-25 12:09:634 INFO  CommonActions:177 - i Click on the element 1
-2024-09-25 12:09:646 INFO  CommonActions:177 - Highlighted the 1
-2024-09-25 12:09:818 INFO  CommonActions:177 - Clicked on1
-2024-09-25 12:09:819 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:860 INFO  CommonActions:177 - Highlighted the Submit button
-2024-09-25 12:09:913 INFO  CommonActions:177 - i Click on the element Submit button
-2024-09-25 12:09:913 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:946 INFO  CommonActions:177 - Highlighted the pickup
-2024-09-25 12:09:05 INFO  CommonActions:177 - i Click on the element pickup
-2024-09-25 12:09:06 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:575 INFO  CommonActions:177 - Highlighted the Pickup address
-2024-09-25 12:09:647 INFO  CommonActions:177 - i Click on the element Pickup address
-2024-09-25 12:09:647 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:703 INFO  CommonActions:177 - Highlighted the submit pickupaddress button
-2024-09-25 12:09:764 INFO  CommonActions:177 - i Click on the element submit pickupaddress button
-2024-09-25 12:09:765 INFO  CommonActions:177 - Waiting for element to be visible
-2024-09-25 12:09:809 INFO  CommonActions:177 - Highlighted the submmit return form
-2024-09-25 12:09:856 INFO  CommonActions:177 - i Click on the element submmit return form
-2024-09-25 12:09:858 INFO  CommonActions:177 - Waiting for element to be Present
+2024-09-25 14:09:573 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:660 INFO  CommonActions:177 - Highlighted the Residnetial option
+2024-09-25 14:09:260 INFO  CommonActions:177 - i Click on the element Residnetial option
+2024-09-25 14:09:305 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:363 INFO  CommonActions:177 - i Click on the element Profile Icon
+2024-09-25 14:09:364 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:652 INFO  CommonActions:177 - i Click on the element Login link
+2024-09-25 14:09:659 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:800 INFO  CommonActions:177 - Highlighted the Username field
+2024-09-25 14:09:873 INFO  CommonActions:177 - i Click on the element Username field
+2024-09-25 14:09:894 INFO  CommonActions:177 - Highlighted the Username field
+2024-09-25 14:09:64 INFO  CommonActions:177 - Clicked onUsername field
+2024-09-25 14:09:64 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:132 INFO  CommonActions:177 - Highlighted the Password field
+2024-09-25 14:09:179 INFO  CommonActions:177 - i Click on the element Password field
+2024-09-25 14:09:197 INFO  CommonActions:177 - Highlighted the Password field
+2024-09-25 14:09:324 INFO  CommonActions:177 - Clicked onPassword field
+2024-09-25 14:09:324 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:365 INFO  CommonActions:177 - Highlighted the Click login button
+2024-09-25 14:09:439 INFO  CommonActions:177 - i Click on the element Click login button
+2024-09-25 14:09:439 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:453 INFO  CommonActions:177 - pop up is not present after login
+2024-09-25 14:09:453 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:524 INFO  CommonActions:177 - Highlighted the Successful alert is present
+2024-09-25 14:09:524 INFO  CommonActions:177 - Element USer profile picture is present.
+2024-09-25 14:09:524 INFO  CommonActions:177 - Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page. is passed
+2024-09-25 14:09:565 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:834 INFO  CommonActions:177 - i Click on the element Home menu
+2024-09-25 14:09:841 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:13 INFO  CommonActions:177 - Hover to the Product tab
+2024-09-25 14:09:17 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:99 INFO  CommonActions:177 - Highlighted the Ctaegory selected Cylinders
+2024-09-25 14:09:546 INFO  CommonActions:177 - i Click on the element Ctaegory selected Cylinders
+2024-09-25 14:09:546 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:612 INFO  CommonActions:177 - Highlighted the Selcting filter range from 0 to 49.99
+2024-09-25 14:09:691 INFO  CommonActions:177 - i Click on the element Selcting filter range from 0 to 49.99
+2024-09-25 14:09:691 INFO  CommonActions:177 - Getting the text from10050
+2024-09-25 14:09:691 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:756 INFO  CommonActions:177 - Adding Cooking Gas 10KG/22LB in the cart
+2024-09-25 14:09:764 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:838 INFO  CommonActions:177 - i Click on the element 10050
+2024-09-25 14:09:842 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:916 INFO  CommonActions:177 - i Click on the element Cart icon click
+2024-09-25 14:09:916 INFO  CommonActions:177 - Waiting for elements to be visible
+2024-09-25 14:09:974 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:29 INFO  CommonActions:177 - ********************    Element actual text is Cooking Gas 10KG/22LB***************
+2024-09-25 14:09:29 INFO  CommonActions:177 - ****************** ELement Expected text is Cooking Gas 10KG/22LB**********************
+2024-09-25 14:09:58 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:140 INFO  CommonActions:177 - Highlighted the Checkout button
+2024-09-25 14:09:259 INFO  CommonActions:177 - i Click on the element Checkout button
+2024-09-25 14:09:259 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:332 INFO  CommonActions:177 - Highlighted the Continue billing info
+2024-09-25 14:09:417 INFO  CommonActions:177 - i Click on the element Continue billing info
+2024-09-25 14:09:422 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:489 INFO  CommonActions:177 - i Click on the element shppingaddress
+2024-09-25 14:09:499 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:573 INFO  CommonActions:177 - Highlighted the Continue shipping button
+2024-09-25 14:09:573 INFO  CommonActions:177 - scrolled till the Continue shipping button
+2024-09-25 14:09:577 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:644 INFO  CommonActions:177 - Highlighted the Continue shiiping info
+2024-09-25 14:09:724 INFO  CommonActions:177 - i Click on the element Continue shiiping info
+2024-09-25 14:09:732 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:799 INFO  CommonActions:177 - i Click on the element quantity add
+2024-09-25 14:09:819 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:954 INFO  CommonActions:177 - Highlighted the Instrctions
+2024-09-25 14:09:36 INFO  CommonActions:177 - i Click on the element Instrctions
+2024-09-25 14:09:71 INFO  CommonActions:177 - Highlighted the Instrctions
+2024-09-25 14:09:329 INFO  CommonActions:177 - Clicked onInstrctions
+2024-09-25 14:09:856 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:922 INFO  CommonActions:177 - Highlighted the Save button
+2024-09-25 14:09:27 INFO  CommonActions:177 - i Click on the element Save button
+2024-09-25 14:09:39 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:113 INFO  CommonActions:177 - Highlighted the Preferred date dropdown
+2024-09-25 14:09:220 INFO  CommonActions:177 - i Click on the element Preferred date dropdown
+2024-09-25 14:09:226 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:300 INFO  CommonActions:177 - Highlighted the 26
+2024-09-25 14:09:388 INFO  CommonActions:177 - i Click on the element 26
+2024-09-25 14:09:388 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:445 INFO  CommonActions:177 - Highlighted the Preferred time
+2024-09-25 14:09:550 INFO  CommonActions:177 - i Click on the element Preferred time
+2024-09-25 14:09:559 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:634 INFO  CommonActions:177 - Highlighted the time range
+2024-09-25 14:09:722 INFO  CommonActions:177 - i Click on the element time range
+2024-09-25 14:09:722 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:823 INFO  CommonActions:177 - Highlighted the PO number
+2024-09-25 14:09:880 INFO  CommonActions:177 - i Click on the element PO number
+2024-09-25 14:09:905 INFO  CommonActions:177 - Highlighted the PO number
+2024-09-25 14:09:108 INFO  CommonActions:177 - Clicked onPO number
+2024-09-25 14:09:108 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:173 INFO  CommonActions:177 - Highlighted the Delivery instructions
+2024-09-25 14:09:217 INFO  CommonActions:177 - i Click on the element Delivery instructions
+2024-09-25 14:09:241 INFO  CommonActions:177 - Highlighted the Delivery instructions
+2024-09-25 14:09:385 INFO  CommonActions:177 - Clicked onDelivery instructions
+2024-09-25 14:09:418 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:484 INFO  CommonActions:177 - i Click on the element Save button
+2024-09-25 14:09:491 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:566 INFO  CommonActions:177 - Highlighted the Cash button
+2024-09-25 14:09:664 INFO  CommonActions:177 - i Click on the element Cash button
+2024-09-25 14:09:664 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:721 INFO  CommonActions:177 - ********************    Element actual text is Cooking Gas 10KG/22LB***************
+2024-09-25 14:09:721 INFO  CommonActions:177 - ****************** ELement Expected text is Cooking Gas 10KG/22LB**********************
+2024-09-25 14:09:738 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:802 INFO  CommonActions:177 - Highlighted the Confirm order button
+2024-09-25 14:09:877 INFO  CommonActions:177 - i Click on the element Confirm order button
+2024-09-25 14:09:877 INFO  CommonActions:177 - Waiting for element to be Present
+2024-09-25 14:09:53 INFO  CommonActions:177 - Order placed success message is displayed....
+2024-09-25 14:09:85 INFO  CommonActions:177 - Highlighted the Order placed success message
+2024-09-25 14:09:85 INFO  CommonActions:177 - Getting the text fromorder id
+2024-09-25 14:09:85 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:142 INFO  CommonActions:177 - Return ID is 1280256
+2024-09-25 14:09:150 INFO  CommonActions:177 - Waiting for element to be Present
+2024-09-25 14:09:174 INFO  CommonActions:177 - Order placed success message is displayed....
+2024-09-25 14:09:198 INFO  CommonActions:177 - Highlighted the Order placed success message
+2024-09-25 14:09:198 INFO  CommonActions:177 - Getting the text fromorder id
+2024-09-25 14:09:198 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:231 INFO  CommonActions:177 - Order ID is 1279844
+2024-09-25 14:09:231 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:296 INFO  CommonActions:177 - Highlighted the Dashboard
+2024-09-25 14:09:826 INFO  CommonActions:177 - i Click on the element Dashboard
+2024-09-25 14:09:826 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:956 INFO  CommonActions:177 - Highlighted the searched for orderid 1279844
+2024-09-25 14:09:37 INFO  CommonActions:177 - i Click on the element searched for orderid 1279844
+2024-09-25 14:09:94 INFO  CommonActions:177 - Highlighted the searched for orderid 1279844
+2024-09-25 14:09:222 INFO  CommonActions:177 - Clicked onsearched for orderid 1279844
+2024-09-25 14:09:230 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:900 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:958 INFO  CommonActions:177 - ********************    Element actual text is 1279844***************
+2024-09-25 14:09:958 INFO  CommonActions:177 - ****************** ELement Expected text is 1279844**********************
+2024-09-25 14:09:972 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:28 INFO  CommonActions:177 - Highlighted the Return Cylinder
+2024-09-25 14:09:204 INFO  CommonActions:177 - i Click on the element Return Cylinder
+2024-09-25 14:09:205 INFO  CommonActions:177 - Waiting for element to be visible
+2024-09-25 14:09:311 INFO  CommonActions:177 - Highlighted the Order ID
+2024-09-25 14:09:392 INFO  CommonActions:177 - i Click on the element Order ID
+2024-09-25 14:09:421 INFO  CommonActions:177 - Highlighted the Order ID

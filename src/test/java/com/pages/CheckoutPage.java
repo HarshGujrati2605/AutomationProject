@@ -150,19 +150,19 @@ public class CheckoutPage {
 			System.out.println("************" + "clicked "+i+" times");
 		}
 
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		try {
-			CommonActions.clickOnElementAndType(By.cssSelector("input#returnBottleDeliveryInstructionId"),
+			CommonActions.clickOnElementAndType(By.xpath("//input[@id = 'returnBottleDeliveryInstructionId']"),
 					"I will pick from Sol branch", "Instrctions");
 		} catch (Exception e) {
 			CommonActions.clickOnElementAndType(By.cssSelector("input#returnBottleDeliveryInstructionId"),
 					"I will pick from Sol branch", "Instrctions");
 		}
-		Thread.sleep(1000);
-		CommonActions.iScrollDownCoordinates(0, 100);
+		Thread.sleep(2000);
+		//CommonActions.iScrollDownCoordinates(0, 100);
 		try {
 			Thread.sleep(1500);
-			CommonActions.iClickElementByLocator(By.cssSelector(".btn-continue.save-btn"), "Save button");
+			CommonActions.iClickElementByLocator(By.xpath("//button[contains(@class , 'save-btn')]"), "Save button");
 		} catch (Exception e) {
 			Thread.sleep(1500);
 			CommonActions.iClickJSEByLocator(By.cssSelector(".btn-continue.save-btn"), "Save button");

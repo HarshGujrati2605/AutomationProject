@@ -31,7 +31,12 @@ public class HomePageSteps {
 	
 	@And("I click on cubic menu icon")
 	public void iClickOnMenuIcon() {
-		
+		new HomePage().iClickOnMenuIcon();
+	}
+	
+	@And("I select users and organisation from menu")
+	public void iSelectUsersAndOrganisation() {
+
 	}
 
 }

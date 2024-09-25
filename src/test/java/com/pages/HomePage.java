@@ -16,6 +16,7 @@ public class HomePage extends GlobalVariable {
 	static By dashboardlink = By.xpath("//a[text() = 'Dashboard']");
 	static By productstab = By.xpath("//a[text() = 'Products']/parent::li");
 	By menuicon = By.cssSelector("li.control-menu-nav-item");
+	By userandorganisationoption = By.xpath("//span[text() = 'Users and Organizations']/ancestor::a");
 
 	public void iValidatePortal() throws Exception {
 		try {
@@ -71,6 +72,12 @@ public class HomePage extends GlobalVariable {
 	public void iClickOnMenuIcon() {
 		CommonActions.iClickJSEByLocator(menuicon, "Cubic menu icon");
 	}
+	
+	public void iClickUserAndOrganisationMenu() throws InterruptedException {
+		CommonActions.iClickElementByLocator(userandorganisationoption, "User organisation otpion");
+	}
+	
+
 	
 	
 
