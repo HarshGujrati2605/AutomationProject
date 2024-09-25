@@ -25,6 +25,8 @@ public class CheckoutPage {
 	By skipreturnbottle = By.xpath("//button[text() = ' Skip ' and contains(@class , 'Return')]");
 	By cashbtn = By.xpath("//p[text() = 'Cash']/ancestor::a");
 	By returnqty = By.xpath("//input[contains(@name , 'returnBottleSelectedQty')]");
+	By quantityplusbutton = By.xpath(
+			"//input[contains(@name , 'returnBottleSelectedQty')]//following-sibling::div/button[contains(@class , 'plus')]");
 
 	public void iContinueWithShippingAndBilling() throws InterruptedException {
 		CommonActions.iClickElementByLocator(continuebillinginfo, "Continue billing info");
@@ -139,16 +141,22 @@ public class CheckoutPage {
 	}
 
 	public void iEnterValueForReturnCyl(String value) throws Exception {
-        Thread.sleep(2000);
-        CommonActions.clickOnElementAndType(returnqty, value, "return quatity");
-        Thread.sleep(1000);
-        try {
-		CommonActions.clickOnElementAndType(By.cssSelector("input#returnBottleDeliveryInstructionId"),
-				"I will pick from Sol branch", "Instrctions");
-        }
-        catch (Exception e) {
-        	CommonActions.clickOnElementAndType(By.cssSelector("input#returnBottleDeliveryInstructionId"),
-    				"I will pick from Sol branch", "Instrctions");
+		Thread.sleep(1000);
+//        CommonActions.clickOnElementAndType(returnqty, value, "return quatity");
+		int returquantity = Integer.parseInt(value);
+		for (int i = 0; i < returquantity; i++) {
+			CommonActions.iClickJSEByLocator(quantityplusbutton, "quantity add");
+			Thread.sleep(1000);
+			System.out.println("************" + "clicked "+i+" times");
+		}
+
+		Thread.sleep(1000);
+		try {
+			CommonActions.clickOnElementAndType(By.cssSelector("input#returnBottleDeliveryInstructionId"),
+					"I will pick from Sol branch", "Instrctions");
+		} catch (Exception e) {
+			CommonActions.clickOnElementAndType(By.cssSelector("input#returnBottleDeliveryInstructionId"),
+					"I will pick from Sol branch", "Instrctions");
 		}
 		Thread.sleep(1000);
 		CommonActions.iScrollDownCoordinates(0, 100);

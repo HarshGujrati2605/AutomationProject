@@ -45,10 +45,21 @@ public class ReturnCylinderPage {
 	}
 
 	public void iAddQuantity(String prdname, String quantity) throws Exception {
-		CommonActions.clickOnElementAndType(
-				By.xpath("//input[@value= '" + prdname
-						+ "']/ancestor::div[contains(@class , 'items')]//input[@type = 'number']"),
-				quantity, "return quantity");
+		Thread.sleep(1000);
+		try {
+			CommonActions.clickOnElementAndType(
+					By.xpath("//input[@value= '" + prdname
+							+ "']/ancestor::div[contains(@class , 'items')]//input[@type = 'number']"),
+					quantity, "return quantity");
+		} catch (Exception e) {
+			int qty = Integer.parseInt(quantity);
+			for (int i = 0; i < qty; i++) {
+				CommonActions.iClickElementByLocator(By.xpath("//input[@value= '" + prdname
+						+ "']/ancestor::div[contains(@class , 'items')]//input[@type = 'number']/following-sibling::div/button[contains(@class , 'plus')]"),
+						quantity);
+			}
+
+		}
 		CommonActions.clickOnElementAndType(By.cssSelector("input#deliveryInstructionId"), "For demo purpose",
 				quantity);
 		CommonActions.iClickElementByLocator(submitqtybtn, "Submit button");
