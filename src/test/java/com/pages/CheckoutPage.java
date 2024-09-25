@@ -90,6 +90,7 @@ public class CheckoutPage {
 		CommonActions.iScrollDownCoordinates(0, 100);
 		Thread.sleep(1000);
 		CommonActions.iClickJSEByLocator(savebutton, "Save button");
+		Thread.sleep(1000);
 
 	}
 
@@ -152,8 +153,10 @@ public class CheckoutPage {
 		Thread.sleep(1000);
 		CommonActions.iScrollDownCoordinates(0, 100);
 		try {
+			Thread.sleep(1500);
 			CommonActions.iClickElementByLocator(By.cssSelector(".btn-continue.save-btn"), "Save button");
 		} catch (Exception e) {
+			Thread.sleep(1500);
 			CommonActions.iClickJSEByLocator(By.cssSelector(".btn-continue.save-btn"), "Save button");
 		}
 	}

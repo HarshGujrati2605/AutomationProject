@@ -28,5 +28,10 @@ public class HomePageSteps {
          
 		new HomePage().iSelectProductsCategoryFromProductTab(option);
 	}
+	
+	@And("I click on cubic menu icon")
+	public void iClickOnMenuIcon() {
+		
+	}
 
 }

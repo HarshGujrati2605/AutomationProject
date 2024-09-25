@@ -15,6 +15,7 @@ public class HomePage extends GlobalVariable {
 	static By cart = By.xpath("//a[@id = 'clickcart']/div");
 	static By dashboardlink = By.xpath("//a[text() = 'Dashboard']");
 	static By productstab = By.xpath("//a[text() = 'Products']/parent::li");
+	By menuicon = By.cssSelector("li.control-menu-nav-item");
 
 	public void iValidatePortal() throws Exception {
 		try {
@@ -64,9 +65,13 @@ public class HomePage extends GlobalVariable {
 	public void iSelectProductsCategoryFromProductTab(String categoryname) throws InterruptedException {
 		CommonActions.hoverOverElement(productstab, "Product tab");
 		Thread.sleep(1000);
-		CommonActions.iClickElementByLocator(By.xpath("//ul[@class = 'submenu']//a[text() = '"+categoryname+"']"), "Ctaegory selected "+categoryname+"");
-		
-		
+		CommonActions.iClickElementByLocator(By.xpath("//ul[@class = 'submenu']//a[text() = '"+categoryname+"']"), "Ctaegory selected "+categoryname+"");		
 	}
+	
+	public void iClickOnMenuIcon() {
+		CommonActions.iClickJSEByLocator(menuicon, "Cubic menu icon");
+	}
+	
+	
 
 }
