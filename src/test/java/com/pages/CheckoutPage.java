@@ -147,19 +147,25 @@ public class CheckoutPage {
 		for (int i = 0; i < returquantity; i++) {
 			CommonActions.iClickJSEByLocator(quantityplusbutton, "quantity add");
 			Thread.sleep(1000);
-			System.out.println("************" + "clicked "+i+" times");
+			System.out.println("************" + "clicked " + i + " times");
 		}
 
 		Thread.sleep(2000);
 		try {
+			CommonActions.iScrollToTheElementByLocator(By.xpath("//input[@id = 'returnBottleDeliveryInstructionId']"),
+					"instructions");
+			Thread.sleep(1000);
 			CommonActions.clickOnElementAndType(By.xpath("//input[@id = 'returnBottleDeliveryInstructionId']"),
 					"I will pick from Sol branch", "Instrctions");
 		} catch (Exception e) {
-			CommonActions.clickOnElementAndType(By.cssSelector("input#returnBottleDeliveryInstructionId"),
+			CommonActions.iScrollToTheElementByLocator(By.xpath("//input[@id = 'returnBottleDeliveryInstructionId']"),
+					"instructions");
+			Thread.sleep(1000);
+			CommonActions.clickOnElementAndType(By.xpath("//label[text() = 'Add Return Instruction here']"),
 					"I will pick from Sol branch", "Instrctions");
 		}
 		Thread.sleep(2000);
-		//CommonActions.iScrollDownCoordinates(0, 100);
+		// CommonActions.iScrollDownCoordinates(0, 100);
 		try {
 			Thread.sleep(1500);
 			CommonActions.iClickElementByLocator(By.xpath("//button[contains(@class , 'save-btn')]"), "Save button");
