@@ -8,14 +8,32 @@ Feature: User login in CSC account and open the B2C account and add LPG  based
     Then I login
     Then I am on homepage
 
-  Scenario Outline: Verification of Cylinder based product from LPG, RPG select Products Tab
-    with the help of CSC account for B2C user
+  Scenario Outline: User login in CSC account and open the B2C account and add LPG  based
+    Cylinders product on cart page from Product tab
 
-    Given I am on Homepage
-    And I click on cubic menu icon
+    Given I click on cubic menu icon
     And I select users and organisation from menu
     And I select the "<user>" from user and organisation page and clicked on imperosnate user
-   
+    When I select the product category "<category name>" from product tab
+    And I select the price filter from "<range1>" to "<range2>"
+    And I add product to the cart using product code "<code>"
+    And I open the wishlist
+    And I validate the product added in the cart
+    And I click checkout
+    And I contiue with billing and shipping information for sol branch
+    And I enter the "<value>" for return cylinders
+    And I add preffered date and time "<time range>"
+    And I select cash as payment
+    And I validate product in the checkout page
+    And I click on confirm order button
+    And I see order placed success message with return id
+    Then I see order placed success message with order id
+    And I entered the order id of the placed product in search field and search
+    Then the ordered product corresponding to the entered order id should be visible
+    And I select the "<options>" from dashboard menu
+    And I search order id for return cyclinder
+    Then the ordered product corresponding to the entered return id should be visible
+
     Examples: 
-     |user|
-     |    |
+      | user      | category name | range1 | range2 | time range | code  | options         | value |
+      | testbuyer | Cylinders     |      0 |  49.99 | 9AM-12PM   | 10050 | Return Cylinder |     1 |

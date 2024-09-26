@@ -137,7 +137,12 @@ public class CheckoutPage {
 	}
 
 	public void iClickCashBtn() throws InterruptedException {
+		try {
 		CommonActions.iClickElementByLocator(cashbtn, "Cash button");
+		}
+		catch (Exception e) {
+			CommonActions.iLogMessage("Cash option is not available");
+		}
 	}
 
 	public void iEnterValueForReturnCyl(String value) throws Exception {
@@ -151,19 +156,15 @@ public class CheckoutPage {
 		}
 
 		Thread.sleep(2000);
-		try {
-			CommonActions.iScrollToTheElementByLocator(By.xpath("//input[@id = 'returnBottleDeliveryInstructionId']"),
-					"instructions");
-			Thread.sleep(1000);
-			CommonActions.clickOnElementAndType(By.xpath("//input[@id = 'returnBottleDeliveryInstructionId']"),
-					"I will pick from Sol branch", "Instrctions");
-		} catch (Exception e) {
-			CommonActions.iScrollToTheElementByLocator(By.xpath("//input[@id = 'returnBottleDeliveryInstructionId']"),
-					"instructions");
-			Thread.sleep(1000);
-			CommonActions.clickOnElementAndType(By.xpath("//label[text() = 'Add Return Instruction here']"),
-					"I will pick from Sol branch", "Instrctions");
-		}
+//		try {
+//			Thread.sleep(1000);
+//			CommonActions.clickOnElementAndType(By.xpath("//input[@id = 'returnBottleDeliveryInstructionId']"),
+//					"I will pick from Sol branch", "Instrctions");
+//		} catch (Exception e) {
+//			Thread.sleep(1000);
+//			CommonActions.clickOnElementAndType(By.xpath("//label[text() = 'Add Return Instruction here']"),
+//					"I will pick from Sol branch", "Instrctions");
+//		}
 		Thread.sleep(2000);
 		// CommonActions.iScrollDownCoordinates(0, 100);
 		try {

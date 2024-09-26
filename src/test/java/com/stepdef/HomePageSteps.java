@@ -30,13 +30,13 @@ public class HomePageSteps {
 	}
 	
 	@And("I click on cubic menu icon")
-	public void iClickOnMenuIcon() {
+	public void iClickOnMenuIcon() throws InterruptedException {
 		new HomePage().iClickOnMenuIcon();
 	}
 	
 	@And("I select users and organisation from menu")
-	public void iSelectUsersAndOrganisation() {
-
+	public void iSelectUsersAndOrganisation() throws InterruptedException {
+        new HomePage().iClickUserAndOrganisationMenu();
 	}
 
 }

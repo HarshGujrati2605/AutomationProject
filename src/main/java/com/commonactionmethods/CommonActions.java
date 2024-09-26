@@ -306,14 +306,14 @@ public class CommonActions extends GlobalVariable {
 	 *
 	 * @param windowTitle : String : Name of window title to switch
 	 */
-	public void switchToWindowByTitle(String windowTitle) throws Exception {
+	public static void switchToWindowByTitle(String windowTitle) throws Exception {
 		// System.out.println("++"+windowTitle+"++");
 		String old_win = driver.getWindowHandle();
 		boolean winFound = false;
 		for (String winHandle : driver.getWindowHandles()) {
 			String str = driver.switchTo().window(winHandle).getTitle();
 			// System.out.println("**"+str+"**");
-			if (str.equals(windowTitle)) {
+			if (str.contains(windowTitle)) {
 				winFound = true;
 				break;
 			}
@@ -345,7 +345,7 @@ public class CommonActions extends GlobalVariable {
 	}
 
 	public static void iClickElementByLocator(By loc, String elementName) throws InterruptedException {
-		WebElement ele = getElement(loc);
+		WebElement ele = getElementIfClickable(loc);
 		iImplicitlywait(30, elementName);
 		highlightElementRed(ele, elementName);
 		Thread.sleep(1000);
