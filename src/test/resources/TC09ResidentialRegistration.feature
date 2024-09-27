@@ -1,4 +1,4 @@
-@regression @Redentialregistration
+@Redentialregistration
 Feature: Residential registration scenarios
 
   Scenario Outline: User should abel to registered via Residential flow

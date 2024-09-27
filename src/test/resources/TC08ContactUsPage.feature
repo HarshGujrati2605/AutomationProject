@@ -1,4 +1,4 @@
-@regression @contactus
+@contactus
 Feature: Contact us page scenarios
 
   Scenario: Users are required to log in to the SOL website.

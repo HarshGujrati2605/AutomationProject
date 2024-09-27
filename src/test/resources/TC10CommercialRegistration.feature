@@ -1,4 +1,4 @@
-@regression @commercialregistration
+@commercialregistration
 Feature: Commercial registration scenarios
 
   Scenario Outline: User should abel to registered via Commercial flow
