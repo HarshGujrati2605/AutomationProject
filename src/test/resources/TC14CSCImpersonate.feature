@@ -13,7 +13,7 @@ Feature: User login in CSC account and open the B2C account and add LPG  based
 
     Given I click on cubic menu icon
     And I select users and organisation from menu
-    And I select the "<user>" from user and organisation page and clicked on imperosnate user
+    And I select the "<user>" and "<useremail>" from user and organisation page and clicked on imperosnate user
     When I select the product category "<category name>" from product tab
     And I select the price filter from "<range1>" to "<range2>"
     And I add product to the cart using product code "<code>"
@@ -23,7 +23,6 @@ Feature: User login in CSC account and open the B2C account and add LPG  based
     And I contiue with billing and shipping information for sol branch
     And I enter the "<value>" for return cylinders
     And I add preffered date and time "<time range>"
-    And I select cash as payment
     And I validate product in the checkout page
     And I click on confirm order button
     And I see order placed success message with return id
@@ -35,5 +34,15 @@ Feature: User login in CSC account and open the B2C account and add LPG  based
     Then the ordered product corresponding to the entered return id should be visible
 
     Examples: 
-      | user      | category name | range1 | range2 | time range | code  | options         | value |
-      | testbuyer | Cylinders     |      0 |  49.99 | 9AM-12PM   | 10050 | Return Cylinder |     1 |
+      | user             | category name | range1 | range2 | time range | code  | options         | value | useremail          |
+      | techvedftechvedl | Cylinders     |      0 |  49.99 | 9AM-12PM   | 10050 | Return Cylinder |     1 | solb2b@techved.com |
+
+  Scenario Outline: Verify the Return cylinder can be submitted from Return Cylinder page
+    Given I am on return and click on quantity dropdown
+    And I select the "<cylinder name>" cylinder and quantity for return "<quantity>" and submit it
+    And I select pickup from home with first address and submit
+    Then I validate the return success message
+
+    Examples: 
+      | cylinder name                      | quantity |
+      | LPG MIX 10KG/22LB FILLED METAL CYL |        1 |
