@@ -6,7 +6,7 @@ Feature: Login scenarios
     When I enter username as "<username>"
     And I enter password as "<password>"
     And I login
-  #  Then I am on homepage and logout
+    Then I am on homepage and logout
     And I close the browser
     Examples: 
       | username             | password    |

@@ -453,7 +453,7 @@ public class CommonActions extends GlobalVariable {
 
 	public static WebElement getElementIfClickable(By elementloactor) {
 		iLogMessage("Waiting for element to be Clickable");
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(90));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		WebElement ele = wait.until(ExpectedConditions.elementToBeClickable(elementloactor));
 		return ele;
 	}
