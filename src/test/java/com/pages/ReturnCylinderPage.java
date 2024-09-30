@@ -79,7 +79,12 @@ public class ReturnCylinderPage {
 	}
 
 	public void iSelectSOLPickupAddress() throws InterruptedException {
-		CommonActions.iClickElementByLocator(solbranchpickup, "sol branch pickup");
+		Thread.sleep(1000);
+		try {
+			CommonActions.iClickElementByLocator(solbranchpickup, "sol branch pickup");
+		} catch (Exception e) {
+			CommonActions.iClickJSEByLocator(solbranchpickup, "sol branch pickup");
+		}
 	}
 
 	public void iCancelReturn() throws InterruptedException {

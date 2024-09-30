@@ -47,14 +47,13 @@ public class CommonActions extends GlobalVariable {
 		WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(elementloactor));
 		return ele;
 	}
-	
+
 	public static WebElement getClickableElement(By elementloactor) {
 		iLogMessage("Waiting for element to be visible");
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		WebElement ele = wait.until(ExpectedConditions.elementToBeClickable(elementloactor));
 		return ele;
 	}
-	
 
 	public static void clickOnElementAndType(By elementlocator, String value, String nameofelement) throws Exception {
 		if (driver != null) {
@@ -722,6 +721,10 @@ public class CommonActions extends GlobalVariable {
 		}
 		return "TestConsulting" + sb.toString();
 
+	}
+
+	public static void closeBrowser() {
+		driver.quit();
 	}
 
 }

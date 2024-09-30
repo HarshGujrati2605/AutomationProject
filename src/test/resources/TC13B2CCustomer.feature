@@ -76,6 +76,7 @@ Feature: Verification of Cylinder based product from LPG, RPG select Products Ta
     And I search order id for return request cyclinder
     And the ordered product corresponding to the entered return id should be visible
     Then I validate the pending cancellation status
+    And I close the browser
 
     Examples: 
       | options         | cylinder name                      | quantity |

@@ -1,5 +1,6 @@
 package com.stepdef;
 
+import com.commonactionmethods.CommonActions;
 import com.pages.HomePage;
 
 import io.cucumber.java.en.And;
@@ -25,18 +26,25 @@ public class HomePageSteps {
 
 	@When("I select the product category {string} from product tab")
 	public void iSelectProductFromProductTab(String option) throws InterruptedException {
-         
+
 		new HomePage().iSelectProductsCategoryFromProductTab(option);
 	}
-	
+
 	@And("I click on cubic menu icon")
 	public void iClickOnMenuIcon() throws InterruptedException {
 		new HomePage().iClickOnMenuIcon();
 	}
-	
+
 	@And("I select users and organisation from menu")
 	public void iSelectUsersAndOrganisation() throws InterruptedException {
-        new HomePage().iClickUserAndOrganisationMenu();
+		new HomePage().iClickUserAndOrganisationMenu();
+	}
+
+	@And("I close the browser")
+	public void iCloseBrowser() {
+
+		CommonActions.closeBrowser();
+
 	}
 
 }

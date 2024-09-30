@@ -75,7 +75,7 @@ public class CheckoutPage {
 			CommonActions.iClickElementByLocator(By.xpath("//div[contains(@class , 'calendar left')]//td[text() = '"
 					+ tomorrowdate + "' and not( contains(@class , 'disabled'))]"), tomorrowdate);
 		} catch (Exception e) {
-			CommonActions.iClickElementByLocator(By.xpath("//div[contains(@class , 'calendar left')]//td[text() = '"
+			CommonActions.iClickJSEByLocator(By.xpath("//div[contains(@class , 'calendar left')]//td[text() = '"
 					+ tomorrowdate + "' and not( contains(@class , 'disabled'))]"), tomorrowdate);
 		}
 		CommonActions.iClickElementByLocator(preferredtime, "Preferred time");
@@ -87,8 +87,9 @@ public class CheckoutPage {
 		} catch (Exception e) {
 			CommonActions.iLogMessage("PO number is field is not available");
 		}
-		CommonActions.clickOnElementAndType(deleiveryinstruction, "Pick from SOL", "Delivery instructions");
 		Thread.sleep(1000);
+		//CommonActions.clickOnElementAndType(deleiveryinstruction, "Pick from SOL", "Delivery instructions");
+		//Thread.sleep(1000);
 		CommonActions.iScrollDownCoordinates(0, 100);
 		Thread.sleep(1000);
 		CommonActions.iClickJSEByLocator(savebutton, "Save button");
@@ -103,7 +104,13 @@ public class CheckoutPage {
 	}
 
 	public void iClickConfirmbutton() throws InterruptedException {
+		try {
+	    Thread.sleep(1000);
 		CommonActions.iClickElementByLocator(orderconfirmationbutton, "Confirm order button");
+		}
+		catch (Exception e) {
+			CommonActions.iClickJSEByLocator(orderconfirmationbutton, "Confirm order button");
+		}
 	}
 
 	public void iValidateReturnID() throws Exception {
@@ -116,6 +123,7 @@ public class CheckoutPage {
 	}
 
 	public void iValidateOrderPlaced() throws Exception {
+		Thread.sleep(1500);
 		CommonActions.isDisplayed(orderconfirmationmessage, "Order placed success message");
 		GlobalVariable.orderid = CommonActions.iGetTextByLoctor(orderid, "order id");
 		CommonActions.iLogMessage("Order ID is " + GlobalVariable.orderid);

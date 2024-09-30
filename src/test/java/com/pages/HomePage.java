@@ -20,7 +20,7 @@ public class HomePage extends GlobalVariable {
 
 	public void iValidatePortal() throws Exception {
 		try {
-			CommonActions.iClickElementByLocator(dialogclosebtn, "User profile picture");
+			//CommonActions.iClickElementByLocator(dialogclosebtn, "User profile picture");
 		} catch (Exception e) {
 			CommonActions.iLogMessage("pop up is not present after login");
 		}
@@ -76,6 +76,7 @@ public class HomePage extends GlobalVariable {
 	public void iClickUserAndOrganisationMenu() throws InterruptedException {
 		CommonActions.iClickElementByLocator(userandorganisationoption, "User organisation otpion");
 	}
+
 	
 
 	

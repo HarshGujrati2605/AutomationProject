@@ -24,7 +24,7 @@ Feature: Verification of Cylinder based product from LPG, RPG select Products Ta
     Then I see order placed success message with order id
     And I entered the order id of the placed product in search field and search
     Then the ordered product corresponding to the entered order id should be visible
-
+ 
     Examples: 
       | category name | range1 | range2 | time range | code  | options         |
       | Cylinders     |      0 |  49.99 | 9AM-12PM   | 10050 | Return Cylinder |
@@ -50,7 +50,7 @@ Feature: Verification of Cylinder based product from LPG, RPG select Products Ta
     And I select the "<options>" from dashboard menu
     And I search order id for return cyclinder
     Then the ordered product corresponding to the entered return id should be visible
-
+   
     Examples: 
       | category name | range1 | range2 | time range | code  | options         | value |
       | Cylinders     |      0 |  49.99 | 9AM-12PM   | 10050 | Return Cylinder |     1 |
@@ -60,7 +60,7 @@ Feature: Verification of Cylinder based product from LPG, RPG select Products Ta
     And I select the "<cylinder name>" cylinder and quantity for return "<quantity>" and submit it
     And I select pickup from home with first address and submit
     Then I validate the return success message
-
+    
     Examples: 
       | cylinder name                      | quantity |
       | LPG MIX 10KG/22LB FILLED METAL CYL |        1 |
@@ -95,3 +95,4 @@ Feature: Verification of Cylinder based product from LPG, RPG select Products Ta
     Given I add new child company
     Then I select the child company from dropdown
     And I logout
+    And I close the browser

@@ -8,7 +8,8 @@ Feature: Residential registration scenarios
     And I fill the user details with country
     And I click signup button
     Then I validate the regsitration is successful
-
+    And I close the browser
+     
     Examples: 
       | user type   | language | title |
       | Residential | English  | Mr    |

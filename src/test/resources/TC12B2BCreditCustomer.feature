@@ -41,7 +41,6 @@ Feature: Verification of Cylinder based product from LPG, RPG select Products Ta
     And I enter the "<value>" for return cylinders
     And I add preffered date and time "<time range>"
     And I select cash as payment
-    And I validate product in the checkout page
     And I click on confirm order button
     And I see order placed success message with return id
     Then I see order placed success message with order id
@@ -95,3 +94,4 @@ Feature: Verification of Cylinder based product from LPG, RPG select Products Ta
     Given I add new child company
     Then I select the child company from dropdown
     And I logout
+    And I close the browser

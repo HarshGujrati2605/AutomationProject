@@ -16,6 +16,7 @@ Feature: Contact us page scenarios
     And I fill the form and submit
     Then I validate success message
     And I logout
+    Then I close the browser
     
 
     Examples: 

@@ -82,7 +82,11 @@ public class DashboardPage {
 	}
 
 	public void iValidateProductAfterSearchUsingOrderID() {
-
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		CommonActions.iVerifyExactElementText(productorderid, GlobalVariable.orderid, "order id");
 
 	}

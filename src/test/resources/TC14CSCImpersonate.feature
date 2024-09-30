@@ -42,6 +42,7 @@ Feature: User login in CSC account and open the B2C account and add LPG  based
     And I select the "<cylinder name>" cylinder and quantity for return "<quantity>" and submit it
     And I select pickup from home with first address and submit
     Then I validate the return success message
+    And I close the browser
 
     Examples: 
       | cylinder name                      | quantity |
