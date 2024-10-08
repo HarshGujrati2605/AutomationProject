@@ -7,7 +7,7 @@ import com.globalvariable.GlobalVariable;
 
 public class ReturnCylinderPage {
 
-	By searchreturn = By.xpath("//input[contains(@name , 'BottleReturnPortlet_INSTANCE_aucn_keywords')]");
+	By searchreturn = By.xpath("//input[contains(@name , 'BottleReturnPortlet_INSTANCE_aucn_keywords') or contains(@name , 'BottleReturnPortlet_INSTANCE_osdd_keywords')]");
 	By quantitydropdown = By.xpath("//span[@id = 'totalQtySelected']/ancestor::button");
 	By submitqtybtn = By.cssSelector("#membersFormConfirm");
 	By pickuphometab = By.xpath("//button[text() = ' Pickup from Home ']");
@@ -24,7 +24,7 @@ public class ReturnCylinderPage {
 	By pendingcancelstatus = By.xpath("//td[text() = ' Pending Cancellation']");
 
 	public void searchorderidreturncylinder() throws Exception {
-
+        System.out.println("***********************" + GlobalVariable.returnid);
 		CommonActions.clickOnElementAndType(searchreturn, GlobalVariable.returnid, "Order ID");
 		CommonActions.iClickEnter(searchreturn);
 	}
