@@ -90,7 +90,7 @@ public class CheckoutPage {
 		Thread.sleep(1000);
 		//CommonActions.clickOnElementAndType(deleiveryinstruction, "Pick from SOL", "Delivery instructions");
 		//Thread.sleep(1000);
-		CommonActions.iScrollDownCoordinates(0, 100);
+		//CommonActions.iScrollDownCoordinates(0, 100);
 		Thread.sleep(1000);
 		CommonActions.iClickJSEByLocator(savebutton, "Save button");
 		Thread.sleep(1000);
