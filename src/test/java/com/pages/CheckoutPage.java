@@ -9,7 +9,7 @@ import com.globalvariable.GlobalVariable;
 public class CheckoutPage {
 
 	By continuebillinginfo = By.xpath("//div[contains(@aria-labelledby, 'bill')]//button[text() = ' Continue ']");
-	By shippingaddresscheckbox = By.xpath("//h5[text() = 'Pick up from SOL Branch']/../..//label");
+	By shippingaddresscheckbox = By.xpath("//h5[text() = 'Pick up from SOL Branch' or text() = 'Pick up from Sol Branch']/../..//label");
 	By continueshippingbutton = By
 			.xpath("//div[contains(@aria-labelledby, 'headingshipp')]//button[text() = ' Continue ']");
 	By preffereddatedropdown = By.cssSelector(".preferred-picker #prefdate");
@@ -177,7 +177,7 @@ public class CheckoutPage {
 		// CommonActions.iScrollDownCoordinates(0, 100);
 		try {
 			Thread.sleep(1500);
-			CommonActions.iClickElementByLocator(By.xpath("//button[contains(@class , 'save-btn')]"), "Save button");
+			CommonActions.iClickJSEByLocator(By.xpath("//button[contains(@class , 'save-btn')]"), "Save button");
 		} catch (Exception e) {
 			Thread.sleep(1500);
 			CommonActions.iClickJSEByLocator(By.cssSelector(".btn-continue.save-btn"), "Save button");

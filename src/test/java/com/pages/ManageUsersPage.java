@@ -27,6 +27,8 @@ public class ManageUsersPage {
 	By childcompanyname = By.xpath("//input[contains(@name ,'childAccountName')]");
 	By addbutton = By.xpath("//button[contains (text() ,'Add')]");
 	By selectchildcompany = By.xpath("//select[contains(@id , 'selectChildCompany')]");
+	By district= By.xpath("//select[contains(@id , 'regcity')]");
+	
 
 	public void adduser(String role, String preflang) throws Exception {
 
@@ -47,7 +49,10 @@ public class ManageUsersPage {
 		CommonActions.clickOnElementAndType(address2, "Maharsatra", "firstname");
 		CommonActions.clickOnElementAndType(address3, "India", "firstname");
 		CommonActions.clickOnElementAndType(zipcodefield, "45646", "zip code");
+		CommonActions.selectOptionFromDropdownclass(district, "Canaries");
+		Thread.sleep(1000);
 		CommonActions.iScrollToTheElementByLocator(adduserbtn, "add new user button");
+		Thread.sleep(1000);
 		CommonActions.iClickElementByLocator(adduserbtn, "Add user button");
 
 	}

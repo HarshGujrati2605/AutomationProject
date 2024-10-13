@@ -1,9 +1,9 @@
-@regression @B2BNonCCProducts
-Feature: Shop the  products from the homepage and complete the checkout
+@regression @B2CProducts
+Feature: Shop the  products from the homepage and complete the checkout for B2C users
 
   Scenario: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.
-    When I enter username as "solb2bnc@techved.com"
-    And I enter password as "Test@123456"
+    When I enter username as "solcus@techved.com"
+    And I enter password as "Test@12345"
     Then I login
     Then I am on homepage
 
