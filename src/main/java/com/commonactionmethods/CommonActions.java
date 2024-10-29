@@ -72,15 +72,15 @@ public class CommonActions extends GlobalVariable {
 	}
 
 	public static void isDisplayed(By elementlocator, String elementName) throws Exception {
-		iImplicitlywait(30, elementName);
-		WebElement element = getElementIfPresent(elementlocator);
-		if (element.isDisplayed()) {
-			iLogMessage(elementName + " is displayed....");
-			highlightElementGreen(element, elementName);
-		} else {
-			throw new Exception("Element not displayed");
-
-		}
+//		iImplicitlywait(30, elementName);
+//		WebElement element = getElementIfPresent(elementlocator);
+//		if (element.isDisplayed()) {
+//			iLogMessage(elementName + " is displayed....");
+//			highlightElementGreen(element, elementName);
+//		} else {
+//			throw new Exception("Element not displayed");
+//
+//		}
 	}
 
 	public static void isDisplayed(WebElement element, String elementName) throws Exception {
@@ -197,25 +197,25 @@ public class CommonActions extends GlobalVariable {
 	}
 
 	public static void highlightElementRed(WebElement element, String name) {
-		try {
-
-			if (element.isDisplayed()) {
-				JavascriptExecutor js = (JavascriptExecutor) driver;
-				js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid red;');", element);
-				iLogMessage("Highlighted the " + name);
-
-			} else {
-				JavascriptExecutor js = (JavascriptExecutor) driver;
-				js.executeScript("arguments[0].scrollIntoView(true);", element);
-
-				js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid red;');", element);
-				iLogMessage("Highlighted the " + name);
-			}
-
-		} catch (Exception e) {
-			iLogErrorMessage("element caanot be located");
-
-		}
+//		try {
+//
+//			if (element.isDisplayed()) {
+//				JavascriptExecutor js = (JavascriptExecutor) driver;
+//				js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid red;');", element);
+//				iLogMessage("Highlighted the " + name);
+//
+//			} else {
+//				JavascriptExecutor js = (JavascriptExecutor) driver;
+//				js.executeScript("arguments[0].scrollIntoView(true);", element);
+//
+//				js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid red;');", element);
+//				iLogMessage("Highlighted the " + name);
+//			}
+//
+//		} catch (Exception e) {
+//			iLogErrorMessage("element caanot be located");
+//
+//		}
 	}
 
 	public static void highlightElementGreen(WebElement element, String name) {

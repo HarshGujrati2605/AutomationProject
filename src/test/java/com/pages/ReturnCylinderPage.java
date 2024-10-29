@@ -12,8 +12,8 @@ public class ReturnCylinderPage {
 	By submitqtybtn = By.cssSelector("#membersFormConfirm");
 	By pickuphometab = By.xpath("//button[text() = ' Pickup from Home ']");
 	By pickupaddress = By.xpath("(//div[contains(@class , 'card-body')]//div[@id = 'shipping-info'])[1]");
-	By submitpickupaddressbtn = By.cssSelector("#pickHomeID");
-	By submitreturnform = By.cssSelector("#submitreturnID");
+	By submitpickupaddressbtn = By.xpath("//button[@id = 'pickHomeID']");
+	By submitreturnform = By.cssSelector(".submit-main #submitreturnID");
 	By alertsuccess = By.xpath("//h2[text () = 'Request Submitted']");
 	By solbranchpickup = By.xpath("//button[text() = ' Return at SOL office ']");
 	By cancelorderbutton = By
@@ -41,10 +41,11 @@ public class ReturnCylinderPage {
 	}
 
 	public void iClickQuantityDropdown() throws InterruptedException {
-		CommonActions.iClickElementByLocator(quantitydropdown, "quantity dropdown");
+	CommonActions.iClickElementByLocator(quantitydropdown, "quantity dropdown");
 	}
 
 	public void iAddQuantity(String prdname, String quantity) throws Exception {
+		
 		Thread.sleep(1000);
 		try {
 			CommonActions.clickOnElementAndType(
@@ -106,6 +107,7 @@ public class ReturnCylinderPage {
 	}
 
 	public void iSearchReturnReqId() throws Exception {
+		CommonActions.iLogMessage("*************************"+ GlobalVariable.requestreturnid);
 		CommonActions.clickOnElementAndType(searchreturn, GlobalVariable.requestreturnid, "rertun request ID");
 		CommonActions.iLogMessage("request return id is" + " " + GlobalVariable.requestreturnid);
 		CommonActions.iClickEnter(searchreturn);

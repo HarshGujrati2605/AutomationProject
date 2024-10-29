@@ -3,7 +3,7 @@ Feature: Verification of Cylinder based product from LPG, RPG select Products Ta
 
   Scenario: Users are required to log in to the SOL website in order to access the dashboard module and review the order status on the dashboard page.
     When I enter username as "solb2b@techved.com"
-    And I enter password as "Test@54321"
+    And I enter password as "Test@654321"
     Then I login
     Then I am on homepage
 
@@ -61,15 +61,14 @@ Feature: Verification of Cylinder based product from LPG, RPG select Products Ta
     Then I validate the return success message
 
     Examples: 
-      | cylinder name                      | quantity |
-      | LPG MIX 10KG/22LB FILLED METAL CYL |        1 |
+      | cylinder name                | quantity |
+      | LPG METAL CYLINDER 10KG/22LB |        1 |
 
   Scenario Outline: Verify the Return cylinder request can be cancelled
     Given I select the "<options>" from dashboard menu
     And I search order id for return request cyclinder
     And I am on return and click on quantity dropdown
     And I select the "<cylinder name>" cylinder and quantity for return "<quantity>" and submit it
-    And I select the pickup address as return sol branch
     And I click on cancel button on searched return id
     And I validate the cancellation pop up is visible
     And I search order id for return request cyclinder
@@ -77,8 +76,8 @@ Feature: Verification of Cylinder based product from LPG, RPG select Products Ta
     Then I validate the pending cancellation status
 
     Examples: 
-      | options         | cylinder name                      | quantity |
-      | Return Cylinder | LPG MIX 10KG/22LB FILLED METAL CYL |        1 |
+      | options         | cylinder name                | quantity |
+      | Return Cylinder | LPG METAL CYLINDER 10KG/22LB |        1 |
 
   Scenario Outline: User should be able to Add New user
     And I select the "<options>" from dashboard menu

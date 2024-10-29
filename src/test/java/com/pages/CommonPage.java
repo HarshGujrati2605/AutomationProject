@@ -16,7 +16,7 @@ public class CommonPage {
 
 		if (!range1.equals("1000")) {
 			CommonActions.iClickElementByLocator(By.xpath(
-					"//form[contains(@id , 'CPPriceRangeFacetsPortlet_INSTANCE_otal')]/fieldset//label/input[@data-term-id = '["+ range1 + " TO " + range2 + "]']/.. | //form[contains(@id , 'CPPriceRangeFacetsPortlet_INSTANCE_yrol')]/fieldset//label/input[@data-term-id = '["+ range1 + " TO " + range2 + "]']/.."),
+					"//form[contains(@id , 'CPPriceRangeFacetsPortlet_INSTANCE_otal')]/fieldset//label/input[@data-term-id = '["+ range1 + " TO " + range2 + "]']/.. | //form[contains(@id , 'CPPriceRangeFacetsPortlet_INSTANCE_xdhp')]/fieldset//label/input[@data-term-id = '["+ range1 + " TO " + range2 + "]']/.."),
 					"Selcting filter range from " + range1 + " to " + range2 + "");
 		} else if (range1.equals("1000")) {
 			CommonActions.iClickElementByLocator(By.xpath(
